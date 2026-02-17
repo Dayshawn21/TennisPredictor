@@ -20,6 +20,8 @@ Core:
   (or DATABASE_URL_ASYNC)
 - START_DATE=YYYY-MM-DD
 - END_DATE=YYYY-MM-DD
+- DEFAULT_DAYS_BACK=1       (used only when START_DATE/END_DATE are unset)
+- DEFAULT_DAYS_AHEAD=1      (used only when START_DATE/END_DATE are unset)
 - TOUR_FILTER=ATP,WTA
 - INCLUDE_WTA125=1          (if TOUR_FILTER includes WTA, also keep WTA 125 events)
 - RAW_FILTERED_ONLY=1       (store raw only for kept matches)
@@ -1815,8 +1817,11 @@ async def ingest_window(engine: AsyncEngine) -> None:
 
     today = dt.date.today()
     if not start and not end:
-        start = today - dt.timedelta(days=3)
-        end = today
+        # Rolling default window: yesterday, today, tomorrow.
+        days_back = max(0, parse_int_env("DEFAULT_DAYS_BACK", 1))
+        days_ahead = max(0, parse_int_env("DEFAULT_DAYS_AHEAD", 1))
+        start = today - dt.timedelta(days=days_back)
+        end = today + dt.timedelta(days=days_ahead)
 
     if start and not end:
         end = start
