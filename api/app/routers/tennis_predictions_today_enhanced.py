@@ -121,6 +121,8 @@ SOFASCORE_MATCHES_ELO_SQL_LIGHT = text(
       FROM tennis_matches m
       WHERE m.match_date = ANY(:dates)
         AND upper(m.tour) IN ('ATP','WTA')
+        AND COALESCE(lower(m.status), '') NOT LIKE 'cancel%'
+        AND COALESCE(lower(m.status), '') NOT LIKE 'walkover%'
         AND (
           :include_incomplete = true
           OR COALESCE(lower(m.status),'') IN ('finished','completed','ended')

@@ -1,11 +1,11 @@
-﻿name: Tennis Ingest
+name: Tennis Ingest
 
 on:
   schedule:
     # Hourly odds refresh (UTC)
     - cron: "10 * * * *"
-    # Daily full ingest (UTC)
-    - cron: "15 6 * * *"
+    # Daily full ingest (UTC) -> 03:00 UTC = 9:00 PM US Central (CST)
+    - cron: "0 3 * * *"
   workflow_dispatch:
     inputs:
       run_mode:
@@ -21,6 +21,34 @@ on:
         description: "Odds refresh window (hours ahead)"
         required: false
         default: "4"
+      start_date:
+        description: "START_DATE (YYYY-MM-DD) for full ingest"
+        required: false
+        default: ""
+      end_date:
+        description: "END_DATE (YYYY-MM-DD) for full ingest"
+        required: false
+        default: ""
+      tour_filter:
+        description: "TOUR_FILTER for full ingest (e.g. ATP,WTA)"
+        required: false
+        default: ""
+      include_wta125:
+        description: "INCLUDE_WTA125 for full ingest (0/1)"
+        required: false
+        default: ""
+      odds_sleep_seconds:
+        description: "ODDS_SLEEP_SECONDS for full ingest"
+        required: false
+        default: ""
+      ingest_h2h:
+        description: "INGEST_H2H for full ingest (0/1)"
+        required: false
+        default: ""
+      ingest_h2h_events:
+        description: "INGEST_H2H_EVENTS for full ingest (0/1)"
+        required: false
+        default: ""
 
 concurrency:
   group: tennis-ingest
@@ -66,7 +94,7 @@ jobs:
     if: >-
       github.event_name == 'workflow_dispatch' &&
       (inputs.run_mode == 'all' || inputs.run_mode == 'full') ||
-      github.event_name == 'schedule' && github.event.schedule == '15 6 * * *'
+      github.event_name == 'schedule' && github.event.schedule == '0 3 * * *'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     defaults:
@@ -75,11 +103,17 @@ jobs:
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
       INGEST_ODDS: "1"
+      ODDS_PROVIDER_ID: "1"
+      ODDS_SLEEP_SECONDS: ${{ inputs.odds_sleep_seconds || vars.ODDS_SLEEP_SECONDS || '0.25' }}
+      TOUR_FILTER: ${{ inputs.tour_filter || vars.TOUR_FILTER || 'ATP,WTA' }}
+      INCLUDE_WTA125: ${{ inputs.include_wta125 || vars.INCLUDE_WTA125 || '1' }}
       AUTO_BACKFILL_CANONICAL: "1"
       AUTO_FILL_ELO: "1"
       AUTO_BACKFILL_H2H: "1"
-      START_DATE: ${{ vars.TENNIS_START_DATE }}
-      END_DATE: ${{ vars.TENNIS_END_DATE }}
+      INGEST_H2H: ${{ inputs.ingest_h2h || vars.INGEST_H2H || '1' }}
+      INGEST_H2H_EVENTS: ${{ inputs.ingest_h2h_events || vars.INGEST_H2H_EVENTS || '1' }}
+      START_DATE: ${{ inputs.start_date || vars.START_DATE }}
+      END_DATE: ${{ inputs.end_date || vars.END_DATE }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -97,6 +131,5 @@ jobs:
 
       - name: Full sofascore ingest
         run: |
-          # Optional repo vars TENNIS_START_DATE / TENNIS_END_DATE can pin the window.
-          # If unset, script defaults apply.
+          # Optional START_DATE/END_DATE can pin ingest window.
           python -m app.ingest.tennis.sofascore_matchups
