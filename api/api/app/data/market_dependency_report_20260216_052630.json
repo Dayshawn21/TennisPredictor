@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-02-16T05:26:30.059020Z",
+  "market_split": {
+    "has_market": {
+      "n": 0,
+      "accuracy": null
+    },
+    "no_market": {
+      "n": 0,
+      "accuracy": null
+    }
+  },
+  "freshness_split": {},
+  "hidden_market_copy_monitor": {
+    "mean_abs_gap_high_conf": null,
+    "alert_threshold": 0.015,
+    "alert": false
+  }
+}

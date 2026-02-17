@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        box-sizing: border-box;
+        outline: none;
+    }
+
+    html,
+    body,
+    #root {
+        height: 100%;
+        overflow-x: hidden;
+        background: var(--ant-color-bg-base);
+
+        color-scheme: dark;
+    }
+
+    body {
+        position: relative;
+        margin: 0;
+        font-size: 14px;
+        font-family:
+            -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    }
+    /* Force readable text in dark mode (Ant Table + Typography + Pagination are common offenders) */
+    .ant-typography,
+    .ant-table,
+    .ant-table-wrapper,
+    .ant-table-cell,
+    .ant-table-thead > tr > th,
+    .ant-pagination,
+    .ant-pagination * {
+        color: var(--ant-color-text) !important;
+    }
+
+    .ant-table-thead > tr > th {
+        color: var(--ant-color-text-heading) !important;
+    }
+
+    /* Expanded row content sometimes inherits weird defaults */
+    .ant-table-expanded-row,
+    .ant-table-expanded-row > td {
+        color: var(--ant-color-text) !important;
+    }
+}
+
+@layer components {
+    .flex-center {
+        @apply flex items-center justify-center;
+    }
+
+    .flex-center-col {
+        @apply flex flex-col items-center justify-center;
+    }
+}

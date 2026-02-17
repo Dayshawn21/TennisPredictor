@@ -1,0 +1,2189 @@
+place,player,player_key,league,movement,country,points
+1,Carlos Alcaraz,2382,ATP,same,Spain,12050
+2,Jannik Sinner,2072,ATP,same,Italy,11500
+3,Alexander Zverev,1980,ATP,same,Germany,5160
+4,Novak Djokovic,1905,ATP,same,Serbia,4830
+5,Felix Auger-Aliassime,2073,ATP,up,Canada,4245
+6,Taylor Fritz,2832,ATP,same,USA,4135
+7,Alex De Minaur,1106,ATP,same,Australia,4135
+8,Lorenzo Musetti,2849,ATP,up,Italy,4040
+9,Ben Shelton,2973,ATP,down,USA,3970
+10,Jack Draper,7011,ATP,same,United Kingdom,2990
+11,Alexander Bublik,1895,ATP,same,Kazakhstan,2870
+12,Casper Ruud,430,ATP,same,Norway,2835
+13,Daniil Medvedev,1093,ATP,same,World,2760
+14,Alejandro Davidovich Fokina,2842,ATP,same,Spain,2635
+15,Holger Rune,437,ATP,same,Denmark,2590
+16,Andrey Rublev,2847,ATP,same,World,2520
+17,Jiri Lehecka,2959,ATP,same,Czech Republic,2325
+18,Karen Khachanov,435,ATP,same,World,2320
+19,Jakub Mensik,902,ATP,same,Czech Republic,2180
+20,Tommy Paul,1894,ATP,same,USA,2100
+21,Francisco Cerundolo,1104,ATP,same,Argentina,2085
+22,Flavio Cobolli,372,ATP,same,Italy,2025
+23,Denis Shapovalov,431,ATP,same,Canada,1675
+24,Joao Fonseca,40058,ATP,same,Brazil,1635
+25,Tallon Griekspoor,427,ATP,same,Netherlands,1615
+26,Luciano Darderi,8781,ATP,same,Italy,1609
+27,Cameron Norrie,1103,ATP,same,United Kingdom,1573
+28,Learner Tien,10520,ATP,same,USA,1550
+29,Arthur Rinderknech,1902,ATP,same,France,1540
+30,Frances Tiafoe,2846,ATP,same,USA,1510
+31,Valentin Vacherot,1852,ATP,same,Monaco,1483
+32,Tomas Machac,2981,ATP,same,Czech Republic,1445
+33,Brandon Nakashima,2838,ATP,same,USA,1430
+34,Stefanos Tsitsipas,1906,ATP,same,Greece,1425
+35,Corentin Moutet,2674,ATP,same,France,1408
+36,Jaume Munar,2083,ATP,same,Spain,1395
+37,Ugo Humbert,1105,ATP,same,France,1380
+38,Alex Michelsen,10884,ATP,same,USA,1325
+39,Lorenzo Sonego,2843,ATP,same,Italy,1265
+40,Arthur Fils,1759,ATP,same,France,1260
+41,Gabriel Diallo,9909,ATP,same,Canada,1253
+42,Alexandre Muller,374,ATP,same,France,1230
+43,Zizou Bergs,1064,ATP,same,Belgium,1218
+44,Grigor Dimitrov,2384,ATP,same,Bulgaria,1180
+45,Sebastian Baez,1101,ATP,same,Argentina,1155
+46,Daniel Altmaier,1099,ATP,same,Germany,1148
+47,Nuno Borges,358,ATP,same,Portugal,1145
+48,Sebastian Korda,2840,ATP,same,USA,1100
+49,Camilo Ugo Carabelli,401,ATP,same,Argentina,1078
+50,Reilly Opelka,422,ATP,same,USA,1026
+51,Fabian Marozsan,10148,ATP,same,Hungary,1025
+52,Miomir Kecmanovic,2848,ATP,same,Serbia,1025
+53,Jenson Brooksby,2169,ATP,same,USA,1017
+54,Alexei Popyrin,1926,ATP,same,Australia,1000
+55,Marton Fucsovics,2833,ATP,same,Hungary,963
+56,Matteo Berrettini,2844,ATP,same,Italy,945
+57,Damir Dzumhur,1079,ATP,same,Bosnia and Herzegovina,937
+58,Valentin Royer,954,ATP,same,France,936
+59,Giovanni Mpetshi Perricard,9222,ATP,same,France,925
+60,Martin Etcheverry Tomas,1777,ATP,same,Argentina,920
+61,Francisco Comesana,2084,ATP,same,Argentina,904
+62,Aleksandar Kovacevic,2978,ATP,same,USA,890
+63,Matteo Arnaldi,1192,ATP,same,Italy,883
+64,Kamil Majchrzak,1096,ATP,up,Poland,861
+65,Terence Atmane,13091,ATP,same,France,855
+66,Marcos Giron,1766,ATP,up,USA,855
+67,Arthur Cazaux,1067,ATP,up,France,848
+68,Gael Monfils,2845,ATP,up,France,825
+69,Adrian Mannarino,438,ATP,up,France,817
+70,Ethan Quinn,9225,ATP,down,USA,802
+71,Jacob Fearnley,12951,ATP,same,United Kingdom,787
+72,Mariano Navone,949,ATP,same,Argentina,785
+73,Hubert Hurkacz,2841,ATP,up,Poland,775
+74,Mattia Bellucci,2112,ATP,down,Italy,766
+75,Marin Cilic,2167,ATP,up,Croatia,765
+76,Jesper De Jong,412,ATP,up,Netherlands,763
+77,Botic Van De Zandschulp,2972,ATP,up,Netherlands,756
+78,Adam Walton,10070,ATP,up,Australia,740
+79,Filip Misolic,594,ATP,up,Austria,726
+80,Cristian Garin,2071,ATP,up,Chile,726
+81,Alejandro Tabilo,2982,ATP,same,Chile,721
+82,Aleksandar Vukic,360,ATP,same,Australia,718
+83,Hamad Medjedovic,2677,ATP,same,Serbia,718
+84,Jan-Lennard Struff,2831,ATP,up,Germany,711
+85,Manuel Cerundolo Juan,388,ATP,down,Argentina,704
+86,Raphael Collignon,825,ATP,down,Belgium,704
+87,Luca Nardi,386,ATP,down,Italy,699
+88,Emilio Nava,567,ATP,same,USA,684
+89,Pablo Carreno-Busta,434,ATP,same,Spain,681
+90,Dalibor Svrcina,1754,ATP,down,Czech Republic,680
+91,Eliot Spizzirri,2983,ATP,down,USA,680
+92,Quentin Halys,1925,ATP,down,France,679
+93,Roberto Bautista-Agut,2734,ATP,down,Spain,670
+94,Shintaro Mochizuki,1880,ATP,down,Japan,669
+95,Pedro Martinez,1775,ATP,down,Spain,668
+96,Benjamin Bonzi,1771,ATP,down,France,667
+97,Alexander Shevchenko,566,ATP,down,Kazakhstan,662
+98,Hugo Gaston,1102,ATP,down,France,653
+99,Laslo Djere,2386,ATP,same,Serbia,652
+100,Tristan Schoolkate,1183,ATP,down,Australia,649
+101,Agustin Tirante Thiago,366,ATP,up,Argentina,649
+102,Vit Kopriva,1083,ATP,same,Czech Republic,636
+103,Carlos Taberner,1974,ATP,down,Spain,636
+104,Yannick Hanfmann,1764,ATP,up,Germany,631
+105,Ignacio Buse,9514,ATP,down,Peru,627
+106,James Duckworth,1900,ATP,same,Australia,615
+107,Andres Burruchaga Roman,9596,ATP,same,Argentina,615
+108,Jordan Thompson,207,ATP,same,Australia,586
+109,Tomas Barrios Vera,396,ATP,down,Chile,585
+110,Nikoloz Basilashvili,424,ATP,up,Georgia,579
+111,Yoshihito Nishioka,1972,ATP,down,Japan,566
+112,Mackenzie McDonald,2839,ATP,down,USA,559
+113,Brandon Holt,8158,ATP,down,USA,559
+114,Christopher O'Connell,421,ATP,down,Australia,546
+115,Borna Coric,3136,ATP,same,Croatia,545
+116,Alexander Blockx,39913,ATP,up,Belgium,542
+117,Patrick Kypson,8130,ATP,same,USA,533
+118,David Goffin,2385,ATP,same,Belgium,525
+119,Dusan Lajovic,2675,ATP,same,Serbia,519
+120,Yunchaokete Bu,796,ATP,down,China,509
+121,Nicolas Jarry,400,ATP,down,Chile,501
+122,Dino Prizmic,10869,ATP,down,Croatia,501
+123,Liam Draxl,3696,ATP,up,Canada,501
+124,Hsin Tseng Chun,389,ATP,down,Taiwan,498
+125,Billy Harris,1186,ATP,up,United Kingdom,490
+126,Otto Virtanen,767,ATP,same,Finland,488
+127,Rinky Hijikata,3317,ATP,same,Australia,485
+128,Francesco Passaro,8442,ATP,same,Italy,485
+129,Jan Choinski,5979,ATP,same,United Kingdom,484
+130,Vilius Gaubas,9385,ATP,down,Lithuania,478
+131,Martin Landaluce,39864,ATP,up,Spain,474
+132,Nicolai Budkov Kjaer,55163,ATP,same,Norway,473
+133,Roberto Carballes Baena,593,ATP,down,Spain,469
+134,Sebastian Ofner,359,ATP,down,Austria,463
+135,Marco Trungelliti,395,ATP,down,Argentina,458
+136,Moez Echargui,1207,ATP,down,Tunisia,452
+137,Kyrian Jacquet,1335,ATP,down,France,449
+138,Hugo Dellien,2980,ATP,up,Bolivia,438
+139,Andrea Pellegrino,2001,ATP,down,Italy,438
+140,Lukas Klein,1969,ATP,down,Slovakia,436
+141,Zachary Svajda,2986,ATP,down,USA,431
+142,Ugo Blanchet,1903,ATP,same,France,427
+143,Coleman Wong Chak Lam,2227,ATP,down,Hong Kong,424
+144,Colton Smith,54466,ATP,down,USA,424
+145,Sho Shimabukuro,9608,ATP,down,Japan,420
+146,Mark Lajal,731,ATP,down,Estonia,412
+147,Titouan Droguet,8926,ATP,down,France,410
+148,Matteo Gigante,1187,ATP,down,Italy,407
+149,Jaime Faria,824,ATP,down,Portugal,405
+150,Elahi Galan Daniel,1735,ATP,down,Colombia,405
+151,Giulio Zeppieri,376,ATP,down,Italy,405
+152,Elmer Moller,39675,ATP,up,Denmark,405
+153,Henrique Rocha,827,ATP,down,Portugal,401
+154,Pierre-Hugues Herbert,1748,ATP,down,France,399
+155,Nishesh Basavareddy,15270,ATP,up,USA,399
+156,Stan Wawrinka,2168,ATP,down,Switzerland,397
+157,Francesco Maestrelli,1180,ATP,down,Italy,392
+158,Kei Nishikori,2985,ATP,down,Japan,385
+159,Yosuke Watanuki,1097,ATP,down,Japan,380
+160,Guy Den Ouden,1935,ATP,down,Netherlands,372
+161,Luka Mikrut,938,ATP,down,Croatia,372
+162,Harold Mayot,1189,ATP,down,France,361
+163,Daniel Vallejo Adolfo,9217,ATP,down,Paraguay,356
+164,Pablo Ficovich Juan,420,ATP,down,Argentina,353
+165,Zsombor Piros,367,ATP,down,Hungary,353
+166,Vitaliy Sachko,1899,ATP,up,Ukraine,353
+167,Luca van Assche,1066,ATP,down,France,352
+168,Rafael Jodar,50323,ATP,up,Spain,349
+169,Elias Ymer,1082,ATP,down,Sweden,341
+170,Roman Safiullin,1057,ATP,same,World,338
+171,August Holmgren,19536,ATP,same,Denmark,337
+172,Daniel Merida Aguilar,978,ATP,same,Spain,336
+173,Hugo Grenier,1073,ATP,down,France,334
+174,Alex Barrena,1324,ATP,down,Argentina,333
+175,Martin Damm,1317,ATP,up,USA,330
+176,Rei Sakamoto,37897,ATP,down,Japan,330
+177,Jurij Rodionov,416,ATP,up,Austria,329
+178,Hady Habib,1949,ATP,up,Lebanon,328
+179,Leandro Riedi,1092,ATP,up,Switzerland,326
+180,Tristan Boyer,9037,ATP,up,USA,326
+181,Yibing Wu,1849,ATP,same,China,322
+182,Bernard Tomic,3145,ATP,down,Australia,319
+183,Daniel Evans,2835,ATP,same,United Kingdom,317
+184,Jerome Kym,1304,ATP,same,Switzerland,315
+185,Michael Zheng,9515,ATP,same,USA,315
+186,Thiago Monteiro,1074,ATP,up,Brazil,310
+187,Lucas Reis Da Silva Joao,2408,ATP,same,Brazil,307
+188,Alex Bolt,3319,ATP,down,Australia,305
+189,Lukas Neumayer,2022,ATP,up,Austria,302
+190,Jason Kubler,364,ATP,same,Australia,301
+191,Daniil Glinka,780,ATP,down,Estonia,300
+192,Oliver Crawford,945,ATP,down,United Kingdom,300
+193,Sascha Gueymard Wayenburg,1742,ATP,down,France,297
+194,Dan Added,1854,ATP,down,France,296
+195,Justin Engel,55060,ATP,down,Germany,295
+196,James McCabe,1882,ATP,up,Australia,293
+197,Alvaro Guillen Meza,9230,ATP,down,Ecuador,293
+198,Arthur Fery,8174,ATP,down,United Kingdom,288
+199,Jack Pinnington Jones,1858,ATP,up,United Kingdom,287
+200,Ryan Peniston,1072,ATP,up,United Kingdom,287
+201,Clement Tabur,1762,ATP,up,France,286
+202,Alex Molcan,436,ATP,up,Slovakia,286
+203,Alexis Galarneau,557,ATP,up,Canada,285
+204,Arnaud Bailly Gilles,10840,ATP,up,Belgium,285
+205,Mitchell Krueger,1751,ATP,up,USA,284
+206,Chris Rodesch,5980,ATP,up,Luxembourg,284
+207,Stefano Travaglia,2672,ATP,up,Italy,283
+208,George Loffhagen,7006,ATP,up,United Kingdom,280
+209,Gonzalo Bueno,9209,ATP,up,Peru,279
+210,Pablo Llamas Ruiz,987,ATP,down,Spain,274
+211,Murphy Cassone,12744,ATP,down,USA,274
+212,Nicolas Mejia,7641,ATP,same,Colombia,273
+213,Jay Clarke,1739,ATP,same,United Kingdom,273
+214,Nerman Fatic,1904,ATP,same,Bosnia and Herzegovina,272
+215,Dane Sweeny,1308,ATP,down,Australia,270
+216,Rodrigo Pacheco Mendez,8762,ATP,up,Mexico,270
+217,Thiago Seyboth Wild,1086,ATP,same,Brazil,263
+218,Felipe Meligeni Alves,357,ATP,up,Brazil,263
+219,Hsiou Hsu Yu,867,ATP,down,Taiwan,263
+220,Lorenzo Giustino,370,ATP,up,Italy,263
+221,Luka Pavlovic,2103,ATP,up,France,262
+222,Zdenek Kolar,384,ATP,down,Czech Republic,260
+223,Kimmer Coppejans,1205,ATP,up,Belgium,258
+224,Lloyd Harris,2834,ATP,up,South Africa,256
+225,Federico Cina,38264,ATP,up,Italy,256
+226,Facundo Diaz Acosta,2002,ATP,up,Argentina,255
+227,Dmitry Popko,1758,ATP,up,Kazakhstan,255
+228,Carlos Prado Angelo Juan,21704,ATP,same,Bolivia,255
+229,Arthur Gea,9210,ATP,same,France,255
+230,Gauthier Onclin,818,ATP,up,Belgium,253
+231,Marco Cecchinato,1095,ATP,down,Italy,250
+232,Alberto Olivieri Genaro,2407,ATP,up,Argentina,249
+233,Benjamin Hassan,1896,ATP,up,Lebanon,248
+234,Arthur Bouquier,1311,ATP,up,France,248
+235,Santiago Rodriguez Taverna,361,ATP,up,Argentina,248
+236,Matej Dodig,28615,ATP,down,Croatia,244
+237,Johannus Monday,10071,ATP,up,United Kingdom,243
+238,Viktor Durasovic,1201,ATP,down,Norway,241
+239,Daniel Rincon,657,ATP,up,Spain,241
+240,Alejandro Moro Canas,1331,ATP,up,Spain,241
+241,Timofey Skatov,362,ATP,up,Kazakhstan,238
+242,Rio Noguchi,690,ATP,up,Japan,236
+243,Frederico Ferreira Silva,585,ATP,up,Portugal,236
+244,Marc-Andrea Huesler,1746,ATP,down,Switzerland,229
+245,Federico Coria,433,ATP,up,Argentina,225
+246,Yuta Shimizu,2100,ATP,down,Japan,222
+247,Dimitar Kuzmanov,371,ATP,down,Bulgaria,222
+248,Geoffrey Blancaneaux,409,ATP,down,France,221
+249,Clement Chidekh,7102,ATP,down,France,221
+250,Remy Bertola,1212,ATP,up,Switzerland,219
+251,Yi Zhou,39862,ATP,down,China,217
+252,Tom Paris,13552,ATP,down,France,216
+253,Juncheng Shang,2413,ATP,down,China,215
+254,Mats Rosenkranz,1850,ATP,down,Germany,214
+255,Josef Schwaerzler Joel,32558,ATP,up,Austria,213
+256,Daniel Michalski,582,ATP,down,Poland,212
+257,Calvin Hemery,1206,ATP,up,France,211
+258,Li Tu,1883,ATP,up,Australia,208
+259,Nicolas Kicker,1756,ATP,down,Argentina,206
+260,Tiago Pereira,4077,ATP,down,Portugal,206
+261,Edas Butvilas,9362,ATP,down,Lithuania,205
+262,Lautaro Midon,10018,ATP,up,Argentina,204
+263,Ivan Gakhov,574,ATP,down,World,204
+264,Andres Martin,1056,ATP,down,USA,203
+265,Alejandro Dellien Velasco Murkel,7334,ATP,up,Bolivia,203
+266,Christopher Eubanks,1059,ATP,up,USA,202
+267,Patrick Zahraj,5791,ATP,up,Germany,202
+268,Pedro Boscardin Dias,2003,ATP,down,Brazil,201
+269,Agustin Gomez Federico,717,ATP,down,Argentina,197
+270,Max Houkes,1243,ATP,down,Netherlands,197
+271,Fajing Sun,876,ATP,down,China,196
+272,Andrea Collarini,2189,ATP,down,Argentina,196
+273,Sumit Nagal,1077,ATP,down,India,195
+274,Henri Squire,907,ATP,up,Germany,195
+275,Stefanos Sakellaridis,742,ATP,down,Greece,194
+276,Marat Sharipov,830,ATP,down,World,193
+277,Ilia Simakin,1238,ATP,up,World,191
+278,Abedallah Shelbayh,9219,ATP,down,Jordan,191
+279,Garrett Johns,7637,ATP,down,USA,191
+280,Alex Rybakov,559,ATP,up,USA,189
+281,Andres Andrade,6505,ATP,down,Ecuador,188
+282,Marko Topo,833,ATP,down,Germany,187
+283,Beibit Zhukayev,579,ATP,up,Kazakhstan,186
+284,Kent Trotter James,9193,ATP,up,Japan,186
+285,Darwin Blanch,17463,ATP,down,USA,185
+286,Tom Gentzsch,2501,ATP,same,Germany,185
+287,Michael Mmoh,439,ATP,down,USA,184
+288,Kaichi Uchida,568,ATP,down,Japan,184
+289,Cristian Jianu Filip,576,ATP,down,Romania,184
+290,Saba Purtseladze,1202,ATP,up,Georgia,183
+291,Borna Gojo,377,ATP,up,Croatia,178
+292,Norbert Gombos,397,ATP,up,Slovakia,178
+293,Tyler Zink,2214,ATP,down,USA,178
+294,Mikhail Kukushkin,2970,ATP,down,Kazakhstan,177
+295,Hynek Barton,2241,ATP,down,Czech Republic,177
+296,Fabrizio Andaloro,9568,ATP,up,Italy,176
+297,Matheus Pucinelli de Almeida,1743,ATP,down,Brazil,176
+298,Jacopo Berrettini,6984,ATP,down,Italy,175
+299,Christoph Negritu,5971,ATP,up,Germany,175
+300,Matias Soto,9035,ATP,up,Chile,175
+301,Aziz Dougaz,798,ATP,up,Tunisia,174
+302,Renta Tokuda,5212,ATP,down,Japan,172
+303,Nikolas Sanchez Izquierdo,591,ATP,up,Spain,172
+304,Pol Martin Tiffon,1338,ATP,up,Spain,171
+305,Robin Bertrand,808,ATP,up,France,171
+306,Stefan Kozlov,1087,ATP,down,USA,170
+307,Mika Brunold,37882,ATP,up,Switzerland,170
+308,Franco Agamenone,373,ATP,up,Italy,170
+309,Gustavo Heide,2410,ATP,up,Brazil,169
+310,Liam Broady,410,ATP,down,United Kingdom,168
+311,Richard Gasquet,1094,ATP,up,France,165
+312,Adria Soriano Barrera,1330,ATP,up,Colombia,165
+313,Omar Jasika,1261,ATP,up,Australia,165
+314,Sandro Kopp,848,ATP,down,Austria,164
+315,Petr Bar Biryukov,14515,ATP,up,World,164
+316,Mathys Erhard,668,ATP,up,France,164
+317,Moerani Bouzige,7912,ATP,up,Australia,164
+318,Constant Lestienne,1755,ATP,up,France,163
+319,Jie Cui,1274,ATP,up,China,163
+320,Florent Bax,2105,ATP,up,France,162
+321,Duje Ajdukovic,392,ATP,down,Croatia,161
+322,Matteo Martineau,1185,ATP,up,France,161
+323,Marek Gengel,1321,ATP,down,Czech Republic,161
+324,Christian Langmo,2021,ATP,up,USA,160
+325,Harry Wendelken,7009,ATP,up,United Kingdom,159
+326,Adrian Boitan Gabi,9132,ATP,down,Romania,159
+327,Pablo Varillas Juan,391,ATP,up,Peru,157
+328,Carlos Sanchez Jover,584,ATP,down,Spain,157
+329,Miguel Damas,1209,ATP,down,Spain,157
+330,Yasutaka Uchiyama,884,ATP,up,Japan,155
+331,Petr Brunclik,38921,ATP,up,Czech Republic,154
+332,Alfredo Perez,,ATP,up,USA,154
+333,Charles Broom,745,ATP,down,United Kingdom,153
+334,Giles Hussey,627,ATP,up,United Kingdom,153
+335,Jakub Paul,1966,ATP,up,Switzerland,152
+336,Eliakim Coulibaly,11110,ATP,up,Ivory Coast,152
+337,Oliver Tarvet,9368,ATP,up,United Kingdom,150
+338,Andrej Nedic,9640,ATP,up,Bosnia and Herzegovina,150
+339,Andre Ilagan,37936,ATP,down,USA,150
+340,Hamish Stewart,38208,ATP,same,United Kingdom,148
+341,Andrea Vavassori,418,ATP,same,Italy,147
+342,Nicolas Alvarez Varona,565,ATP,up,Spain,146
+343,Kilian Feldbausch,1297,ATP,up,Switzerland,146
+344,Alastair Gray,2110,ATP,up,United Kingdom,144
+345,Martin Krumich,906,ATP,down,Czech Republic,143
+346,Gonzalo Villanueva,5181,ATP,up,Argentina,143
+347,Cedrik-Marcel Stebe,387,ATP,down,Germany,142
+348,Akira Santillan,868,ATP,down,Japan,142
+349,Lilian Marmousez,835,ATP,up,France,141
+350,Franco Roncadelli,823,ATP,down,Uruguay,141
+351,Inaki Montes-De La Torre,10232,ATP,up,Spain,141
+352,Jelle Sels,586,ATP,up,Netherlands,141
+353,Maximus Jones,680,ATP,down,Thailand,141
+354,Samir Banerjee,2974,ATP,up,USA,140
+355,Antoine Ghibaudo,9234,ATP,up,France,140
+356,Hernan Casanova,560,ATP,up,Argentina,140
+357,Daniel Dutra Da Silva,558,ATP,down,Brazil,140
+358,Javier Barranco Cosano,1877,ATP,down,Spain,139
+359,Patrick Maloney,37922,ATP,up,USA,139
+360,Albert Ramos-Vinolas,1090,ATP,up,Spain,138
+361,Maxim Mrva,38850,ATP,up,Czech Republic,137
+362,Luca Potenza,2235,ATP,up,Italy,137
+363,Philip Henning,23664,ATP,up,South Africa,136
+364,Diego Dedura,55858,ATP,up,Germany,136
+365,Ivan Justo Guido,7249,ATP,down,Argentina,135
+366,Hyeon Chung,3135,ATP,down,South Korea,134
+367,Michael Geerts,587,ATP,up,Belgium,134
+368,Dominic Stricker,379,ATP,up,Switzerland,133
+369,Daniel Milavsky,15277,ATP,down,USA,133
+370,Bautista Torres Juan,2085,ATP,up,Argentina,133
+371,Gabriele Piraino,1245,ATP,up,Italy,132
+372,Aslan Karatsev,1901,ATP,up,World,131
+373,Henry Searle,38784,ATP,down,United Kingdom,131
+374,Sanhui Shin,10295,ATP,up,South Korea,131
+375,Svyatoslav Gulin,13386,ATP,up,World,131
+376,Roberto Cid Subervi,2956,ATP,up,Dominican Republic,130
+377,Alibek Kachmazov,1197,ATP,up,World,130
+378,Robert Strombachs,7489,ATP,same,Latvia,130
+379,Corentin Denolly,8223,ATP,up,France,130
+380,Gastao Elias,404,ATP,up,Portugal,129
+381,Taro Daniel,2406,ATP,up,Japan,128
+382,Viacheslav Bielinskyi,930,ATP,up,Ukraine,128
+383,Alexey Vatutin,1878,ATP,up,World,128
+384,Paul Jubb,385,ATP,up,United Kingdom,126
+385,Yanki Erel,10541,ATP,same,Turkey,125
+386,Trevor Svajda,52663,ATP,down,USA,124
+387,Andrej Martin,,ATP,down,Slovakia,124
+388,Raul Brancaccio,1873,ATP,down,Italy,124
+389,Facundo Mena,378,ATP,down,Argentina,123
+390,Tung-Lin Wu,1062,ATP,down,Taiwan,123
+391,Mili Poljicak,943,ATP,up,Croatia,123
+392,Alberto Caniato Carlo,24283,ATP,up,Italy,122
+393,Andrea Picchione,8782,ATP,up,Italy,121
+394,Facundo Bagnis,1089,ATP,same,Argentina,120
+395,Gianluca Cadenasso,38798,ATP,up,Italy,120
+396,Khumoyun Sultanov,6983,ATP,down,Uzbekistan,119
+397,Pedro Sakamoto,4741,ATP,down,Brazil,119
+398,Mariano Kestelboim,8896,ATP,same,Argentina,119
+399,Aryan Shah,51257,ATP,up,India,119
+400,Federico Bondioli,37892,ATP,down,Italy,119
+401,Denis Yevseyev,569,ATP,up,Kazakhstan,119
+402,Oleg Prihodko,8733,ATP,up,Ukraine,118
+403,Cezar Cretu,972,ATP,up,Romania,118
+404,Lucas Poullain,1315,ATP,up,France,118
+405,Sergey Fomin,570,ATP,up,Uzbekistan,118
+406,Raphael Perot,53339,ATP,up,France,117
+407,Aidan McHugh,875,ATP,down,United Kingdom,117
+408,Federico Arnaboldi,1240,ATP,up,Italy,117
+409,Maks Kasnikowski,1242,ATP,down,Poland,116
+410,Luca Castelnuovo,2220,ATP,up,Switzerland,116
+411,Zhizhen Zhang,590,ATP,up,China,115
+412,Stuart Parker,2111,ATP,up,United Kingdom,115
+413,Max Basing,13535,ATP,down,United Kingdom,114
+414,Kasidit Samrej,10124,ATP,up,Thailand,114
+415,Lorenzo Carboni,49616,ATP,down,Italy,114
+416,David Jorda Sanchis,2019,ATP,down,Spain,113
+417,Max Alcala Gurri,678,ATP,up,Spain,113
+418,Alex Hernandez,,ATP,down,Mexico,113
+419,Dan Martin,23350,ATP,down,Canada,111
+420,Ricardas Berankis,1767,ATP,up,Lithuania,111
+421,Marc Polmans,2735,ATP,down,Australia,111
+422,Renzo Olivo,1081,ATP,up,Argentina,111
+423,Matthew Dellavedova,1258,ATP,up,Australia,111
+424,Rudolf Molleker,893,ATP,up,Germany,110
+425,Antoine Escoffier,1068,ATP,up,France,110
+426,Bernabe Zapata Miralles,403,ATP,up,Spain,109
+427,Yusuke Takahashi,2508,ATP,down,Japan,109
+428,Etienne Donnet,40125,ATP,up,France,108
+429,Alex Martinez,,ATP,down,Spain,108
+430,Joaquin Rodriguez Lorenzo,14085,ATP,up,Argentina,107
+431,Giovanni Fonio,1855,ATP,up,Italy,106
+432,Mae Malige,53274,ATP,up,France,106
+433,Michele Ribecai,40082,ATP,up,Italy,106
+434,Alexandr Binda,13409,ATP,up,Italy,106
+435,Blake Ellis,7890,ATP,down,Australia,105
+436,Toby Samuel,15184,ATP,down,United Kingdom,104
+437,Max Wiskandt,9110,ATP,up,Germany,104
+438,Stefan Dostanic,37907,ATP,up,USA,103
+439,Aristotelis Thanos,749,ATP,up,Greece,103
+440,Jonas Forejtek,2086,ATP,up,Czech Republic,103
+441,Hikaru Shiraishi,13697,ATP,up,Japan,103
+442,Neil Oberleitner,1301,ATP,up,Austria,103
+443,Alex Marti Pujolras,988,ATP,up,Spain,102
+444,Dali Blanch,1314,ATP,up,USA,101
+445,Andrew Fenty,6696,ATP,up,USA,101
+446,Thanasi Kokkinakis,426,ATP,up,Australia,100
+447,Ioannis Xilas,19218,ATP,down,Greece,100
+448,Radu Albot,363,ATP,up,Moldova,100
+449,Milos Karol,817,ATP,up,Slovakia,99
+450,Erik Arutiunian,13389,ATP,down,World,99
+451,Marvin Moeller,7349,ATP,up,Germany,98
+452,Vadym Ursu,7269,ATP,up,Ukraine,98
+453,Manuel La Serna Juan,10017,ATP,up,Argentina,97
+454,Pavel Kotov,415,ATP,up,World,96
+455,Maxim Zhukov,2209,ATP,down,World,96
+456,Olle Wallin,38131,ATP,up,Sweden,96
+457,Vladyslav Orlov,932,ATP,same,Ukraine,96
+458,Dylan Hara Friend Jay,69562,ATP,down,Japan,95
+459,Lukas Pokorny,935,ATP,same,Slovakia,95
+460,Emanuel Ambrogi Luciano,14270,ATP,up,Argentina,95
+461,Jake Delaney,7078,ATP,down,Australia,95
+462,Philip Sekulic,3316,ATP,up,Australia,94
+463,James Story,38266,ATP,up,United Kingdom,94
+464,Filip Peliwo,1313,ATP,up,Poland,94
+465,Edward Winter,3318,ATP,up,Australia,93
+466,Eduardo Schiessl Joao,22055,ATP,down,Brazil,93
+467,Karan Singh,8537,ATP,up,India,93
+468,Pedro Vives Marcos,4051,ATP,up,Spain,92
+469,Igor Marcondes,3679,ATP,down,Brazil,92
+470,Hiroki Moriya,3202,ATP,up,Japan,92
+471,Enrico Dalla Valle,5675,ATP,up,Italy,92
+472,Eric Vanshelboim,1196,ATP,up,Ukraine,92
+473,Mert Alkaya,8972,ATP,up,Turkey,92
+474,Laurent Lokoli,1076,ATP,up,France,91
+475,Takuya Kumasaka,20616,ATP,down,Japan,91
+476,Mateus Alves,28260,ATP,up,Brazil,91
+477,Ergi Kirkin,1863,ATP,up,Turkey,90
+478,Alexander Weis,2023,ATP,up,Italy,90
+479,Tsung-Hao Huang,792,ATP,up,Taiwan,90
+480,Tadeas Paroulek,6751,ATP,up,Czech Republic,90
+481,Soonwoo Kwon,1098,ATP,up,South Korea,89
+482,Yan Bai,4157,ATP,up,China,89
+483,Hayato Matsuoka,38778,ATP,down,Japan,89
+484,Branko Djuric,37896,ATP,down,Serbia,89
+485,Tristan McCormick,20665,ATP,down,USA,89
+486,Andrey Chepelev,4061,ATP,up,World,89
+487,Filippo Moroni,8324,ATP,up,Italy,88
+488,Oleksii Krutykh,1177,ATP,up,Ukraine,88
+489,Keegan Smith,6011,ATP,up,USA,88
+490,Stefano Napolitano,3915,ATP,up,Italy,87
+491,Felix Gill,1208,ATP,down,United Kingdom,87
+492,Daniel Masur,411,ATP,up,Germany,87
+493,Orlando Fellin Pietro,8649,ATP,up,Italy,87
+494,Eero Vasa,765,ATP,up,Finland,87
+495,Jack Loge,38176,ATP,up,Belgium,87
+496,Maxime Janvier,580,ATP,up,France,87
+497,Florian Broska,15199,ATP,up,Germany,86
+498,Bor Artnak,10846,ATP,up,Slovenia,86
+499,Egor Agafonov,650,ATP,up,World,86
+500,Oleksandr Ovcharenko,815,ATP,down,Ukraine,86
+501,Sean Cuenin,382,ATP,up,France,85
+502,Tibo Colson,961,ATP,up,Belgium,85
+503,Nikolay Vylegzhanin,12829,ATP,up,World,85
+504,Gianmarco Ferrari,658,ATP,down,Italy,85
+505,Ryan Nijboer,9131,ATP,up,Netherlands,85
+506,Nicolas Arseneault,71261,ATP,same,Canada,84
+507,Oriol Roca Batalla,588,ATP,same,Spain,84
+508,Nicholas Tudorica Alvin,52605,ATP,up,Canada,84
+509,Dominik Koepfer,2830,ATP,down,Germany,83
+510,Henry Bernet,57540,ATP,down,Switzerland,83
+511,Arthur Weber,24769,ATP,down,France,83
+512,Mirza Basic,1080,ATP,down,Bosnia and Herzegovina,82
+513,Blaise Bicknell,1251,ATP,down,Jamaica,82
+514,Olaf Pieczkowski,10838,ATP,down,Poland,82
+515,Gregoire Barrere,1772,ATP,up,France,81
+516,Aidan Mayo,9216,ATP,up,USA,81
+517,Manuel Aguilar Juan Carlos,8133,ATP,up,Canada,81
+518,Manuel Mazza,695,ATP,down,Italy,81
+519,Mukund Sasikumar,1200,ATP,down,India,81
+520,Gabriele Pennaforti,652,ATP,up,Italy,81
+521,Iliyan Radulov,38103,ATP,same,Bulgaria,80
+522,Masamichi Imamura,10276,ATP,up,Japan,80
+523,David Ionel Nicholas,564,ATP,up,Romania,80
+524,Dhakshineswar Suresh,18341,ATP,up,India,79
+525,Elmar Ejupovic,1881,ATP,down,Germany,79
+526,Tommaso Compagnucci,851,ATP,up,Italy,79
+527,Fares Zakaria,79642,ATP,up,Egypt,79
+528,Pedro Araujo,8974,ATP,up,Portugal,79
+529,Nino Ehrenschneider,10101,ATP,down,Germany,79
+530,Alexander Ritschard,408,ATP,up,Switzerland,78
+531,Alexandru Tomescu Dan,10543,ATP,up,Romania,78
+532,Dennis Novak,1753,ATP,up,Austria,78
+533,Hans Rehberg Max,3604,ATP,up,Germany,77
+534,Yuki Mochizuki,10334,ATP,up,Japan,77
+535,Bruno Kuzuhara,662,ATP,up,USA,77
+536,Tristan Lamasine,1973,ATP,up,France,76
+537,Ryuki Matsuda,793,ATP,up,Japan,76
+538,Aleksandre Bakshi,1303,ATP,down,Georgia,76
+539,Stefan Palosi,9656,ATP,up,Romania,76
+540,Adrian Andreescu Stefan,38014,ATP,down,Romania,76
+541,Arda Azkara,33897,ATP,down,Turkey,75
+542,Cannon Kingsley,3710,ATP,down,USA,75
+543,Kokoro Isomura,9226,ATP,up,Japan,75
+544,Stefan Popovic,840,ATP,up,Serbia,75
+545,Maximilian Neuchrist,897,ATP,up,Austria,74
+546,Carlos Lopez Montagud,975,ATP,up,Spain,74
+547,Emil Ruusuvuori,1770,ATP,up,Finland,73
+548,Carlos Alvarez Valdes Luis,10514,ATP,up,Mexico,73
+549,Leo Borg,810,ATP,up,Sweden,73
+550,Buvaysar Gadamauri,12832,ATP,down,Belgium,73
+551,Eduardo Ribeiro,6712,ATP,up,Brazil,72
+552,Nick Hardt,1853,ATP,up,Dominican Republic,72
+553,Maxwell McKennon,39941,ATP,up,USA,72
+554,Amr Elsayed,676,ATP,up,Egypt,72
+555,Lucas Pouille,1774,ATP,up,France,71
+556,Govind Nanda,2968,ATP,up,USA,71
+557,Karue Sell,8218,ATP,up,Brazil,71
+558,Dominik Palan,741,ATP,up,Czech Republic,71
+559,Igor Gimenez,8681,ATP,up,Brazil,71
+560,Taha Baadi,9881,ATP,down,Morocco,71
+561,Sebastian Gima,2015,ATP,up,Romania,71
+562,Justin Boulais,5767,ATP,up,Canada,70
+563,Peter Fajta,923,ATP,up,Hungary,70
+564,Sebastian Sorger,22921,ATP,up,Austria,70
+565,Tomasz Berkieta,37927,ATP,down,Poland,70
+566,Adhithya Ganesan,54464,ATP,down,USA,70
+567,Andre Saraiva Dos Santos Paulo,10508,ATP,up,Brazil,70
+568,Sergio Callejon Hernando,50705,ATP,up,Spain,69
+569,Woobin Shin,10857,ATP,up,South Korea,69
+570,Cyril Vandermeersch,11809,ATP,up,France,69
+571,Robin Catry,40126,ATP,up,France,68
+572,Petr Nesterov,9220,ATP,down,Bulgaria,68
+573,Andrea Guerrieri,853,ATP,up,Italy,67
+574,Filippo Romano,39002,ATP,up,Italy,67
+575,Jeff Planinsek Filip,40154,ATP,up,Slovenia,66
+576,Anton Matusevich,6886,ATP,up,United Kingdom,66
+577,Maxime Chazal,1332,ATP,up,France,66
+578,Kirill Kivattsev,1944,ATP,up,World,66
+579,Ognjen Milic,52882,ATP,up,Serbia,65
+580,Thomas Faurel,65519,ATP,up,France,65
+581,Dusan Obradovic,941,ATP,up,Serbia,65
+582,Johan Nikles,428,ATP,up,Switzerland,64
+583,Facundo Juarez,8880,ATP,up,Italy,64
+584,Michal Krajci,38845,ATP,down,Slovakia,64
+585,Enzo Couacaud,394,ATP,down,France,63
+586,Cem Ilkel,1736,ATP,up,Turkey,63
+587,Jozef Kovalik,1065,ATP,same,Slovakia,63
+589,Lui Maxted,37938,ATP,down,United Kingdom,62
+590,Lucas Gerch,1971,ATP,same,Germany,62
+591,Millen Hurrion,12967,ATP,down,United Kingdom,62
+592,Pavle Marinkov,38851,ATP,up,Australia,62
+593,Mario Gonzalez Fernandez,15921,ATP,up,Spain,62
+594,Emilien Demanet,62513,ATP,up,Belgium,62
+595,Adrian Oetzbach,751,ATP,up,Germany,62
+596,Aidan Kim,9381,ATP,up,USA,61
+597,Valerio Aboian,703,ATP,up,Argentina,61
+598,Arthur Reymond,1184,ATP,up,France,61
+599,Yurii Dzhavakian,9694,ATP,up,Ukraine,61
+600,Conner Huertas Del Pino,2411,ATP,up,Peru,60
+601,Ajeet Rai,3224,ATP,up,New Zealand,60
+602,Loann Massard,38776,ATP,up,France,60
+603,Ivan Marrero Curbelo,4727,ATP,down,Spain,60
+604,Dominik Kellovsky,8684,ATP,up,Czech Republic,60
+605,Maxence Beauge,1312,ATP,up,France,60
+606,Alberto Barroso Campos,1266,ATP,up,Spain,60
+607,Louis Wessels,1955,ATP,down,Germany,60
+608,Shunsuke Mitsui,22253,ATP,down,Japan,59
+609,Mihai Papoe Radu,15768,ATP,up,Romania,59
+610,Manas Dhamne,54470,ATP,up,India,59
+611,Federico Iannaccone,5673,ATP,up,Italy,59
+612,Mees Rottgering,53790,ATP,down,Netherlands,59
+613,Karl Poling,8886,ATP,up,USA,59
+614,Michael Agwi,38006,ATP,up,Ireland,58
+615,Koki Matsuda,37969,ATP,up,Japan,58
+616,Damien Wenger,83433,ATP,up,Switzerland,58
+617,Arthur Nagel,38026,ATP,up,France,58
+618,Gerard Campana Lee,10845,ATP,up,South Korea,58
+619,Constantin Bittoun Kouzmine,13283,ATP,up,France,58
+620,Mikael Ymer,1976,ATP,up,Sweden,57
+621,Jakub Nicod,2516,ATP,up,Czech Republic,57
+622,Shintaro Imai,5216,ATP,up,Japan,57
+623,Toby Kodat,716,ATP,up,USA,57
+624,Kenta Miyoshi,10873,ATP,up,Japan,56
+625,Santiago De La Fuente,9597,ATP,up,Argentina,56
+626,Stijn Slump,38041,ATP,up,Netherlands,56
+627,Yecong Mo,37952,ATP,up,China,55
+628,Massimo Giunta,37933,ATP,down,Italy,55
+629,Evan Zhu,578,ATP,up,USA,55
+630,Sergi Perez Contri,4254,ATP,up,Spain,55
+631,Andrew Paulson,888,ATP,up,Czech Republic,54
+632,Mate Valkusz,563,ATP,up,Hungary,54
+633,Christian Sigsgaard,773,ATP,up,Denmark,54
+634,Igor Kudriashov,9218,ATP,up,World,54
+635,Rigele Te,663,ATP,up,China,54
+636,Michael Vrbensky,1947,ATP,up,Czech Republic,54
+637,Alexander Rodriguez Johan,9221,ATP,down,Colombia,53
+638,Joshua Sheehy,1254,ATP,down,USA,53
+639,Denis Klok,2101,ATP,down,World,53
+640,Axel Garcian,9830,ATP,down,France,53
+641,Alejandro Manzanera Pertusa,9367,ATP,down,Spain,53
+642,Yuta Kikuchi,23537,ATP,down,Japan,53
+643,Michiel De Krom,4056,ATP,down,Netherlands,53
+644,Juan Estevez,54079,ATP,up,Argentina,53
+645,Luca Castagnola,819,ATP,down,Italy,53
+646,Kyle Kang,9518,ATP,down,USA,52
+647,Alec Deckers,10019,ATP,down,Netherlands,52
+648,Jacopo Vasami,73841,ATP,up,Italy,52
+649,Emil Overbeck Carl,20568,ATP,down,Denmark,52
+650,Duncan Chan,38792,ATP,down,Canada,51
+651,Pierluigi Basile,69812,ATP,down,Italy,51
+652,Yassine Dlimi,14468,ATP,down,Morocco,51
+653,Naoki Nakagawa,4136,ATP,down,Japan,51
+654,Joaquin Aguilar Cardozo,38832,ATP,down,Uruguay,51
+655,Kris van Wyk,38111,ATP,up,South Africa,51
+656,Giuseppe La Vela,8323,ATP,same,Italy,51
+657,Quinn Vandecasteele,5778,ATP,down,USA,51
+658,Giovanni Oradini,862,ATP,up,Italy,51
+659,Nick Kyrgios,2984,ATP,up,Australia,50
+660,Lorenzo Sciahbasi,32336,ATP,same,Italy,50
+661,David Turcanu Radu,63402,ATP,same,Romania,50
+662,John Echeverria,1328,ATP,down,Spain,50
+663,Yi Lee Kuan,,ATP,down,Taiwan,50
+664,Sidharth Rawat,4469,ATP,up,India,50
+665,Cruz Martin Manzano Juan,56246,ATP,up,Italy,49
+666,Pawit Sornlaksup,38249,ATP,same,Thailand,49
+667,Guillaume Dalmasso,38125,ATP,down,France,49
+668,Kenny De Schepper,990,ATP,up,France,49
+669,Pedro Cachin,414,ATP,same,Argentina,48
+670,Alejo Sanchez Quilez,52692,ATP,down,Spain,48
+671,Ryan Fishback,52052,ATP,down,USA,48
+672,Augusto Barreto Sanchez Diego,7251,ATP,same,Spain,48
+673,Blu Baker,6655,ATP,down,United Kingdom,47
+674,Maria Zarate Carlos,65990,ATP,same,Argentina,47
+675,Strong Kirchheimer,3706,ATP,up,USA,47
+676,Aziz Ouakaa,1876,ATP,up,Tunisia,47
+677,Nicolas Moreno De Alboran,1179,ATP,same,USA,46
+678,Cooper Williams,,ATP,same,USA,46
+679,Francesco Forti,1191,ATP,down,Italy,46
+680,Tuncay Duran,14315,ATP,down,Turkey,46
+681,Peter Bertran,720,ATP,down,Dominican Republic,46
+682,Fernando Rubio Fierros Alan,14088,ATP,down,Mexico,46
+683,James Watt,40233,ATP,same,New Zealand,46
+684,Tianhui Zhang,54172,ATP,same,China,46
+685,Matthew Donald,1322,ATP,up,Czech Republic,46
+686,Jacob Brumm,8686,ATP,down,USA,46
+687,Kyle Edmund,3221,ATP,up,United Kingdom,45
+688,Pablo Martinez Gomez,49886,ATP,down,Spain,45
+689,Lucio Ratti,10022,ATP,down,Argentina,45
+690,Samuele Pieri,20697,ATP,up,Italy,45
+691,Leo Vithoontien,38128,ATP,down,Japan,45
+692,Sung Nam Ji,4102,ATP,down,South Korea,44
+693,Gustavo Ribeiro de Almeida,40143,ATP,up,Brazil,44
+694,Andres Santamarta Roig,71815,ATP,up,Spain,44
+695,Uisung Park,9952,ATP,up,South Korea,44
+696,Chase Ferguson,37866,ATP,up,Australia,44
+697,Niels Visker,14641,ATP,up,Netherlands,44
+698,Pedro Rodrigues,,ATP,down,Brazil,43
+699,Joris De Loore,5169,ATP,up,Belgium,43
+700,Sora Fukuda,5213,ATP,up,Japan,43
+701,Jan Kumstat,38839,ATP,up,Czech Republic,43
+702,Felix Corwin,3703,ATP,up,USA,43
+703,Imanol Lopez Morillo,991,ATP,up,Spain,43
+704,Alex Knaff,5969,ATP,up,Luxembourg,43
+705,Yanaki Milev,13372,ATP,down,Bulgaria,43
+706,Manuel Guinard,440,ATP,up,France,42
+707,Theo Papamalamis,9232,ATP,up,France,42
+708,Ali Yazdani,11166,ATP,up,Iran,42
+709,Marcel Zielinski,27904,ATP,down,Poland,42
+710,Daniil Ostapenkov,13986,ATP,up,World,42
+711,Martin Van Der Meerschen,7999,ATP,up,Belgium,42
+712,Tai Sach,885,ATP,down,Australia,42
+713,Felix Balshaw,52682,ATP,up,France,42
+714,Tim Handel,12606,ATP,up,Germany,42
+715,Gabriel Ghetu,69520,ATP,down,Romania,41
+716,Alec Beckley,642,ATP,up,South Africa,41
+717,Alan Magadan,60067,ATP,down,Mexico,41
+718,Ryan Dickerson,38039,ATP,down,USA,41
+719,Georgii Kravchenko,2106,ATP,up,Ukraine,41
+720,Maxence Bertimon,58609,ATP,up,France,41
+721,William Grant,7309,ATP,up,USA,41
+722,Amaury Raynel,700,ATP,down,France,41
+723,John Sperle,13694,ATP,up,Germany,41
+724,Maximilian Marterer,1070,ATP,up,Germany,40
+725,Alessandro Pecci,2478,ATP,up,Italy,40
+726,Isaiah Strode,1256,ATP,up,USA,40
+727,Alafia Ayeni,2481,ATP,down,USA,40
+728,Matthew Summers,39195,ATP,up,United Kingdom,40
+729,Ignacio Monzon,685,ATP,up,Argentina,40
+730,Josip Simundza,50324,ATP,up,Croatia,40
+731,Alexander Donski,9159,ATP,up,Bulgaria,39
+732,Daniel Siniakov,899,ATP,up,Czech Republic,39
+733,Cesar Bouchelaghem,38101,ATP,up,France,39
+734,Lucas Bouquet,966,ATP,up,France,39
+735,Kai Wehnelt,2459,ATP,up,Germany,39
+736,Francisco Rocha,12972,ATP,up,Portugal,39
+737,Naoya Honda,39537,ATP,up,Japan,39
+738,Kang Leong Mitsuki Wei,38273,ATP,down,Malaysia,39
+739,Alexis Gautier,6628,ATP,up,France,38
+740,Trey Hilderbrand,11005,ATP,up,USA,38
+741,Martin Klizan,3144,ATP,up,Slovakia,38
+742,Evgenii Tiurnev,1861,ATP,up,World,38
+743,Kaylan Bigun,37898,ATP,up,USA,38
+744,Yusuke Kusuhara,39158,ATP,up,Japan,38
+745,Semen Pankin,54138,ATP,down,World,38
+746,Hee Lee Duck,4567,ATP,up,South Korea,38
+747,Emile Hudd,8645,ATP,down,United Kingdom,38
+748,Adrien Gobat,13854,ATP,up,France,38
+749,Nicolas Tepmahc,12632,ATP,up,France,38
+750,Rodrigo Alujas,55470,ATP,down,Mexico,38
+751,Reda Bennani,38261,ATP,up,Morocco,37
+752,Micah Braswell,12958,ATP,up,USA,37
+753,Mwendwa Mbithi,719,ATP,up,USA,37
+754,Pierre Delage,778,ATP,down,France,37
+755,Dinko Dinev,10850,ATP,down,Bulgaria,37
+756,Leo Raquillet,24770,ATP,up,France,37
+757,Joshua Charlton,10215,ATP,down,Australia,37
+758,Leonardo Rossi,37988,ATP,up,Italy,37
+759,Cruz Hewitt,76018,ATP,down,Australia,36
+760,Alejandro Linde Palacios Samuel,67049,ATP,down,Colombia,36
+761,Mikalai Haliak,896,ATP,up,World,36
+762,Luca Preda,52607,ATP,up,Romania,36
+763,Yanis Ghazouani Durand,58961,ATP,up,France,36
+764,Michael Bassem Sobhy,37992,ATP,up,Egypt,36
+765,Maik Steiner,1273,ATP,down,Germany,36
+766,Kosuke Ogura,711,ATP,up,Japan,36
+767,Lucas Andrade da Silva,57484,ATP,up,Brazil,35
+768,Roger Pascual Ferra,17585,ATP,up,Spain,35
+769,Egor Gerasimov,368,ATP,up,World,35
+770,Attila Boros,13823,ATP,up,Hungary,35
+771,Yuta Kawahashi,10335,ATP,up,Japan,35
+772,Prajwal Dev S D,11781,ATP,up,India,35
+773,Menelaos Efstathiou,11182,ATP,down,Cyprus,35
+774,Colin Sinclair,6752,ATP,up,Northern Mariana Islands,35
+775,Iannis Miletich,60454,ATP,down,Italy,35
+776,Mika Petkovic,63396,ATP,up,Germany,35
+777,Ilya Ivashka,432,ATP,up,World,34
+778,Blake Mott,3823,ATP,up,Australia,34
+779,Tiago Torres,14435,ATP,up,Portugal,34
+780,Benoit Paire,429,ATP,up,France,34
+781,Linang Xiao,38140,ATP,up,China,34
+782,Aleksandr Braynin,10487,ATP,up,Ukraine,34
+783,Jose Gutierrez Oscar,974,ATP,up,Spain,34
+784,Dimitris Sakellaridis,38623,ATP,up,Greece,34
+785,John Wolf Jeffrey,2853,ATP,up,USA,33
+786,Oscar Weightman,770,ATP,up,United Kingdom,33
+787,Albert Pedrico Kravtsov,55487,ATP,up,Spain,33
+788,Julio Cesar Porras,8799,ATP,down,Argentina,33
+789,Aleksandr Lobanov,677,ATP,up,World,33
+790,Antonio Nunez Daniel,9687,ATP,down,Chile,33
+791,Shinji Hazawa,744,ATP,up,Japan,33
+792,Abel Forger,57239,ATP,up,Netherlands,33
+793,Taisei Ichikawa,2018,ATP,up,Japan,33
+794,Niccolo Catini,37970,ATP,up,Italy,33
+795,Evgeny Karlovskiy,575,ATP,up,World,32
+796,Matisse Bobichon,69332,ATP,up,France,32
+797,Muhamad Rifqi Fitriadi,14460,ATP,up,Indonesia,32
+798,Taiyo Yamanaka,13371,ATP,down,Japan,32
+799,Tomas Curras Abasolo,6717,ATP,up,Spain,32
+800,Noah Schachter,15166,ATP,up,USA,32
+801,Yves Bailly Pierre,9211,ATP,up,Belgium,31
+802,Luca Staeheli,9360,ATP,up,Switzerland,31
+803,Mathias Bourgue,1194,ATP,up,France,31
+804,Alejandro Turriziani Alvarez,38023,ATP,up,Spain,31
+805,Victor Lilov,656,ATP,up,USA,31
+806,Miles Jones,14087,ATP,down,USA,31
+807,Ewen Lumsden,57565,ATP,up,United Kingdom,31
+808,Dev Javia,939,ATP,up,India,31
+809,Nikita Mashtakov,14638,ATP,up,Ukraine,31
+810,Marlon Vankan,1265,ATP,up,Germany,31
+811,Wishaya Trongcharoenchaikul,5527,ATP,same,Thailand,31
+812,Samir Hamza Reguig,1283,ATP,same,Algeria,31
+813,Gonzalo Oliveira,1965,ATP,same,Venezuela,30
+814,Mohamed Safwat,1320,ATP,same,Egypt,30
+815,Patrick Brady,9371,ATP,same,United Kingdom,30
+816,Jacob Bradshaw,37971,ATP,same,Australia,30
+817,Timofei Derepasko,52054,ATP,down,World,30
+818,Kristijan Juhas,18862,ATP,up,Serbia,30
+819,Jeffrey Von der Schulenburg,10231,ATP,same,Switzerland,30
+820,Keisuke Saitoh,1326,ATP,down,Japan,30
+821,Lorenzo Rottoli,837,ATP,down,Italy,30
+822,Artur Kukasian,10851,ATP,down,World,30
+823,Alexander Klintcharov,12680,ATP,down,New Zealand,30
+824,Max Schoenhaus,56893,ATP,down,Germany,29
+825,Thiago Cigarran,9602,ATP,down,Argentina,29
+826,Fausto Tabacco,1295,ATP,down,Italy,29
+827,Niklas Schell,783,ATP,up,Germany,29
+828,Alexey Zakharov,9948,ATP,down,World,28
+829,Hoyoung Roh,66327,ATP,down,South Korea,28
+830,Bogdan Bobrov,1867,ATP,up,World,28
+831,Karol Filar,15548,ATP,down,Poland,28
+832,Kalin Ivanovski,1296,ATP,down,North Macedonia,28
+833,Xiaofei Wang,,ATP,down,China,28
+834,Jose Pereira,3896,ATP,down,Brazil,28
+835,Giorgio Tabacco,14127,ATP,up,Italy,28
+836,Ben Jones,768,ATP,up,United Kingdom,28
+837,Marko Maksimovic,51626,ATP,down,Serbia,28
+838,Wilson Leite,5469,ATP,down,Brazil,28
+839,Seydina Andre,19223,ATP,down,Senegal,28
+840,Fryderyk Lechno-Wasiutynski,53799,ATP,down,Poland,27
+841,Ryan Seggerman,37911,ATP,down,USA,27
+842,Matt Ponchet,17612,ATP,down,France,27
+843,Pedro Rodenas,17462,ATP,down,Spain,27
+844,Ilya Snitari,11114,ATP,up,Moldova,27
+845,Oliver Bonding,28596,ATP,down,United Kingdom,27
+846,Shunsuke Nakagawa,38295,ATP,down,Japan,27
+847,Jorge Plans,4047,ATP,down,Spain,27
+848,Oliver Anderson,67768,ATP,up,Australia,27
+849,Toufik Sahtali,804,ATP,up,Algeria,27
+850,Agustin Falabella Lautaro,18335,ATP,same,Argentina,27
+851,Ezekiel Clark,1257,ATP,up,USA,27
+852,Emon van Loben Sels,55504,ATP,down,USA,26
+853,Matyas Fuele,918,ATP,down,Hungary,26
+854,Gilbert Klier Junior,9595,ATP,down,Brazil,26
+855,Scott Jones,4513,ATP,down,Australia,26
+856,Bruno Fernandez,53136,ATP,down,Brazil,26
+857,Daisuke Sumizawa,960,ATP,same,Japan,26
+858,Matyas Cerny,37919,ATP,same,Czech Republic,26
+859,Adan Freire Da Silva,38022,ATP,same,France,26
+860,Nicolae Cazacu Dragos,38011,ATP,down,Romania,26
+861,Diego Schwartzman,67,ATP,same,Argentina,25
+862,Ian Kotzen Nicolas,57122,ATP,same,USA,25
+863,Karim Bennani,38298,ATP,up,Morocco,25
+863,Nikita Bilozertsev,64775,ATP,same,Ukraine,25
+865,Aoran Wang,2225,ATP,same,China,25
+866,Braden Shick,37912,ATP,same,USA,25
+867,Adrian Andreev,2409,ATP,up,Bulgaria,25
+868,Nikola Slavic,19893,ATP,up,Sweden,25
+869,Bautista Vilicich,20663,ATP,up,Argentina,25
+870,Naci Turker Mert,11692,ATP,up,Turkey,25
+871,Nicolas Jadoun,52645,ATP,down,France,25
+872,Savriyan Danilov,9567,ATP,up,World,24
+873,Moise Kouame,68751,ATP,up,France,24
+874,Enzo Wallart,9136,ATP,down,USA,24
+875,Tomas Luis,15442,ATP,up,Portugal,24
+876,Kasra Rahmani,73847,ATP,up,Iran,24
+877,Michel Hopp,912,ATP,down,Germany,24
+878,Sebastian Osorio Juan,13923,ATP,up,Colombia,24
+879,Chirag Duhan,18730,ATP,up,India,24
+880,Amit Vales,35790,ATP,down,Israel,24
+881,Daniel De Jonge,7498,ATP,up,Netherlands,24
+882,Evan Bynoe,22446,ATP,up,USA,24
+883,Matt Kuhar,1247,ATP,down,USA,24
+884,Alexandre Aubriot,14024,ATP,up,France,24
+885,Pablo Masjuan Ginel,38046,ATP,same,Spain,23
+886,Peter Makk,15664,ATP,up,Hungary,23
+887,Petros Tsitsipas,1872,ATP,same,Greece,23
+888,Jakub Filip,57536,ATP,same,Czech Republic,23
+889,Fernando Cavallo,34714,ATP,same,Argentina,23
+890,Couto Loureiro Joao Victor,9229,ATP,up,Brazil,23
+891,Benjamin Torrealba,10319,ATP,up,Chile,23
+892,Samuel Heredia,66890,ATP,down,Colombia,23
+893,Andrea Fiorentini,40088,ATP,up,Italy,23
+894,Jesse Delaney,14306,ATP,up,Australia,23
+895,Inchauspe Paul,17436,ATP,up,France,22
+896,Matthew Forbes,58222,ATP,down,USA,22
+897,Luca Tanner Gian,13127,ATP,up,Switzerland,22
+898,Steven Diez,1975,ATP,up,Canada,22
+899,Jack Anthrop,9212,ATP,up,USA,22
+900,Filip Pieczonka,15221,ATP,up,Poland,22
+901,Yaojie Zeng,14021,ATP,up,China,22
+902,Ryotaro Taguchi,38831,ATP,up,Japan,22
+903,Anas Mazdrashki,63409,ATP,up,Bulgaria,22
+904,Thanapet Chanta,10126,ATP,up,Thailand,22
+905,Kristjan Tamm,785,ATP,up,Estonia,22
+906,Pietro Marino,13087,ATP,up,Italy,22
+907,Zoran Ludoski,56233,ATP,up,Serbia,21
+908,David Pichler,927,ATP,up,Austria,21
+909,Gianluca Mager,1757,ATP,up,Italy,21
+910,Aleksa Ciric,60100,ATP,down,Serbia,21
+911,Rudy Quan,39199,ATP,up,USA,21
+912,Lorenzo Bocchi,682,ATP,down,Italy,21
+913,Carles Hernandez,12954,ATP,up,Spain,21
+914,Jumpei Yamasaki,5515,ATP,up,Japan,21
+915,Marcus Walters,7014,ATP,up,United Kingdom,21
+916,Tomas Farjat,9600,ATP,up,Argentina,21
+917,Thomas Braithwaite,38299,ATP,up,Australia,21
+918,Finn Murgett,8169,ATP,up,United Kingdom,21
+919,Axel Nefve,8129,ATP,down,USA,21
+920,Ignacio Parisca,52679,ATP,up,Venezuela,21
+921,Gijs Brouwer,581,ATP,up,Netherlands,20
+922,Georgi Georgiev,73247,ATP,up,Bulgaria,20
+923,Pavel Lagutin,80068,ATP,up,World,20
+924,Leonardo Aboian,688,ATP,up,Argentina,20
+925,Maximo Zeitune,66326,ATP,up,Argentina,20
+926,Simeon Stankovic,69974,ATP,up,Serbia,20
+927,Evgeny Philippov,670,ATP,up,World,20
+928,Qian Sun,40127,ATP,up,China,20
+929,Hayden Jones,10219,ATP,down,Australia,20
+930,Jeremy Gschwendtner,60151,ATP,same,United Kingdom,20
+931,Michael Zhu,7126,ATP,up,USA,20
+932,Calvin Mueller,90155,ATP,same,Germany,19
+933,Arklon Huertas Del Pino Cordova,2188,ATP,same,Peru,19
+934,Luca Pow,53787,ATP,same,United Kingdom,19
+935,Marc Van Der Merwe,69706,ATP,same,South Africa,19
+936,Matthew Hulme,37943,ATP,same,Australia,19
+937,Moon Lee Jea,4334,ATP,same,South Korea,19
+938,Rafael Izquierdo Luque,57566,ATP,down,Spain,19
+939,Bekkhan Atlangeriev,757,ATP,down,World,19
+940,Marcello Serafini,971,ATP,down,Italy,19
+941,John Hallquist Lithen,53232,ATP,down,Sweden,19
+942,Sam Ryan Ziegann,25015,ATP,down,Australia,19
+943,Nicolas Villalon,39931,ATP,down,Chile,19
+944,Pavlos Tsitsipas,61071,ATP,down,Greece,19
+945,Derek Pham,878,ATP,down,Australia,18
+946,Taym Al Azmeh,38100,ATP,down,Syria,18
+947,Spencer Johnson,2851,ATP,down,USA,18
+948,Mateo Barreiros Reyes,10467,ATP,down,Brazil,18
+949,Ryo Tabata,63487,ATP,down,Japan,18
+950,Lorenzo Lingua Lavallen Alejo,9594,ATP,down,Argentina,18
+951,Ivan Ivanov,57825,ATP,up,Bulgaria,18
+952,Romeo Scomparin Pietro,13196,ATP,down,Italy,18
+953,Isaac Becroft,2467,ATP,down,New Zealand,18
+954,Karlis Ozolins,13125,ATP,down,Latvia,18
+955,Salvador Price,59410,ATP,down,Colombia,18
+956,Kiranpal Pannu,3225,ATP,same,New Zealand,18
+957,Peter Buldorini,10866,ATP,up,Ireland,18
+958,Younes Lalami Laaroussi,38043,ATP,up,Morocco,18
+959,Justin Schlageter,60968,ATP,up,Germany,18
+960,Lucas Marionneau,66957,ATP,up,France,18
+961,Maximilian Homberg,21176,ATP,up,Germany,18
+962,Thomas George Benjamin,55610,ATP,down,Canada,18
+963,Alejandro Juan Mano,52069,ATP,up,Spain,18
+964,Razvan Marinescu Mihai,40066,ATP,up,Romania,18
+965,Grigoriy Lomakin,1869,ATP,up,Kazakhstan,18
+966,Johannes Ingildsen,2502,ATP,up,Denmark,17
+967,Ryan Colby,37857,ATP,down,USA,17
+968,Gabriel Debru,398,ATP,up,France,17
+969,Qing Xu Kuang,60967,ATP,up,China,17
+970,Andrew Delgado,12563,ATP,up,USA,17
+971,Tiago Cacao,1327,ATP,up,Portugal,17
+972,Dominique Rolland,55112,ATP,up,USA,17
+973,Stijn Paardekooper,56578,ATP,up,Netherlands,17
+974,Pepijn Bastiaansen,56577,ATP,up,Netherlands,17
+975,Louis Dussin,4259,ATP,up,France,17
+976,Thantub Suksumrarn,25740,ATP,up,Thailand,17
+977,Maxim Shin,37966,ATP,down,Uzbekistan,17
+978,Mikael Arseneault,75350,ATP,down,Canada,17
+979,Brian Bozemoj,32507,ATP,up,Netherlands,17
+980,Gregor Ramskogler,38038,ATP,up,Austria,17
+981,Finn Bass,6503,ATP,up,United Kingdom,17
+982,Lorenzo Angelini,15916,ATP,down,Italy,17
+983,Diego Fernandez Flores,976,ATP,up,Chile,17
+984,Giannicola Misasi,21354,ATP,up,Italy,17
+985,Vignesh Gogineni,86747,ATP,down,USA,16
+986,Alexander Vasilev,52072,ATP,up,Bulgaria,16
+987,Orlando Luz,4053,ATP,up,Brazil,16
+988,Sebastian Gomez Juan,712,ATP,down,Colombia,16
+989,Keegan Rice,38846,ATP,down,Canada,16
+990,Dominik Recek,7497,ATP,up,Czech Republic,16
+991,David Poljak,895,ATP,down,Czech Republic,16
+992,Enzo Kohlmann,63483,ATP,up,Brazil,16
+993,Lucca Helguera Casado,17991,ATP,down,Spain,16
+994,Teodor Pieleanu Rares,67687,ATP,up,Romania,16
+995,Ruslan Tiukaev,38321,ATP,down,World,16
+996,Matteo Covato,57685,ATP,down,Italy,16
+997,Benjamin Lock,807,ATP,up,Zimbabwe,15
+998,Oscar Otte,1100,ATP,up,Germany,15
+999,Simon Reveniau,38027,ATP,up,France,15
+1000,Elijah Strode,37976,ATP,up,USA,15
+1001,Gergely Madarasz,834,ATP,up,Hungary,15
+1002,Louis Larue,74727,ATP,up,France,15
+1003,Chan-Yeong Oh,53004,ATP,up,South Korea,15
+1004,Tymur Bieldiugin,53288,ATP,up,Ukraine,15
+1005,Koray Kirci,1244,ATP,up,Turkey,15
+1006,Jesse Flores,725,ATP,up,Costa Rica,15
+1007,Andrin Casanova,31668,ATP,up,Switzerland,15
+1008,Elgin Khoeblal,39929,ATP,up,Netherlands,15
+1009,Vincent Marysko,54889,ATP,up,Germany,15
+1010,Jasza Szajrych,654,ATP,up,Poland,15
+1011,Romain Faucon,2222,ATP,down,Belgium,15
+1012,Yaroslav Demin,7395,ATP,up,World,15
+1013,Lorenzo Lorusso,38060,ATP,up,Italy,15
+1014,Pengyu Lu,55489,ATP,up,China,15
+1015,Karim Ibrahim,675,ATP,down,Egypt,15
+1016,Hugo Pierre,13253,ATP,up,France,15
+1017,Izan Almazan Valiente,57826,ATP,up,Spain,15
+1018,Stefano D'Agostino,29714,ATP,up,Italy,15
+1019,Nicolas Bruna,9689,ATP,up,Chile,15
+1020,Nathan Ponwith,7181,ATP,up,USA,15
+1021,Duarte Vale,6502,ATP,up,Portugal,14
+1022,Dylan Dietrich,10865,ATP,up,Switzerland,14
+1023,Jangjun Kim,37932,ATP,down,South Korea,14
+1024,Lorenzo Gagliardo,10021,ATP,up,Argentina,14
+1025,Kriish Tyagi,40363,ATP,up,India,14
+1026,Yunseong Chung,2925,ATP,up,South Korea,14
+1027,Thomas Deschamps,9964,ATP,up,France,14
+1027,Markus Malaszszak,56784,ATP,up,Germany,14
+1027,Oskari Paldanius,61173,ATP,up,Finland,14
+1030,Benjamin Winter Lopez,977,ATP,up,Spain,14
+1031,Julian Cundom,37945,ATP,up,Argentina,14
+1032,Ivan Nedelko,766,ATP,up,World,14
+1033,Siddharth Vishwakarma,9957,ATP,up,India,14
+1034,Ishaque Eqbal,805,ATP,up,India,14
+1035,Ali Habib,947,ATP,down,United Kingdom,14
+1036,Tomas Martinez,58881,ATP,up,Argentina,14
+1037,Nikola Basic,39050,ATP,up,Croatia,14
+1038,Ezequiel Monferrer,9378,ATP,down,Argentina,14
+1039,Daniele Rapagnetta,57079,ATP,up,Italy,14
+1040,Tomohiro Masabayashi,14348,ATP,up,Japan,14
+1041,Matias Ponce de Leon Gomila,13797,ATP,down,Spain,13
+1042,Antoine Cornut-Chauvinc,6750,ATP,up,France,13
+1043,Jason Jung,390,ATP,up,Taiwan,13
+1044,Ju Kim Dong,10296,ATP,up,South Korea,13
+1045,Luca Wiedenmann,38169,ATP,up,Germany,13
+1046,Marko Miladinovic,8931,ATP,up,Serbia,13
+1047,Jack Kennedy,68750,ATP,up,USA,13
+1048,Tom Zeuch,82368,ATP,up,Germany,13
+1049,Enzo Aguiard,15290,ATP,up,Australia,13
+1050,Sebastian Dominko,2221,ATP,up,Slovenia,13
+1051,Nick Chappell,1255,ATP,up,USA,13
+1052,Samuel Vincent Ruggeri,965,ATP,up,Italy,13
+1053,Alberto Bronzetti,56232,ATP,up,Italy,13
+1054,Lasse Poertner,57545,ATP,up,Germany,13
+1055,Benjamin Pietri,6857,ATP,down,France,13
+1056,Digvijaypratap Singh,7098,ATP,up,India,13
+1057,Marco Ortenzi Gian,1182,ATP,up,Italy,13
+1058,Fermin Tenti,684,ATP,up,Argentina,13
+1059,Mika Lipp,9228,ATP,up,Germany,13
+1059,Ricardo Rodriguez,3702,ATP,up,Venezuela,13
+1061,Billy Suarez,75982,ATP,up,USA,13
+1062,Louis Tessa,8769,ATP,up,France,13
+1063,Jacopo Bilardo,40192,ATP,same,Italy,13
+1064,Matthias Ujvary,38072,ATP,down,Austria,13
+1065,Nicolas Ifi,61403,ATP,up,Belgium,13
+1066,Maria Noce Gabriele,679,ATP,up,Italy,13
+1067,Diogo Marques,15387,ATP,up,Portugal,13
+1068,Leyton Rivera,20776,ATP,up,Norway,13
+1069,Nikola Milojevic,1745,ATP,up,Serbia,12
+1070,Zhe Li,,ATP,up,China,12
+1071,Devin Badenhorst,14373,ATP,up,South Africa,12
+1072,Benito Sanchez Martinez,14025,ATP,down,Germany,12
+1073,Filippo Speziali,2248,ATP,up,Italy,12
+1074,Jamie Mackenzie,78985,ATP,up,Germany,12
+1075,Niels McDonald,73846,ATP,up,Germany,12
+1076,Adam Jilly,58390,ATP,down,Hungary,12
+1077,Martin Borisiouk,1937,ATP,up,World,12
+1078,Vlado Jankanj,67917,ATP,up,Serbia,12
+1079,Alexander Kotzen,17373,ATP,up,USA,12
+1080,Gabriel Papoe Cezar,67686,ATP,up,Romania,12
+1081,Kacper Szymkowiak,67375,ATP,up,Poland,12
+1082,Alen Mujakic,10228,ATP,up,Germany,12
+1083,Pablo Paz Juan,1325,ATP,up,Argentina,12
+1084,Thando Longwe-Smit,63094,ATP,up,South Africa,12
+1085,Manish Sureshkumar,1334,ATP,down,India,12
+1086,Rafael De Alba,72766,ATP,down,Mexico,12
+1087,Mathieu Scaglia,1278,ATP,up,France,12
+1088,Noel Larwig,13460,ATP,up,Germany,12
+1089,Nicolas Parizzia,8917,ATP,up,Switzerland,12
+1090,Pieter De Lange,71108,ATP,up,Netherlands,12
+1091,Ronald Hohmann,3716,ATP,up,USA,12
+1091,Hanyi Liu,,ATP,up,China,12
+1093,Alan Bojarski,15216,ATP,down,Poland,12
+1094,Luis Pinter Piet,67777,ATP,up,Austria,12
+1095,Andreas Timini,62413,ATP,up,Cyprus,12
+1096,Stefan Vujic,12706,ATP,up,Australia,12
+1097,Dao Chen Xing,54657,ATP,up,China,12
+1098,Sungbeen Sim,73127,ATP,up,South Korea,12
+1099,Niccolo Ciavarella,10879,ATP,up,Italy,12
+1100,Bautista Otegui Juan,9604,ATP,up,Argentina,12
+1101,Boris Butulija,1281,ATP,up,Serbia,12
+1102,Zsombor Velcz,13018,ATP,up,Hungary,11
+1103,Oskar Poulsen Brostrom,40129,ATP,down,Denmark,11
+1104,Christopher Li,40225,ATP,down,Peru,11
+1105,Connor Thomson,55376,ATP,down,United Kingdom,11
+1106,Karl Friberg,759,ATP,up,Sweden,11
+1107,Natan Rodrigues,15771,ATP,up,Brazil,11
+1108,Sebastian Fanselow,571,ATP,up,Germany,11
+1109,Oscar Moraing,2211,ATP,up,Germany,11
+1110,Chen Dong,29450,ATP,up,Australia,11
+1111,Antoine Berger,39180,ATP,up,France,11
+1111,Leonardo Malgaroli,15252,ATP,up,Italy,11
+1113,Nicolas Zanellato,14273,ATP,down,Brazil,11
+1114,Nikolai Barsukov,71308,ATP,up,Germany,11
+1115,Amir Omarkhanov,63488,ATP,up,Kazakhstan,11
+1116,Denis Petak,30785,ATP,up,Czech Republic,11
+1117,Tyler Stice,54312,ATP,up,USA,11
+1118,Franco Ribero,8144,ATP,up,Argentina,11
+1119,Valentin Basel,10020,ATP,up,Argentina,11
+1120,Brandon Perez,,ATP,up,Venezuela,11
+1121,Toby Martin,2517,ATP,up,United Kingdom,11
+1122,Nazim Makhlouf,8655,ATP,up,Algeria,11
+1123,Daniil Sarksian,40236,ATP,up,World,11
+1124,Ozan Baris,32559,ATP,down,USA,10
+1124,Stian Klaassen,54520,ATP,up,Netherlands,10
+1126,Rohan Murali,10858,ATP,up,USA,10
+1127,Theodore Dean,85191,ATP,up,USA,10
+1128,Ernesto Escobedo,402,ATP,up,Mexico,10
+1129,Ege Sik Mustafa,80801,ATP,up,Turkey,10
+1129,Cooper Woestendick,67327,ATP,up,USA,10
+1131,Cleeve Harper,5771,ATP,up,Canada,10
+1132,Bastian Malla,3380,ATP,up,Chile,10
+1133,Sasha Rozin,55609,ATP,up,Canada,10
+1134,Daniel Paty,20214,ATP,up,Czech Republic,10
+1135,Mario Martinez Serrano,68640,ATP,down,Spain,10
+1136,James Van Herzeele,29461,ATP,up,Belgium,10
+1137,Nino Serdarusic,417,ATP,up,Croatia,10
+1138,Andrea Meduri,66628,ATP,up,Italy,10
+1138,Oliver Okonkwo,40080,ATP,up,United Kingdom,10
+1140,Martin Sabas,59647,ATP,up,France,10
+1141,Jack Loutit,10844,ATP,up,New Zealand,10
+1141,Ramkumar Ramanathan,381,ATP,up,India,10
+1143,Ryota Tanuma,8742,ATP,up,Japan,10
+1144,Edison Ambarzumjan,38076,ATP,up,Germany,10
+1145,Sebastian Prechtel,856,ATP,up,Germany,10
+1146,Vishnu Vardhan,4686,ATP,up,India,10
+1147,Charlie Camus,10841,ATP,up,France,10
+1148,Charlie Robertson,51278,ATP,up,United Kingdom,10
+1149,Yuto Oki,61207,ATP,up,Japan,10
+1150,Marc Majdandzic,52681,ATP,up,Germany,10
+1151,Ivan Gretskiy,76308,ATP,up,World,10
+1151,Phillip Jordan,38263,ATP,up,USA,10
+1153,Markus Molder,55148,ATP,up,Estonia,10
+1154,Yannik Kelm,55032,ATP,up,Germany,10
+1155,Vitor Goncalves Ceolin Joao,20846,ATP,up,Brazil,10
+1155,Maxence Rivet,51078,ATP,up,France,10
+1157,Yuquan Jin,11701,ATP,up,China,10
+1158,Zura Tkemaladze,702,ATP,up,Georgia,10
+1159,Samuele Seghetti,56184,ATP,up,Italy,10
+1160,Noah Perfetti,13591,ATP,up,Italy,10
+1161,Noah Thurner,25804,ATP,up,Germany,10
+1162,Joshua Lapadat,37924,ATP,up,Canada,9
+1163,Ziga Sesko,69093,ATP,up,Slovenia,9
+1164,Leonardo Primucci,75588,ATP,up,Italy,9
+1165,Alexander Bernard,1250,ATP,up,USA,9
+1166,Shu Matsuoka,68361,ATP,up,Japan,9
+1166,Noah Zamora,53791,ATP,down,USA,9
+1168,Taketo Takamisawa,18731,ATP,up,Japan,9
+1169,Joshua Peck,9190,ATP,up,Canada,9
+1170,Orel Kimhi,629,ATP,up,Israel,9
+1171,Dimitris Azoidis,22255,ATP,up,Greece,9
+1171,Robert Guna,73138,ATP,up,Romania,9
+1173,Martyn Pawelski,14023,ATP,up,Poland,9
+1174,Kuzey Cekirge,973,ATP,up,Turkey,9
+1175,Federico Aguilar Cardozo,38833,ATP,up,Uruguay,9
+1176,Ivan Denisov,776,ATP,up,World,9
+1177,Aldin Setkic,1204,ATP,up,Bosnia and Herzegovina,9
+1178,Arthur Bonnaud,28511,ATP,up,France,9
+1179,Mateo Del Pino,14275,ATP,down,Argentina,9
+1179,Viktor Frydrych,28613,ATP,up,United Kingdom,9
+1181,Charles Bertimon,62793,ATP,up,France,9
+1182,Jan Kupcic,25272,ATP,up,Slovenia,9
+1183,Daniel Salazar,40212,ATP,down,Colombia,9
+1184,Kumar Sinha Nitin,18088,ATP,up,India,9
+1185,Maximilian Figl,40081,ATP,up,Italy,9
+1186,Yuta Tomida,63403,ATP,up,Japan,9
+1187,Keenan Mayo,5770,ATP,up,USA,8
+1187,Ilgiz Valiev,22252,ATP,up,World,8
+1189,Felipe Miguel Luis,23302,ATP,up,Brazil,8
+1190,Thijs Boogaard,52704,ATP,up,Netherlands,8
+1191,Alexander Stater,53310,ATP,up,USA,8
+1192,Daniel Cukierman,634,ATP,up,Israel,8
+1193,Vito Tonejc,38166,ATP,up,Croatia,8
+1194,Hyun Choo Suk,,ATP,up,South Korea,8
+1195,Savva Polukhin,13695,ATP,up,World,8
+1196,Mathis Bondaz,87791,ATP,up,France,8
+1196,Mark Whitehouse,738,ATP,up,United Kingdom,8
+1198,Simon Beaupain,2470,ATP,up,Belgium,8
+1198,Jiri Vesely,2673,ATP,up,Czech Republic,8
+1198,Benjamin Willwerth,73862,ATP,up,USA,8
+1201,Tiago Silva,12970,ATP,up,Portugal,8
+1202,Darian King,2926,ATP,up,Barbados,8
+1202,Deney Wassermann,661,ATP,up,Netherlands,8
+1204,Elliot Benchetrit,1879,ATP,up,Morocco,8
+1205,Antoine Faut Pierre,68749,ATP,up,France,8
+1206,Woo Cho Seung,83534,ATP,up,South Korea,8
+1207,Matthew Thomson,69528,ATP,up,USA,8
+1208,Herman Hoeyeraal,70317,ATP,up,Norway,8
+1209,Pranav Kumar,38138,ATP,up,USA,8
+1210,Lorenzo Beraldo,71812,ATP,up,Italy,8
+1211,Andres Fernandez Canovas,40036,ATP,up,Spain,8
+1212,Valentin Lapalu,13092,ATP,up,France,8
+1213,Anton Shepp,56171,ATP,up,New Zealand,8
+1214,Volodymyr Iakubenko,60816,ATP,down,Ukraine,8
+1215,Lorenzo Comino,80521,ATP,down,Italy,8
+1216,Enzo Camargo Lima,57479,ATP,up,Brazil,8
+1217,Aaron Funk,57709,ATP,up,Germany,8
+1218,Gabriele Bosio,750,ATP,up,Italy,8
+1218,Ioannis Kountourakis,732,ATP,up,Greece,8
+1220,Faleh Alhogbani Anmar,31252,ATP,up,Saudi Arabia,8
+1220,Andrea de Marchi,63398,ATP,up,Italy,8
+1220,Benjamin Hannestad,10142,ATP,up,Denmark,8
+1223,Reece Falck,15085,ATP,down,New Zealand,8
+1224,Aleksander Chayka,59293,ATP,up,World,8
+1225,Sergi Fita Juan,75358,ATP,up,Spain,8
+1226,Joao Graca,70350,ATP,up,Portugal,8
+1227,Saveliy Ivanov,38317,ATP,up,World,8
+1228,Preston Brown,1232,ATP,up,USA,8
+1229,Cosme Rolland de Ravel,54824,ATP,up,France,7
+1230,Niels Ratiu,69814,ATP,up,Belgium,7
+1231,Alexander Chang,16432,ATP,up,USA,7
+1232,Keaton Hance,15332,ATP,down,USA,7
+1233,Liam Branger,39079,ATP,up,France,7
+1234,Tudor Batin,58949,ATP,up,Romania,7
+1235,Noah Johnston,68734,ATP,down,USA,7
+1236,Rodrigo Fernandes,15402,ATP,up,Portugal,7
+1237,Romain Gales,13250,ATP,up,France,7
+1237,Nicholas Godsick,9375,ATP,up,USA,7
+1239,Stefan Latinovic,54682,ATP,up,Serbia,7
+1240,Joao Domingues,561,ATP,up,Portugal,7
+1240,Hazem Naw,1337,ATP,up,Syria,7
+1242,Fnu Nidunjianzan,22428,ATP,up,China,7
+1243,Jun Kim Geun,25650,ATP,up,South Korea,7
+1244,William Jansen,37890,ATP,up,United Kingdom,7
+1245,Pawel Juszczak,1190,ATP,up,Poland,7
+1246,Bogdan Pavel,15838,ATP,up,Romania,7
+1247,Szymon Kielan,9659,ATP,up,Poland,7
+1248,Daniel Bagnolini,858,ATP,up,Italy,7
+1248,Andreja Petrovic,,ATP,up,Norway,7
+1250,Gage Brymer,794,ATP,up,USA,7
+1251,Constantin Spiridon Denis,25278,ATP,down,Italy,7
+1252,George Lazarov,21806,ATP,up,Bulgaria,7
+1253,Christian Djonov,78854,ATP,up,Germany,7
+1254,Filippo Alberti,64840,ATP,up,Italy,7
+1255,David Eichenseher,57708,ATP,up,Germany,7
+1256,Pelle Hartenstein Jonas,38133,ATP,up,Germany,7
+1257,Marcel Kamrowski,15215,ATP,up,Poland,7
+1258,Oskar Grzegorzewski,53731,ATP,up,Poland,7
+1258,Amador Salazar,19802,ATP,up,Chile,7
+1260,Liam Krall,25008,ATP,up,USA,7
+1261,Jonas Kucera,72210,ATP,up,Czech Republic,7
+1262,Pablo Trochu,38049,ATP,up,France,7
+1263,Fadi Bidan,58948,ATP,up,Lebanon,7
+1263,Mateo Castaneda,23581,ATP,up,Colombia,7
+1265,Jefferson Wendler Filho,57793,ATP,down,Brazil,7
+1266,Ethan Cook,33138,ATP,up,Australia,7
+1267,Matas Vasiliauskas,869,ATP,up,Lithuania,7
+1268,Sydney Zick,73132,ATP,up,Germany,7
+1269,Leonardo Cattaneo,73645,ATP,up,Italy,7
+1270,Lucca Pinto,13924,ATP,down,Brazil,7
+1271,Charles Chen,,ATP,up,China,7
+1272,Nico Hipfl,69921,ATP,up,Austria,7
+1273,Yuichiro Inui,13090,ATP,up,Japan,7
+1274,Nikola Jovic,56794,ATP,up,Serbia,7
+1275,Niklas Waldner,1298,ATP,up,Austria,7
+1276,Gianluca Brunkow,55611,ATP,up,USA,6
+1277,Max Dahlin,52070,ATP,up,Sweden,6
+1277,Andrej Loncarevic,86674,ATP,up,France,6
+1279,Bryce Nakashima,1249,ATP,up,USA,6
+1280,Filip Gustafsson,51973,ATP,up,Sweden,6
+1281,Khololwam Montsi,786,ATP,up,South Africa,6
+1281,James Storrie Ryan,8035,ATP,up,United Kingdom,6
+1281,Antoine Vincent,23250,ATP,up,France,6
+1284,Michal Novansky,14022,ATP,up,Slovakia,6
+1285,Patrick Schoen,38167,ATP,down,Switzerland,6
+1286,Novak Novakovic,52644,ATP,up,Serbia,6
+1287,Niklas Guttau,6023,ATP,up,Germany,6
+1288,Maxime Cressy,2961,ATP,up,USA,6
+1289,Nicaise Muamba,9880,ATP,up,Canada,6
+1290,Edouard Villoslada,20215,ATP,up,France,6
+1291,Kane Bonsach Ganley,50204,ATP,up,Denmark,6
+1292,Jackson Ross,67656,ATP,up,USA,6
+1293,Vladan Tadic,831,ATP,up,Bosnia and Herzegovina,6
+1294,Glib Sekachov,76826,ATP,up,Ukraine,6
+1295,Sekou Bangoura,2921,ATP,up,USA,6
+1295,Dmitry Bessonov,76705,ATP,up,World,6
+1295,Lingxi Zhao,80929,ATP,up,China,6
+1298,Yua Taka,52574,ATP,up,Japan,6
+1299,Noah Lopez Cherubino,50291,ATP,up,Spain,6
+1300,Antonio Becerra Otarola Ignacio,10318,ATP,up,Chile,6
+1301,Junhyun Lee,38308,ATP,up,South Korea,6
+1302,Aaron Gil Garcia,58548,ATP,up,Spain,6
+1302,Aristarkh Safonov,14519,ATP,up,World,6
+1304,Conor Gannon,69524,ATP,up,Ireland,6
+1304,Hugo Remondy Pagotto Victor,65080,ATP,up,Brazil,6
+1306,Alexandre Reco,12894,ATP,up,France,6
+1307,Manvydas Balciunas,70648,ATP,up,Netherlands,6
+1308,Radovan Michalik,15597,ATP,up,Slovakia,6
+1308,Egor Pleshivtsev,62037,ATP,up,World,6
+1310,James Beaven,60773,ATP,up,United Kingdom,6
+1310,Louis Van Herck,54685,ATP,down,Luxembourg,6
+1312,Leonid Sheyngezikht,756,ATP,up,Bulgaria,6
+1313,Drew Van Orderlain,15273,ATP,up,USA,6
+1314,Ignasi Forcano Aparicio,,ATP,up,Spain,6
+1315,Benjamin O'Connell,82135,ATP,up,Australia,6
+1316,Alp Horoz,12173,ATP,up,Turkey,6
+1317,Jose Bianchi Juan,69529,ATP,up,Venezuela,6
+1318,Luca Fantini,20905,ATP,up,Italy,6
+1319,Naoki Tajima,2453,ATP,up,Japan,6
+1320,Rafael Tosetto,37939,ATP,up,Brazil,6
+1321,Philip Hjorth,40067,ATP,up,Denmark,6
+1322,Vadym Konovchuk,81141,ATP,up,Ukraine,6
+1323,Manel Lazaro Juncadella,70517,ATP,up,Spain,6
+1324,Gokberk Saritas,13540,ATP,up,Turkey,6
+1325,Keshav Chopra,40189,ATP,up,USA,6
+1326,Illya Marchenko,573,ATP,up,Ukraine,5
+1327,Jagger Leach,58210,ATP,up,USA,5
+1328,Mehdi Benchakroun,883,ATP,down,Morocco,5
+1328,James Hopper,12717,ATP,up,United Kingdom,5
+1328,Peter Van Noord Niels,79893,ATP,up,Canada,5
+1328,Jaden Weekes,10861,ATP,up,Canada,5
+1332,Theodor Alexandrescou Yannick,68659,ATP,up,Romania,5
+1333,Gavin Young,56781,ATP,down,USA,5
+1334,Luc Koenig,14347,ATP,up,United Kingdom,5
+1335,Collin Altamirano,5917,ATP,up,USA,5
+1335,Jeremy Jin,10214,ATP,up,Australia,5
+1335,Frazier Rengifo,23580,ATP,up,Colombia,5
+1335,Stefan Seifert,,ATP,up,Germany,5
+1335,Jeremy Zhang,10870,ATP,up,Australia,5
+1340,Asahi Harazaki,10864,ATP,up,Japan,5
+1340,Marko Mesarovic,40064,ATP,down,Puerto Rico,5
+1342,Saki Tange,82198,ATP,up,Japan,5
+1343,Gabriel Ciurletti Andres,2210,ATP,up,Italy,5
+1343,Joaquin Guilleme,30582,ATP,up,Nicaragua,5
+1343,Alex Kuperstein,38300,ATP,up,USA,5
+1346,Dillon Beckles,75801,ATP,down,USA,5
+1347,Amir Milushev,55761,ATP,up,Uzbekistan,5
+1347,Oliver Ojakaar,52071,ATP,up,Estonia,5
+1347,Dante Pagani,77943,ATP,up,Argentina,5
+1350,Charlelie Cosnet,9208,ATP,up,France,5
+1350,Horia Haita Stefan,63401,ATP,up,Romania,5
+1352,Bill Chan,63395,ATP,up,Singapore,5
+1353,Anton Arzhankin,86675,ATP,down,Russia,5
+1354,Alexis Gurmendi,63093,ATP,up,Argentina,5
+1355,Alexander Frusina,22430,ATP,up,USA,5
+1356,Madhwin Kamath,18134,ATP,up,India,5
+1356,Vardan Manukyan,55114,ATP,down,World,5
+1356,Bernardo Munk Mesa,13509,ATP,up,Spain,5
+1356,Nicola Rispoli,61070,ATP,up,Italy,5
+1356,Konstantin Zhzhenov,9231,ATP,up,World,5
+1361,Francois Musitelli,21084,ATP,up,France,5
+1361,Peetu Pohjola,37920,ATP,up,Finland,5
+1361,Alexander Wagner,6317,ATP,up,Austria,5
+1364,Patrik Munkhammar,67674,ATP,up,Sweden,5
+1364,Xiaoyin Yang,56741,ATP,up,China,5
+1366,Adil Kalyanpur,775,ATP,same,India,5
+1367,Niels Lootsma,7995,ATP,up,Netherlands,5
+1367,Arvid Nordquist,2216,ATP,up,Sweden,5
+1367,Edoardo Zanada,21852,ATP,up,Italy,5
+1370,Yuttana Charoenphon,14459,ATP,up,Thailand,5
+1370,Jarno Jans,23376,ATP,up,Netherlands,5
+1370,Rodolfo Jauregui Sainz De Rozas,38843,ATP,down,Mexico,5
+1370,Lucca Liu,73579,ATP,up,USA,5
+1374,Toprak Avcibasi,40219,ATP,up,Turkey,5
+1375,Alexandru Chirita Ioan,40131,ATP,up,Romania,5
+1375,Kody Pearson,13158,ATP,up,Australia,5
+1377,Maikel De Boes,13126,ATP,up,Belgium,5
+1378,Maxwell Exsted,51618,ATP,up,USA,5
+1378,Gian Gruenig,73133,ATP,up,Switzerland,5
+1378,Jan Klimas,56408,ATP,up,Czech Republic,5
+1381,Kylian Collignon,54522,ATP,up,Belgium,5
+1381,Sergio Planella Hernandez,74773,ATP,up,Spain,5
+1383,Gabor Hornung,32300,ATP,up,Hungary,5
+1384,Gabriele Crivellaro,87125,ATP,up,Italy,5
+1385,Alessio Basile,10859,ATP,up,Belgium,5
+1385,Joe Leather,57896,ATP,up,United Kingdom,5
+1387,Daniel Khazime,58964,ATP,up,World,5
+1387,Ferdinand Livet Novkirichka,68450,ATP,up,France,5
+1387,Gabriele Volpi,64524,ATP,up,Italy,5
+1390,Tristan Stringer,69941,ATP,up,USA,5
+1391,Matteo Fondriest,40216,ATP,up,Italy,5
+1391,Aljaz Jeran,54748,ATP,up,Slovenia,5
+1391,Vuk Radjenovic,38985,ATP,up,Serbia,5
+1394,Nicolas Garcia Longo,55063,ATP,up,Argentina,5
+1395,Tanguy Genier,58020,ATP,up,Switzerland,5
+1396,Giacomo Crisostomo,39011,ATP,up,Italy,5
+1396,Francesco Ferrari,37856,ATP,up,Italy,5
+1396,Makoto Ochi,2460,ATP,up,Japan,5
+1399,Michael Gloeckler,936,ATP,up,Austria,5
+1399,Oren Vasser,38075,ATP,up,USA,5
+1401,Nicolo Toffanin,70351,ATP,up,Italy,5
+1402,Credit Chaiyarin,21983,ATP,up,Thailand,5
+1403,Alexey Aleshchev,49576,ATP,up,World,5
+1404,Daniel Batista,10376,ATP,up,Portugal,5
+1405,Blake Bayldon,871,ATP,up,Australia,4
+1405,Francisco Cabral,12955,ATP,up,Portugal,4
+1405,Altug Celikbilek,383,ATP,up,Turkey,4
+1405,Aleksi Lofman,12968,ATP,up,Finland,4
+1405,Amirkhamza Nasridinov,62411,ATP,up,World,4
+1405,Kaito Uesugi,37934,ATP,up,Japan,4
+1411,Azuma Visaya,9384,ATP,up,USA,4
+1412,Hugo Car,71902,ATP,up,France,4
+1412,Rodrigo Crespo Piedra,53849,ATP,up,Costa Rica,4
+1414,Takeru Yuzuki,26927,ATP,up,Japan,4
+1415,Edoardo Cherie Ligniere,37935,ATP,up,Italy,4
+1415,Jaesung Choe,69052,ATP,up,South Korea,4
+1415,Sebastian Eriksson,40059,ATP,up,Sweden,4
+1415,Timo Legout,916,ATP,up,France,4
+1419,Evan Burnett,57159,ATP,up,USA,4
+1419,Corey Craig,6489,ATP,up,USA,4
+1419,Adit Sinha,18085,ATP,up,USA,4
+1422,Cesar Cruz,86761,ATP,up,El Salvador,4
+1422,Noa Vukadin,39930,ATP,up,Croatia,4
+1424,Paul Barbier Gazeu,26613,ATP,up,France,4
+1424,Hugo Coquelin,9361,ATP,up,United Kingdom,4
+1424,Gavin Goode,85957,ATP,up,USA,4
+1424,Harold Huens,38142,ATP,up,Belgium,4
+1424,Sho Katayama,3801,ATP,up,Japan,4
+1424,Alberto Lim,61208,ATP,up,Philippines,4
+1430,Tom Hands,8167,ATP,up,United Kingdom,4
+1430,Nicola Kuhn,583,ATP,up,Germany,4
+1430,Hugo Maia,37997,ATP,up,Portugal,4
+1430,Gilberto Ravasio,84713,ATP,up,Italy,4
+1434,Moritz Kudernatsch,68003,ATP,up,Germany,4
+1434,Ko Suzuki,23191,ATP,up,Japan,4
+1436,Walid Ahouda,791,ATP,up,Morocco,4
+1436,Anton Chekhov,6838,ATP,up,World,4
+1436,Congsup Congcar,7210,ATP,up,Thailand,4
+1436,Emanuel Ivanisevic,68656,ATP,up,Croatia,4
+1436,Vit Kalina,30786,ATP,up,Czech Republic,4
+1436,Damien Salvestre,19894,ATP,up,France,4
+1442,Vasco Leote Prata,38113,ATP,up,Portugal,4
+1443,Dax Donders,18978,ATP,up,Netherlands,4
+1443,Preston Stearns,9646,ATP,up,USA,4
+1445,Viktor Markov,38104,ATP,up,Bulgaria,4
+1446,Pijus Vaitiekunas,19216,ATP,up,Lithuania,4
+1447,Kase Schinnerer,68733,ATP,up,USA,4
+1448,Anthony Barki Nathan,10889,ATP,up,Indonesia,4
+1448,Julian Werner Elias,74278,ATP,up,Germany,4
+1450,Julian Alonso Vivanco,16320,ATP,up,Spain,4
+1450,Adam Heinonen,26150,ATP,up,Sweden,4
+1450,Kacper Knitter,74207,ATP,up,Poland,4
+1450,David Naharro,39194,ATP,up,Spain,4
+1450,Aleksander Orlikowski,9237,ATP,up,Poland,4
+1455,Zane Stevens,63411,ATP,up,Australia,4
+1456,Gustavo Albieri,81594,ATP,up,Brazil,4
+1456,Richard Antoni,83883,ATP,up,Germany,4
+1456,Cheng Chen Yan,57378,ATP,up,Taiwan,4
+1456,Kazuki Nishiwaki,9655,ATP,down,Japan,4
+1460,Vladimir Bazilevskiy,40157,ATP,up,Israel,4
+1461,Odiseo Alvarado Berrospi Alberto,13760,ATP,up,Peru,4
+1461,Alessandro Coccioli,40221,ATP,down,Italy,4
+1463,Arthur Bellegy,69973,ATP,up,France,4
+1464,Mac Visser,78369,ATP,up,Netherlands,4
+1465,Florin Breazu Matei,57892,ATP,up,Romania,4
+1465,Nemanja Malesevic,19404,ATP,up,Bosnia and Herzegovina,4
+1465,Jirat Navasirisomboon,9829,ATP,up,Thailand,4
+1465,Giulio Perego,15278,ATP,up,Italy,4
+1469,Mikail Alimli,1887,ATP,up,France,4
+1469,Grigory Shebekin,49590,ATP,up,World,4
+1471,Gabriele Vulpitta,52676,ATP,up,Italy,4
+1471,Richard Zusman,2490,ATP,up,USA,4
+1473,Weiwen Pan,75604,ATP,up,China,4
+1473,Florin Pop Darius,52236,ATP,up,Romania,4
+1473,Daniel Verbeek,10842,ATP,up,Netherlands,4
+1476,Kevin Edengren,62412,ATP,up,Sweden,4
+1476,Alex Finkelstein,60823,ATP,down,USA,4
+1476,Jan Hrazdil,37883,ATP,up,Czech Republic,4
+1476,Nikos Lehmann,55031,ATP,up,Argentina,4
+1476,Riku Takahata,,ATP,up,Japan,4
+1481,Jack Bruce-Smith,65354,ATP,up,Australia,4
+1481,Jose Escurra Isnardi Hernando,2215,ATP,up,Paraguay,4
+1481,Fumin Jiang,80790,ATP,up,China,4
+1481,Miha Vetrih,38260,ATP,up,Slovenia,4
+1485,Cristian Breazu Vlad,38012,ATP,up,Romania,4
+1485,Alexander Petrov,37928,ATP,up,Bulgaria,4
+1485,Rocco Valente,54709,ATP,up,Argentina,4
+1485,Antonio Voljavec,50679,ATP,up,Croatia,4
+1489,Nicolas Buitrago,13289,ATP,up,Colombia,4
+1489,Sasa Markovic,38963,ATP,up,Serbia,4
+1491,Luca Cervantes Tomas,970,ATP,up,Mexico,4
+1491,Nikola Djosic,51949,ATP,up,Switzerland,4
+1493,Leo Deflandre,60421,ATP,up,France,4
+1494,Luke Hooper,55150,ATP,up,United Kingdom,4
+1495,Daniel Uta,55174,ATP,up,Romania,4
+1496,Patricio Alvarado,37929,ATP,up,Ecuador,4
+1496,Mariano Tammaro,11979,ATP,up,Italy,4
+1498,Andrea Bacaloni,38115,ATP,up,Italy,4
+1498,Alessandro Battiston,68379,ATP,up,Italy,4
+1500,Filippo Mazzola,52609,ATP,up,Italy,4
+1501,Alexandru Coman Mihai,37891,ATP,up,Romania,4
+1502,Corban Crowther,2477,ATP,up,Australia,4
+1502,Nikita Ianin,23831,ATP,up,World,4
+1502,Tadeo Meneo,63065,ATP,up,Argentina,4
+1502,Alaa Trifi,63836,ATP,down,Tunisia,4
+1506,Lawrence Bataljin,6997,ATP,down,Australia,4
+1506,Jeremy Schifris,7496,ATP,up,Germany,4
+1508,Guido Andreozzi,2960,ATP,up,Argentina,3
+1508,Kelly Giese,86770,ATP,up,USA,3
+1508,Segundo Goity Zapico,58211,ATP,up,Argentina,3
+1508,Lucas Miedler,1210,ATP,up,Austria,3
+1508,Siphosothando Montsi,12708,ATP,up,South Africa,3
+1508,Reese Stalder,9028,ATP,up,USA,3
+1508,Patrik Trhac,87998,ATP,up,USA,3
+1515,Luciano Carraro,10024,ATP,up,Italy,3
+1515,Sander Jong,39928,ATP,up,Netherlands,3
+1517,Samuel Brosset,10526,ATP,up,France,3
+1517,Casey Hoole,15311,ATP,up,Australia,3
+1517,Nicolae Madaras Dragos,1860,ATP,down,Sweden,3
+1517,Daniel Phillips,54047,ATP,up,Bermuda,3
+1517,Davide Pontoglio,2246,ATP,down,Italy,3
+1522,Stepan Baum,49042,ATP,up,Czech Republic,3
+1522,Damien Clerc,83932,ATP,up,France,3
+1522,Laurence Teunissen,87316,ATP,up,Netherlands,3
+1525,Wissam Abderrahman,1948,ATP,up,Tunisia,3
+1525,Connor Doig,78291,ATP,up,South Africa,3
+1525,Weiyi Kong,71493,ATP,up,China,3
+1525,Will Mayew,52053,ATP,up,USA,3
+1525,Alexander Razeghi,9516,ATP,up,USA,3
+1525,Hudson Rivera,37899,ATP,up,USA,3
+1525,Jack Satterfield,79358,ATP,up,USA,3
+1525,Isac Stroemberg,40174,ATP,up,Sweden,3
+1533,Felipe Dreer,83801,ATP,up,Argentina,3
+1533,Aleksei Mokrov,51634,ATP,same,World,3
+1535,Siwanat Auytayakul,55035,ATP,up,Thailand,3
+1535,John Bothma,69709,ATP,up,South Africa,3
+1535,Ondrej Horak,10040,ATP,down,Czech Republic,3
+1535,Amine Jamji,81473,ATP,up,Morocco,3
+1535,Alex Jones,38934,ATP,up,USA,3
+1535,Yusuf Khamis,39535,ATP,up,Egypt,3
+1535,Maciej Rajski,2099,ATP,up,Poland,3
+1535,Matthew Rankin,10856,ATP,up,United Kingdom,3
+1535,Timofey Stepanov,38062,ATP,up,Switzerland,3
+1544,Niccolo Baroni,25726,ATP,up,Italy,3
+1544,Dmitry Dolzhenkov,23829,ATP,up,World,3
+1544,Milad Fahim Ilyas,67947,ATP,up,Morocco,3
+1544,Toshiki Karigyo,81134,ATP,up,Japan,3
+1544,Clement Lemire,52678,ATP,down,France,3
+1544,Duje Markovina,49022,ATP,up,Australia,3
+1544,Shu Muto,76395,ATP,up,Japan,3
+1544,Timeo Trufelli,61033,ATP,down,France,3
+1544,Alessio Vasquez,38134,ATP,up,Germany,3
+1553,Illya Beloborodko,2455,ATP,up,Ukraine,3
+1553,Jannik Opitz,23522,ATP,up,Germany,3
+1555,Achilles Belkovics,68441,ATP,up,Hungary,3
+1555,Artem Bogomolov,75802,ATP,up,World,3
+1555,Emirhan Bulut,39051,ATP,up,Turkey,3
+1555,Oskari Eerola,86805,ATP,up,Finland,3
+1555,Mickael Kaouk,68730,ATP,up,France,3
+1555,Melvin Kumar,67977,ATP,up,Sweden,3
+1555,William Mirarchi,81689,ATP,up,Italy,3
+1562,Ignacio Carou,660,ATP,up,Uruguay,3
+1562,Admir Kalender,920,ATP,up,Croatia,3
+1562,Nishok Kumaran Bharath,14544,ATP,up,India,3
+1562,Lewie Lane,6024,ATP,up,Germany,3
+1562,Mattia Nannelli,76611,ATP,up,Italy,3
+1562,Yu Tanaka,9521,ATP,up,Japan,3
+1568,Thomas Gerbaud,66956,ATP,up,France,3
+1569,Enrique Carrascosa Diaz,80300,ATP,up,Spain,3
+1569,Vito Dell'Elba,39003,ATP,up,Italy,3
+1569,Gabriel Evans,710,ATP,up,Puerto Rico,3
+1569,Dominick Mosejczuk,73861,ATP,up,USA,3
+1569,Dian Nedev,19427,ATP,up,Bulgaria,3
+1569,Ainius Sabaliauskas,21543,ATP,up,Lithuania,3
+1569,Fons Van Sambeek,38110,ATP,up,Netherlands,3
+1576,Leonardo Angeloni,81139,ATP,up,Italy,3
+1576,Noah Brownrigg,81132,ATP,up,Australia,3
+1576,Jakub Kroslak,37989,ATP,up,Slovakia,3
+1576,Ajay Malik,23375,ATP,up,India,3
+1576,Augusto Miguel Luis,67442,ATP,down,Brazil,3
+1576,Stevan Popovic,38120,ATP,up,Germany,3
+1576,Gabriel Schenekenberg,39170,ATP,up,Brazil,3
+1576,Darrshan Suresh,27347,ATP,up,Malaysia,3
+1576,Iker Urribarrens Ramirez,50072,ATP,up,Spain,3
+1585,Leo Lagarrigue,64960,ATP,up,France,3
+1586,Tilen Kovac,65987,ATP,up,Slovenia,3
+1586,Photos Photiades,,ATP,up,Cyprus,3
+1588,Stefan Cooper,35788,ATP,up,United Kingdom,3
+1588,Viktor Jovic,841,ATP,up,Serbia,3
+1588,Michele Mecarelli,78934,ATP,down,Italy,3
+1588,Fanming Meng,87025,ATP,up,China,3
+1588,Aditya Vishal Balsekar,37953,ATP,up,India,3
+1593,Benjamin Gusic Wan,28614,ATP,up,United Kingdom,3
+1594,Luc Fomba,28815,ATP,up,France,3
+1594,Matteo Lavizzari,38879,ATP,up,Switzerland,3
+1594,Zekai Li,879,ATP,up,China,3
+1594,Nik Mikovic,51377,ATP,up,Slovenia,3
+1594,Claudiu Schinteie Gheorghe,40083,ATP,up,Romania,3
+1594,Luka Talan Lopatic,62392,ATP,up,Slovenia,3
+1594,Raphael Vaksmann,52677,ATP,up,France,3
+1601,Ryotaro Matsumura,14236,ATP,up,Japan,3
+1601,Vitor Scramin do Lago Joao,86276,ATP,up,Brazil,3
+1601,Alan Wazny,71082,ATP,down,Poland,3
+1604,David Fix,55061,ATP,up,Germany,3
+1604,Haoyuan Huang,714,ATP,up,China,3
+1604,Pierre-Jo Kamendje Stephane,76952,ATP,down,Canada,3
+1604,Aliaksandr Liaonenka,13387,ATP,up,World,3
+1604,Aleksa Pisaric,39023,ATP,up,Serbia,3
+1604,Alexander Zgirovsky,14516,ATP,up,World,3
+1610,Louis Herman,13696,ATP,up,Belgium,3
+1610,Rocco Piatti,39914,ATP,up,Monaco,3
+1612,Anas Bennour Dit Sahli,63834,ATP,up,Tunisia,3
+1612,Alexis Canter,1236,ATP,up,United Kingdom,3
+1612,Sebastiano Cocola,78741,ATP,up,Italy,3
+1612,Andres Delgadillo,66075,ATP,up,Mexico,3
+1612,Jonas Gundacker,69497,ATP,up,Austria,3
+1612,Ye Hongyu,49384,ATP,up,China,3
+1612,Yunseok Jang,38065,ATP,up,South Korea,3
+1612,Alejandro Lopez Escribano,55549,ATP,up,Spain,3
+1612,Stijn Pel,28070,ATP,up,Netherlands,3
+1621,Melih Anavatan,68069,ATP,down,Turkey,3
+1621,Kaya Arinc,19885,ATP,up,Turkey,3
+1621,Jonathan Mridha,2500,ATP,up,Sweden,3
+1621,Nicolas Robert,82785,ATP,up,France,3
+1625,Adam Farag-Cao,75349,ATP,up,Canada,3
+1625,Loic Namigandet Tenguere,57897,ATP,up,France,3
+1627,Parth Aggarwal,1284,ATP,up,India,3
+1627,Anthony Susanto,39551,ATP,up,Indonesia,3
+1629,Carles Cordoba,61814,ATP,up,Spain,3
+1630,Zhenxiong Dong,53307,ATP,up,China,3
+1630,Issei Okamura,7372,ATP,up,Japan,3
+1632,Dmitry Kopilevich,80515,ATP,up,Slovenia,3
+1633,Alfred Almasi,40205,ATP,up,Slovakia,2
+1633,Michael Antonius,86725,ATP,up,USA,2
+1633,Theo Arribage,21356,ATP,up,France,2
+1633,David Bakonyi,68637,ATP,up,Hungary,2
+1633,Nicolas Barrientos,4694,ATP,up,Colombia,2
+1633,Ulises Blanch,1862,ATP,up,USA,2
+1633,Casper Christensen,15294,ATP,up,Norway,2
+1633,Roberto Ferrer Guimaraes,93639,ATP,up,USA,2
+1633,Luis Hernandez Ramirez Sergio,9650,ATP,up,Colombia,2
+1633,Ray Ho,790,ATP,up,Taiwan,2
+1633,Marcel Latak,89239,ATP,up,USA,2
+1633,Loan Lestir,38774,ATP,up,France,2
+1633,Ivan Liutarevich,955,ATP,up,World,2
+1633,Cristian Rodriguez,7232,ATP,up,Colombia,2
+1633,Fernando Romboli,4709,ATP,up,Brazil,2
+1633,Jelani Sarr,54098,ATP,up,USA,2
+1633,Nikolas Stoot Donald,92862,ATP,up,USA,2
+1633,James Tracy,23563,ATP,up,USA,2
+1633,Seita Watanabe,643,ATP,up,Japan,2
+1633,Milan Welte,1264,ATP,up,Germany,2
+1633,Baltazar Wiger Nordas,88004,ATP,up,Norway,2
+1633,Tomas Zurmendi,92938,ATP,up,Uruguay,2
+1655,Billy Blaydes,37982,ATP,up,United Kingdom,2
+1655,James Connel,54463,ATP,up,United Kingdom,2
+1655,Remy Dugardin,89618,ATP,up,France,2
+1655,Nikita Filin,58209,ATP,up,USA,2
+1655,Raul Garcia,39586,ATP,up,Bolivia,2
+1655,Saahith Jayaraman,65461,ATP,up,USA,2
+1655,Markos Kalovelonis,1938,ATP,up,Greece,2
+1655,Neo Niedner,1276,ATP,up,Germany,2
+1655,Leo Raquin,76923,ATP,up,France,2
+1655,Dylan Salton,1233,ATP,up,South Africa,2
+1655,Max Sheldon,,ATP,up,USA,2
+1655,Antonio Vergara del Puerto Martin,24405,ATP,up,Paraguay,2
+1667,Rishab Agarwal,14198,ATP,down,India,2
+1667,Cengiz Aksu,11691,ATP,up,Turkey,2
+1667,Lautaro Correa Beguerie,64370,ATP,up,Argentina,2
+1667,Franco Descotte Matias,3900,ATP,up,Argentina,2
+1667,Diego Duran,87126,ATP,up,Colombia,2
+1667,Petar Jovanovic,37949,ATP,down,Montenegro,2
+1667,Noritaka Koizumi,59061,ATP,up,Japan,2
+1667,Oscar Lacides,49887,ATP,up,Guadeloupe,2
+1667,Oscar Lien Johan,89202,ATP,down,Norway,2
+1667,Harry Pugh,63399,ATP,up,New Zealand,2
+1667,Tomas Rengel Sierra,40432,ATP,up,Argentina,2
+1667,Yaraslav Shyla,5877,ATP,up,World,2
+1667,Nikita Volonski,13383,ATP,up,Australia,2
+1667,Christian Wedel,83888,ATP,up,Germany,2
+1667,Anthony Wright,7786,ATP,up,United Kingdom,2
+1682,Antonio Caruso,6891,ATP,up,Italy,2
+1682,Chen Ye,,ATP,up,China,2
+1682,Milledge Cossu,9609,ATP,up,USA,2
+1682,Emiliano Jorquera,84288,ATP,up,Canada,2
+1682,Eli Stephenson,56459,ATP,up,USA,2
+1687,Elijah Cham,72231,ATP,up,Australia,2
+1687,Mahmoud Chetouane,89864,ATP,up,Tunisia,2
+1687,Nathan Cox,84737,ATP,up,USA,2
+1687,Matteo De Vincentis,2223,ATP,up,Italy,2
+1687,Valentin Garay,50788,ATP,up,Argentina,2
+1687,Federico Guarducci,82366,ATP,up,Italy,2
+1687,Jarrod Joyce,63397,ATP,up,Australia,2
+1687,Botond Kisantal,65124,ATP,up,Hungary,2
+1687,Espen Lagarde,67103,ATP,up,France,2
+1687,Gasper Matijasic,71505,ATP,up,Slovenia,2
+1687,Petr Michnev,7495,ATP,up,Czech Republic,2
+1687,Diogo Morais,39921,ATP,up,Portugal,2
+1687,Ren Nakamura,646,ATP,up,Japan,2
+1687,Viacheslav Ovchinnikov,14824,ATP,up,World,2
+1687,Ilija Palavestra,69060,ATP,up,USA,2
+1687,Noah Regas Luis,39044,ATP,up,Spain,2
+1687,Johan Reinhard Bengt,86331,ATP,up,Germany,2
+1687,Carl Roothman,14375,ATP,up,South Africa,2
+1687,Flynn Thomas,70746,ATP,up,Switzerland,2
+1706,Cade Birrell,25134,ATP,up,Australia,2
+1706,Sebastian Dominguez Collado Juan,14473,ATP,up,Guatemala,2
+1706,Benjamin Perez,1280,ATP,up,Chile,2
+1709,Sarp Agabigun,8973,ATP,down,Turkey,2
+1709,Siddhant Banthia,20374,ATP,up,India,2
+1709,Ivan Dreycopp,14272,ATP,up,Argentina,2
+1709,Rafael Giotis,672,ATP,up,Germany,2
+1709,Alexander Glomb,80524,ATP,up,Germany,2
+1709,Lukas Hellum-Lilleengen,2484,ATP,up,Norway,2
+1709,Kaeri Hernandez Mariona,23884,ATP,down,Guatemala,2
+1709,Carl Holder,84558,ATP,up,France,2
+1709,Toru Horie,51633,ATP,up,Japan,2
+1709,Oskar Jansson,51438,ATP,up,Sweden,2
+1709,Yeong-Seok Jeong,38292,ATP,up,South Korea,2
+1709,Arthur Laborde,57773,ATP,up,Switzerland,2
+1709,Karim-Mohamed Maamoun,5292,ATP,up,Egypt,2
+1709,Rohan Mehra,38055,ATP,up,India,2
+1709,Cing-Yang Meng,13014,ATP,up,Taiwan,2
+1709,Aleksandar Mihailovic,40749,ATP,up,Serbia,2
+1709,Noah Schlagenhauf,38025,ATP,up,Germany,2
+1709,Rafael Segado Esteve,17464,ATP,down,Spain,2
+1709,Dmytro Shirokyi,74446,ATP,up,Ukraine,2
+1709,Gunawan Trismuwantara,29692,ATP,up,Indonesia,2
+1709,Valentin Vanta,15769,ATP,up,Romania,2
+1709,Ilias Zimmermann,15182,ATP,up,Switzerland,2
+1731,Shaoyun Liu,53308,ATP,up,China,2
+1732,Laurin Aerne,88314,ATP,up,Switzerland,2
+1732,Henrik Bladelius,61688,ATP,down,Sweden,2
+1732,Miles Clark,59244,ATP,up,USA,2
+1732,Jonas Eriksson Ziverts,37917,ATP,down,Sweden,2
+1732,Patrik Homola,60457,ATP,up,Czech Republic,2
+1732,Matt Kleiman,75575,ATP,up,USA,2
+1732,Alex Kobelt,11761,ATP,up,USA,2
+1732,Santino Nunez Vera Alex,74738,ATP,up,Paraguay,2
+1732,Pio Osti Fabrizio Karol,66083,ATP,up,Italy,2
+1732,Edward Papac Tomislav,14310,ATP,up,Australia,2
+1732,Minjong Park,,ATP,up,South Korea,2
+1732,Raul Sau Franco Alan,,ATP,down,Mexico,2
+1732,Yoshka Sborowsky,76980,ATP,up,France,2
+1732,Kian Vakili,38045,ATP,up,USA,2
+1732,Gray Voelzke,83187,ATP,up,USA,2
+1732,Jan Wygona,87143,ATP,up,Poland,2
+1748,Jim Hendrikx,57139,ATP,up,Netherlands,2
+1748,Roman Kharlamov,75803,ATP,up,World,2
+1750,Victor Braga,63731,ATP,up,Brazil,2
+1750,Stylianos Christodoulou,,ATP,down,Cyprus,2
+1750,Andrea Colombo,1017,ATP,up,Italy,2
+1750,Edoardo De Filippo,73246,ATP,up,Italy,2
+1750,Jesse De Jager,13024,ATP,up,Netherlands,2
+1750,Mariano Dedura-Palomero,52646,ATP,up,Germany,2
+1750,Filiberto Fumagalli,39919,ATP,up,Italy,2
+1750,Giammarco Gandolfi,10853,ATP,up,Italy,2
+1750,Valentin Guadagno,77366,ATP,up,Argentina,2
+1750,Chun-Chien Hou,72232,ATP,up,Taiwan,2
+1750,Noah Karma,68927,ATP,up,Switzerland,2
+1750,Jordi Leston Tomas,89139,ATP,up,Argentina,2
+1750,Alessandro Spadola,14613,ATP,down,Italy,2
+1750,Daiki Yoshimura,19886,ATP,up,Japan,2
+1764,Marco Furlanetto,9466,ATP,up,Italy,2
+1764,Grundtvig Jorgensen Sebastian,69469,ATP,up,Denmark,2
+1766,Daniel Jade,63427,ATP,up,France,2
+1766,Alvaro Jimenez,72052,ATP,up,Spain,2
+1766,David Petrovic,821,ATP,down,Germany,2
+1766,Michalis Sakellaridis,17584,ATP,up,Greece,2
+1766,Fabien Salle,54136,ATP,up,France,2
+1766,Luke Simkiss,55375,ATP,up,United Kingdom,2
+1766,Federico Valle,38982,ATP,up,Italy,2
+1766,Linghao Zhang,3410,ATP,up,China,2
+1774,Antoni Fabre,90113,ATP,up,France,2
+1774,Mikel Martinez,38047,ATP,up,Spain,2
+1776,Peter Alam,55860,ATP,up,United Kingdom,2
+1776,Ammar Elamin,11185,ATP,up,Ireland,2
+1776,Kabir Hans,50060,ATP,up,India,2
+1776,Arjun Mehrotra,15314,ATP,up,Australia,2
+1776,Yuvan Nandal,66832,ATP,up,India,2
+1776,William Rejchtman Vinciguerra,59291,ATP,up,Sweden,2
+1776,Tom Sickenberger,55486,ATP,up,Germany,2
+1783,Andrea Paolini,68143,ATP,up,Italy,2
+1784,Vesa Ahti,38068,ATP,up,Finland,2
+1784,Adrien Burdet,40101,ATP,up,Switzerland,2
+1784,Moritz Hoffmann,56111,ATP,up,Germany,2
+1784,Hiromasa Koyama,78931,ATP,up,Japan,2
+1784,Luca Parenti,54265,ATP,up,Italy,2
+1784,Mateya Stanisavljevic,,ATP,up,Serbia,2
+1784,Zach Stephens,28598,ATP,up,United Kingdom,2
+1791,Pietro Pampanin,1294,ATP,up,Italy,2
+1792,Maan Kesharwani,74450,ATP,same,India,2
+1792,Alvaro Peiro Serrano,38020,ATP,down,Spain,2
+1792,Bogdan Seleznev,76298,ATP,up,World,2
+1792,Bora Sengul,19520,ATP,up,Turkey,2
+1792,Sanjeev Shanmugam Abhinav,1279,ATP,same,India,2
+1792,Yassine Smiej,54521,ATP,up,Morocco,2
+1792,Antoine Tailleu Pierre,20066,ATP,up,France,2
+1799,Zhengyu Sun,8667,ATP,up,China,2
+1800,Jiri Cizek,38953,ATP,up,Czech Republic,2
+1801,Alessandro Bellifemine,38105,ATP,up,Italy,2
+1802,Luis Garcia Paez,70968,ATP,up,Spain,2
+1803,Sheng Tang,38093,ATP,up,China,2
+1804,Eric Ahren Moonga,90763,ATP,up,Sweden,1
+1804,Artur Aiukhanov,90116,ATP,up,World,1
+1804,Juan-Samuel Arauzo-Martinez,7764,ATP,up,Spain,1
+1804,Romeo Arcuschin,50789,ATP,up,Argentina,1
+1804,Boris Arias,2213,ATP,up,Bolivia,1
+1804,Arian Barbic,91507,ATP,up,Germany,1
+1804,Justin Barki,49889,ATP,up,Indonesia,1
+1804,Jerry Barton,63941,ATP,up,USA,1
+1804,Bastian Berenz,89140,ATP,up,Austria,1
+1804,Mika Berghaus,79175,ATP,up,Germany,1
+1804,Alexis Berquier,63295,ATP,up,France,1
+1804,Juliusz Bienkiewicz,15213,ATP,up,Poland,1
+1804,Santiago Bramajo,14274,ATP,up,Argentina,1
+1804,Omar Brigida,1275,ATP,up,Italy,1
+1804,Tighe Brunetti,85495,ATP,up,USA,1
+1804,Marcos Castro Fabra,69522,ATP,up,Spain,1
+1804,Francesco Cordova,77161,ATP,up,USA,1
+1804,Malanqi Du,5056,ATP,up,China,1
+1804,Birtan Duran,40113,ATP,up,Turkey,1
+1804,Samyar Elyasi,53619,ATP,up,Iran,1
+1804,Xavier Ferrer Mateo,83652,ATP,up,Spain,1
+1804,Oriol Font,65792,ATP,up,Spain,1
+1804,Jon Gamble,87073,ATP,up,USA,1
+1804,Garcia Carbajal Alejandro,77249,ATP,up,Spain,1
+1804,Sebastian Gorzny,9519,ATP,up,USA,1
+1804,Perry Gregg,14086,ATP,up,USA,1
+1804,Maxim Groysman,90126,ATP,up,USA,1
+1804,Gus Grumet,73860,ATP,up,USA,1
+1804,Kornel Halmos,70125,ATP,up,Hungary,1
+1804,Hugo Hashimoto,71814,ATP,up,USA,1
+1804,Mark Havlicek,898,ATP,up,Czech Republic,1
+1804,Ymerali Ibraimi,78978,ATP,up,Australia,1
+1804,Sergio Ingles Garre,80887,ATP,up,Spain,1
+1804,Ryder Jackson,12991,ATP,up,USA,1
+1804,Andrew Johnson,32064,ATP,up,USA,1
+1804,Mathieu Josserand,69499,ATP,up,France,1
+1804,Hamza Karmoussi,25456,ATP,up,Morocco,1
+1804,Nicolas Kobelt,32548,ATP,up,Switzerland,1
+1804,Amaury Lage Castelan Lance,12571,ATP,up,Mexico,1
+1804,Tomas Lanik,14540,ATP,down,Slovakia,1
+1804,Chan Lee Woong,93158,ATP,up,South Korea,1
+1804,Tim Loosen,39933,ATP,up,Germany,1
+1804,Cyrus Mahjoob,56260,ATP,up,USA,1
+1804,Martin Maldonado,86639,ATP,up,Ecuador,1
+1804,Daniel Marincas,59243,ATP,up,Portugal,1
+1804,Noah Martens,92835,ATP,up,Belgium,1
+1804,Kaspar Mathes,89695,ATP,up,Germany,1
+1804,Joel Meda,90127,ATP,up,Burkina Faso,1
+1804,Moein Moazam,74448,ATP,up,Iran,1
+1804,Alejandro Moreno,55591,ATP,up,USA,1
+1804,Mason Naumovski,40738,ATP,up,Australia,1
+1804,Niklas Niggemann,89696,ATP,up,Germany,1
+1804,Dingzheng Nima,68302,ATP,up,China,1
+1804,Ricard Novell,85184,ATP,up,Spain,1
+1804,Ignacio Novo,23827,ATP,up,Argentina,1
+1804,Alexander Okonkwo,86746,ATP,up,United Kingdom,1
+1804,Frederik Pape Valdemar,20775,ATP,up,Denmark,1
+1804,Matija Pecotic,2676,ATP,up,Croatia,1
+1804,Agustin Pernas Thiago,91698,ATP,up,Argentina,1
+1804,Mathys Picard,92463,ATP,up,France,1
+1804,Felipe Pinzon Moreno,23582,ATP,up,USA,1
+1804,Henry Ren,90030,ATP,up,Canada,1
+1804,Rodrigo Reyna,82867,ATP,up,Mexico,1
+1804,Freddie Ridout,28599,ATP,up,United Kingdom,1
+1804,Agassi Rusher,89204,ATP,up,USA,1
+1804,Leevi Saatela,772,ATP,up,Finland,1
+1804,Edoardo Santoni,77463,ATP,up,Italy,1
+1804,Batyr Sapaev,,ATP,up,Uzbekistan,1
+1804,Djordje Sapic,87421,ATP,up,Serbia,1
+1804,Mauricio Schtulmann Gasca,80886,ATP,up,Mexico,1
+1804,Jan Sebesta,18059,ATP,up,Switzerland,1
+1804,Jack Secord,73845,ATP,up,USA,1
+1804,Hayden Shoemake,79830,ATP,up,USA,1
+1804,Leon Sloboda,86677,ATP,up,Slovakia,1
+1804,Stephen Slocombe,86752,ATP,up,Barbados,1
+1804,Ryan Torres,88216,ATP,up,Philippines,1
+1804,Justas Trainauskas,92464,ATP,up,Lithuania,1
+1804,Vaal Urankar,88821,ATP,up,Slovenia,1
+1804,Iiro Vasa,9934,ATP,up,Finland,1
+1804,Felipe Vazquez,79817,ATP,up,Uruguay,1
+1804,Max Villar,94122,ATP,up,Spain,1
+1804,Brandon Walkin,651,ATP,up,Australia,1
+1804,Phoenix Weir,9376,ATP,up,United Kingdom,1
+1804,Sam Wensley,,ATP,up,Australia,1
+1804,Dawid Wisniewski,15210,ATP,up,Poland,1
+1804,Yusuke Yoshikawa,73957,ATP,up,Japan,1
+1804,William Zhang,89602,ATP,up,USA,1
+1804,Shixun Zhu,87026,ATP,up,China,1
+1892,Danielle Abadia,,ATP,down,Philippines,1
+1892,Harrison Adams,3705,ATP,down,USA,1
+1892,Romain Andres,91397,ATP,down,France,1
+1892,Joao Antonio,57644,ATP,down,Portugal,1
+1892,Christos Antonopoulos,39190,ATP,down,Greece,1
+1892,David Asenov,87066,ATP,down,Canada,1
+1892,Lorenzo Balducci,89923,ATP,down,Italy,1
+1892,Dusan Baranec,71855,ATP,down,Slovakia,1
+1892,Tristan Berard,65899,ATP,down,France,1
+1892,Federico Bove,13407,ATP,down,Italy,1
+1892,Tyler Bowers,36194,ATP,up,USA,1
+1892,Hugo Cardinaud,52219,ATP,up,France,1
+1892,Enrique Collar,90062,ATP,down,Spain,1
+1892,Sasha Colleu,83918,ATP,up,France,1
+1892,Pedro Didoni Bonini Joao,83934,ATP,down,Brazil,1
+1892,Sid Donarski,13510,ATP,down,Canada,1
+1892,Mikhail Dubrouski,38278,ATP,down,World,1
+1892,Maximus Dussault,73843,ATP,down,USA,1
+1892,Gabriel Elicha Navas,37991,ATP,down,Spain,1
+1892,Lorenzo Esquici,10504,ATP,down,Brazil,1
+1892,Bo Fan Wen,88927,ATP,down,China,1
+1892,Matisse Farzam,67513,ATP,down,USA,1
+1892,Juan Fuentes Vasquez,63925,ATP,down,El Salvador,1
+1892,Nicholas Gadecki Thomas,58841,ATP,down,Australia,1
+1892,Iker Gaztambide Arrastia,69712,ATP,down,Spain,1
+1892,Mikhail Gorokhov,23830,ATP,up,World,1
+1892,Aditya Govila,63408,ATP,down,India,1
+1892,Matteo Gribaldo,89613,ATP,down,Italy,1
+1892,Thomas Gunzinger,88419,ATP,down,Switzerland,1
+1892,Yuya Hirose,84610,ATP,down,Japan,1
+1892,Sean Hodkin,2512,ATP,down,United Kingdom,1
+1892,Lucas Horve,40134,ATP,down,USA,1
+1892,Leonardo Iemmi,88820,ATP,down,Italy,1
+1892,Ilya Ignatov,85925,ATP,down,Uzbekistan,1
+1892,Alejandro Jacome Jaramillo,69525,ATP,down,Ecuador,1
+1892,Daniil Kakhniuk,85606,ATP,up,USA,1
+1892,Kaigaoge Kang,90131,ATP,down,China,1
+1892,Veljko Krstic,19892,ATP,down,Serbia,1
+1892,Yazid Lahjomri,85183,ATP,down,Morocco,1
+1892,Anes Latifovic,92066,ATP,down,Germany,1
+1892,Edoardo Lavagno,1864,ATP,down,Italy,1
+1892,Rhys Lawlor,70745,ATP,down,United Kingdom,1
+1892,Mikolaj Lorens,15224,ATP,down,Poland,1
+1892,Hao Luo Jun,84922,ATP,down,China,1
+1892,Karol Malirz,57480,ATP,down,Poland,1
+1892,Tomas Marin,86080,ATP,down,Colombia,1
+1892,Benjamin Martin,34062,ATP,down,France,1
+1892,Ashton McLeod,78933,ATP,down,Australia,1
+1892,Milos Mikovic,54471,ATP,down,Serbia,1
+1892,Jean-Christian Morandais,38931,ATP,down,Guadeloupe,1
+1892,William Mroz,61483,ATP,down,USA,1
+1892,Freddy Murray,59058,ATP,down,Ireland,1
+1892,Seiya Nakanishi,37930,ATP,down,Japan,1
+1892,Andy Nguyen,84675,ATP,down,USA,1
+1892,Maximilian Oezcelik,92110,ATP,down,Germany,1
+1892,Nicolas Oliveira,38849,ATP,down,Brazil,1
+1892,Arnav Paparkar,64476,ATP,down,India,1
+1892,Mattias Pisanu,90409,ATP,down,Italy,1
+1892,Benjamin Privara Peter,9206,ATP,down,Slovakia,1
+1892,Tadija Radovanovic,59292,ATP,down,Serbia,1
+1892,Yannik Rahman,10839,ATP,down,USA,1
+1892,Arjun Rathi,38218,ATP,down,India,1
+1892,Lucas Renard,2233,ATP,down,Sweden,1
+1892,Philippe Renard,71901,ATP,down,France,1
+1892,Pablo Robledo Hoyos,86079,ATP,down,Colombia,1
+1892,Jan Sadzik,88816,ATP,down,Poland,1
+1892,Hiroki Sakagawa,53987,ATP,down,Japan,1
+1892,Jonas Schaer,37985,ATP,down,Switzerland,1
+1892,Michael Shaw,2239,ATP,down,United Kingdom,1
+1892,Mitchell Sheldon,23690,ATP,up,USA,1
+1892,Nicholas Steiglehner,87435,ATP,down,USA,1
+1892,Filip Stidell,74999,ATP,down,Sweden,1
+1892,Gustaf Strom,30970,ATP,down,Sweden,1
+1892,Elias Sumann,86464,ATP,down,Austria,1
+1892,Gabor Szoke Adam,74231,ATP,down,Hungary,1
+1892,Jinpeng Tang,27725,ATP,down,China,1
+1892,Daniel Tazabekov,87098,ATP,down,Kazakhstan,1
+1892,Kai Thompson,89121,ATP,down,Hong Kong,1
+1892,Harry Thursfield,56221,ATP,down,United Kingdom,1
+1892,Aadarsh Tripathi,69983,ATP,down,USA,1
+1892,Nathan Trouve,63159,ATP,down,France,1
+1892,Yubel Ubri,77996,ATP,down,USA,1
+1892,Abdulaziz Usmonjonov,83536,ATP,down,Uzbekistan,1
+1892,Jip van Assendelft,39118,ATP,down,Netherlands,1
+1892,Alexander Vikhlyantsev,19888,ATP,down,World,1
+1892,Benjamin Vitter,50070,ATP,down,France,1
+1892,Max Westphal,9233,ATP,down,France,1
+1892,James Williams Aaron,40206,ATP,down,Germany,1
+1892,Zavier Wong Maximus,49888,ATP,down,Singapore,1
+1892,An Wu Kai,89073,ATP,down,Taiwan,1
+1892,Arturs Zagars,78929,ATP,down,Latvia,1
+1892,Ahmed Zaki,91701,ATP,down,Egypt,1
+1892,Gonzalo Zeitune,55064,ATP,down,Argentina,1
+1892,Carlos Zerega,82866,ATP,up,Mexico,1
+1986,Damir Abdusamadov,74152,ATP,up,Uzbekistan,1
+1986,Mohammad Alkotop,58066,ATP,up,Jordan,1
+1986,Aleksandar Amarandei Daniel,91823,ATP,up,Italy,1
+1986,Marcin Andrzejczak,71083,ATP,up,Poland,1
+1986,Abraham Asaba,9194,ATP,down,Ghana,1
+1986,Mert Aytekin,79600,ATP,up,Turkey,1
+1986,Sergio Badini,51314,ATP,up,Italy,1
+1986,Flavio Bocci,88183,ATP,up,Italy,1
+1986,Thanaphat Boosarawongse,58212,ATP,up,Thailand,1
+1986,Angel Cabrera Miguel,38933,ATP,up,Chile,1
+1986,Vasilios Caripi,14379,ATP,up,South Africa,1
+1986,Alexandru Ciobotaru Dario,78739,ATP,up,Romania,1
+1986,Andre De Almeida Santos Pedro,68047,ATP,up,Brazil,1
+1986,Nikola Djukic Valera,68641,ATP,up,Spain,1
+1986,Tarek Erlewein,86329,ATP,up,Germany,1
+1986,Jose Freitas,71306,ATP,up,Portugal,1
+1986,Francesco Garbero Filippo,70265,ATP,up,Italy,1
+1986,Liam Gavrielides,10540,ATP,up,Germany,1
+1986,Spencer Gray,69223,ATP,up,USA,1
+1986,Volodymyr Gurenko,76969,ATP,down,Canada,1
+1986,Maximilian Haus Julius,85493,ATP,up,Germany,1
+1986,Ryan Haviland,7711,ATP,up,USA,1
+1986,Nicola Ion,89689,ATP,up,Canada,1
+1986,Patrick Jozwicki,73580,ATP,up,Austria,1
+1986,Dorian Juszczak,74206,ATP,up,Poland,1
+1986,Udit Kamboj,77031,ATP,up,India,1
+1986,Jack Karlsson Wistrand,38069,ATP,up,Sweden,1
+1986,Alexander Krylov,80522,ATP,up,World,1
+1986,Justin Lenders,88313,ATP,up,Switzerland,1
+1986,Isaac Lhomond,69610,ATP,up,France,1
+1986,Cian Maguire,66634,ATP,up,Ireland,1
+1986,Adam Majchrzak,58193,ATP,up,Poland,1
+1986,Janos Major Aron,82992,ATP,up,Hungary,1
+1986,Richard Mallory,68705,ATP,up,Bermuda,1
+1986,Maciej Matuszczyk,83890,ATP,up,Poland,1
+1986,Jack McGary,89409,ATP,up,USA,1
+1986,Stefan Menichella,38251,ATP,up,USA,1
+1986,Mak Mikovic,,ATP,down,Slovenia,1
+1986,Javier Molino,985,ATP,up,Spain,1
+1986,Ahmed Mouhan,23586,ATP,down,Libya,1
+1986,Yshai Oliel,1195,ATP,up,Israel,1
+1986,Patrik Oplustil,38272,ATP,up,Czech Republic,1
+1986,Daniil Piatrouski,85829,ATP,up,World,1
+1986,Glauco Pinheiro da Cruz Junior,90843,ATP,up,Brazil,1
+1986,Tomas Pinho,15376,ATP,up,Portugal,1
+1986,Roman Postolka,54468,ATP,up,Czech Republic,1
+1986,Tim Ruehl,52051,ATP,up,Germany,1
+1986,Manuel Sanchez,,ATP,up,Mexico,1
+1986,Piotr Siekanowicz,58567,ATP,up,Poland,1
+1986,Dinis Silva Joao,69090,ATP,up,Portugal,1
+1986,Samuel Stolarik,61352,ATP,up,Slovakia,1
+1986,Bjorn Swenson,38084,ATP,up,USA,1
+1986,Efe Tufekci Cagan,58219,ATP,up,Turkey,1
+1986,Alexander Ushakov,81642,ATP,up,Russia,1
+1986,Henrik Villanger,78567,ATP,up,Norway,1
+1986,Jakub Vrba,83545,ATP,up,Czech Republic,1
+1986,Yash Yadav,56054,ATP,down,India,1
+1986,Fernando Yamacita,1248,ATP,down,Brazil,1
+1986,Yamato Yukawa,65683,ATP,up,Japan,1
+1986,Vitaliy Zatsepin,55900,ATP,up,Kazakhstan,1
+2046,Ryan Augusto dos Santos,37940,ATP,up,Brazil,1
+2046,Michael Beltran Rubio,15230,ATP,up,Colombia,1
+2046,Max Benaim,62372,ATP,up,United Kingdom,1
+2046,Patricio Betancourt,77490,ATP,up,Mexico,1
+2046,Gregorio Biondolillo,31886,ATP,up,Italy,1
+2046,Dakotah Bobo,67410,ATP,up,USA,1
+2046,Breno Braga,63732,ATP,up,Brazil,1
+2046,Cristian Carteputreda David,56746,ATP,up,Romania,1
+2046,Penn Charusorn,88928,ATP,up,Thailand,1
+2046,Pavlos Christoforakis,80073,ATP,up,South Africa,1
+2046,Nav Dayal,83821,ATP,up,USA,1
+2046,Reuben De Klerk,70041,ATP,up,South Africa,1
+2046,Mathys Domenc,68179,ATP,up,France,1
+2046,Hamza El Amine,38262,ATP,up,Morocco,1
+2046,Hong-Lin Fu,38926,ATP,up,Taiwan,1
+2046,Anthony Genov,13408,ATP,up,Bulgaria,1
+2046,Rafael Goldberg Alviani Nicolas,23587,ATP,up,Spain,1
+2046,Gregor Hausberger,56006,ATP,up,Austria,1
+2046,Toubi Hebhang Balan Alexandru,69110,ATP,up,Canada,1
+2046,Liam Hignett,15241,ATP,up,United Kingdom,1
+2046,Nicolas Hurtado Novoa,86277,ATP,up,Colombia,1
+2046,Raghav Jaisinghani,38050,ATP,down,India,1
+2046,Roan Jones,9363,ATP,up,United Kingdom,1
+2046,Karlo Kajin,81046,ATP,up,Croatia,1
+2046,Samuil Konov,24089,ATP,up,Bulgaria,1
+2046,Matic Kriznik,38847,ATP,up,Slovenia,1
+2046,Jules Leroux,77603,ATP,up,France,1
+2046,Henry Lieberman,59411,ATP,up,USA,1
+2046,Thijmen Loof,13374,ATP,up,Netherlands,1
+2046,Norbert Marosik,64837,ATP,up,Slovakia,1
+2046,Mirko Martinez,,ATP,up,Switzerland,1
+2046,Andreas Messis,81140,ATP,up,Greece,1
+2046,Abdulhamid Mubarak,14543,ATP,up,Kuwait,1
+2046,Botond Nagy,68636,ATP,up,Hungary,1
+2046,George Nanobashvili Saba,51971,ATP,up,Sweden,1
+2046,Noppadol Noikor,38237,ATP,up,Thailand,1
+2046,William Nolan,9370,ATP,up,United Kingdom,1
+2046,Seungmin Park,55156,ATP,up,South Korea,1
+2046,Piotr Pawlak,15432,ATP,up,Poland,1
+2046,Julien Penzlin,20017,ATP,up,Germany,1
+2046,Justin Roberts,,ATP,up,Bahamas,1
+2046,Savva Rybkin,81398,ATP,up,World,1
+2046,Nicola Senn,73577,ATP,up,Switzerland,1
+2046,Pranav Senthil Kumar Rethin,63910,ATP,up,India,1
+2046,Ezequiel Simonit,23192,ATP,up,Argentina,1
+2046,Mattias Southcombe,40169,ATP,up,United Kingdom,1
+2046,Marvin Spiering,73093,ATP,up,Brazil,1
+2046,Teodor Stirbu Calin,57344,ATP,up,Romania,1
+2046,Guillermo Tunas,80782,ATP,up,Mexico,1
+2046,Matei Varbanciu,87263,ATP,up,Romania,1
+2046,Ahmed Wageh Yassin,90102,ATP,up,Egypt,1
+2046,Kai-i Wang,57394,ATP,up,Taiwan,1
+2046,Qiulin Wang,3323,ATP,up,China,1
+2046,Weitao Xu,53520,ATP,up,China,1
+2046,Shuo Yin Bang,53620,ATP,up,Taiwan,1
+2101,Sergey Betov,39915,ATP,up,World,1
+2101,Ivan Biletic,68638,ATP,up,Bosnia and Herzegovina,1
+2101,Leonardo Borrelli,60965,ATP,up,Italy,1
+2101,Henrique Chabalgoity Pedro,83933,ATP,up,Brazil,1
+2101,Sven Corbinais,40197,ATP,down,France,1
+2101,Jose Dominguez Alonso,74771,ATP,up,Spain,1
+2101,Corneliu Gadoiu Andrei,83103,ATP,up,Romania,1
+2101,Valentino Grippo,74381,ATP,up,Argentina,1
+2101,Henri Haupt,66629,ATP,up,Germany,1
+2101,Bryan Hernandez Cortes,72883,ATP,up,Spain,1
+2101,Vladimir Holban,77607,ATP,up,Greece,1
+2101,Yeonsu Jeong,32066,ATP,up,South Korea,1
+2101,Adam Jones,647,ATP,up,United Kingdom,1
+2101,Rafael Kis Balazs,22147,ATP,up,Hungary,1
+2101,Dheeraj Kodancha Srinivasan,25123,ATP,up,India,1
+2101,Rein Koenders,73581,ATP,up,Netherlands,1
+2101,Yuhei Kono,58843,ATP,up,Japan,1
+2101,Andrei Kunitsyn,82604,ATP,up,World,1
+2101,Lucky Kurniawan,33304,ATP,up,Indonesia,1
+2101,Daniel Lara Salmeron,62059,ATP,up,Spain,1
+2101,Kazuma Lee Karl,55113,ATP,up,USA,1
+2101,Dylan Long,77244,ATP,up,USA,1
+2101,Lachlan McFadzean,90045,ATP,up,Australia,1
+2101,Matteo Mesaglio,74709,ATP,up,Italy,1
+2101,Cristian Onofrei Matei,55589,ATP,up,Romania,1
+2101,Kunanan Pantaratorn,78441,ATP,up,Thailand,1
+2101,Drazen Petrovic,37909,ATP,up,Bosnia and Herzegovina,1
+2101,Rishi Reddy,11782,ATP,up,India,1
+2101,Peter Sallay,58180,ATP,down,Hungary,1
+2101,Lev Seidman,86751,ATP,up,USA,1
+2101,Krogh Solheim Fredrik,73420,ATP,up,Norway,1
+2101,Vullnet Tashi,84746,ATP,up,Kosovo,1
+2101,Benoit Torcq,59840,ATP,up,Belgium,1
+2101,Joe Tyler,38217,ATP,up,United Kingdom,1
+2101,Jake Van Emburgh,9027,ATP,up,USA,1
+2101,Dmitrii Vasilev,49815,ATP,up,World,1
+2101,Antoine Walch,5909,ATP,up,France,1
+2138,Simone Agostini,13198,ATP,up,Italy,1
+2138,Marco Alvarez,67514,ATP,up,USA,1
+2138,Alejandro Arcila,52705,ATP,up,Colombia,1
+2138,Mateo Carballo,80939,ATP,up,Argentina,1
+2138,Julien De Cuyper,17050,ATP,down,France,1
+2138,Jeffrey Fradkin,78730,ATP,up,USA,1
+2138,Uladzimir Ignatik,7491,ATP,up,World,1
+2138,Jan Jermar,10038,ATP,up,Czech Republic,1
+2138,Valentin Kopeikin,62038,ATP,up,World,1
+2138,Makar Krivoshchekov,73806,ATP,up,World,1
+2138,Jules Marie,6618,ATP,up,France,1
+2138,Silvio Mencaglia,74710,ATP,up,Italy,1
+2138,Zhou Mingzhou,53521,ATP,up,China,1
+2138,Manuel Plunger,40085,ATP,up,Italy,1
+2138,Mikal Statham,38270,ATP,up,New Zealand,1
+2138,Rossetto Urvaneja Breno,52074,ATP,up,Brazil,1
+2138,Lazar Vojinovic,13195,ATP,up,Serbia,1
+2155,Alejandro Bancalari,25453,ATP,up,Chile,1
+2155,Daniil Bogatov,76394,ATP,up,World,1
+2155,Nicolas Hollender,38205,ATP,up,Argentina,1
+2155,Alejandro Melero Kretzer,40168,ATP,up,Spain,1
+2155,Esteban Rico Arias Nicolas,23091,ATP,up,Colombia,1
+2155,Atharva Sharma,18242,ATP,down,India,1
+2155,Pavel Verbin,13391,ATP,up,World,1
+2155,Fu Wong Tsz,62930,ATP,up,Hong Kong,1
+2155,Minghui Zhang,59301,ATP,up,China,1
+2155,Zhan Zheng,50071,ATP,up,China,1
+2165,Carlos Giraldi,70094,ATP,up,Spain,1
+2165,Krittin Koaykul,13537,ATP,up,Thailand,1
+2165,Filip Krolo,62340,ATP,up,Germany,1
+2165,Aryan Lakshmanan,65410,ATP,up,India,1
+2165,Gabriel Matuszewski,40094,ATP,up,Poland,1
+2165,Hugo Ouzilou,68657,ATP,up,Switzerland,1
+2165,Kyle Overmyer,63677,ATP,down,USA,1
+2165,Essa Qabazard,12621,ATP,up,Kuwait,1
+2165,Tobias Sonne,15200,ATP,up,Argentina,1
+2174,Alvaro Bueno Gil,59839,ATP,up,Spain,1
+2174,Felipe De Dios,38056,ATP,up,Argentina,1
+2174,Xirui Han,59305,ATP,up,China,1
+2174,Vladislav Melnic,23349,ATP,up,Romania,1
+2174,Enmanuel Munoz,19461,ATP,up,Dominican Republic,1
+2179,Kazuma Kawachi,784,ATP,up,Japan,1
+2179,Isaac Nortey,39008,ATP,up,Ghana,1
+2179,Ignacio Torres Fernandez Benjamin,10322,ATP,up,Chile,1
+2179,Kerem Yilmaz,65986,ATP,up,Turkey,1
+2183,Jayden Court,874,ATP,up,Australia,1
+2183,Daniel Domingos,69999,ATP,up,Angola,1
+2183,Ty Host,63481,ATP,up,Australia,1
+2183,Andrea Motta,75576,ATP,up,Italy,1
+2183,Guilherme Valdoleiros,36835,ATP,up,Portugal,1
+2188,Costanzo Baragiola Mordini Tobia,63404,ATP,up,Italy,1
+2189,Sean Hess,699,ATP,up,Argentina,1

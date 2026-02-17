@@ -1,0 +1,1518 @@
+place,player,player_key,league,movement,country,points
+1,Aryna Sabalenka,1989,WTA,same,World,10870
+2,Iga Swiatek,1910,WTA,same,Poland,8395
+3,Coco Gauff,2176,WTA,same,USA,6763
+4,Amanda Anisimova,2074,WTA,same,USA,6287
+5,Elena Rybakina,2172,WTA,same,Kazakhstan,5850
+6,Jessica Pegula,2171,WTA,same,USA,5583
+7,Madison Keys,2692,WTA,same,USA,4335
+8,Jasmine Paolini,2811,WTA,same,Italy,4325
+9,Mirra Andreeva,9534,WTA,same,World,4319
+10,Ekaterina Alexandrova,2392,WTA,same,World,3375
+11,Belinda Bencic,2387,WTA,same,Switzerland,3168
+12,Clara Tauson,3007,WTA,same,Denmark,2770
+13,Linda Noskova,447,WTA,same,Czech Republic,2641
+14,Elina Svitolina,2816,WTA,same,Ukraine,2606
+15,Emma Navarro,2823,WTA,same,USA,2515
+16,Naomi Osaka,2685,WTA,same,Japan,2487
+17,Liudmila Samsonova,2815,WTA,same,World,2209
+18,Victoria Mboko,9527,WTA,same,Canada,2157
+19,Karolina Muchova,2807,WTA,same,Czech Republic,1996
+20,Elise Mertens,521,WTA,same,Belgium,1969
+21,Diana Shnaider,7403,WTA,same,World,1866
+22,Leylah Fernandez,2394,WTA,same,Canada,1821
+23,Jelena Ostapenko,2802,WTA,same,Latvia,1800
+24,Qinwen Zheng,1813,WTA,same,China,1728
+25,Paula Badosa,2178,WTA,same,Spain,1676
+26,Marta Kostyuk,1828,WTA,same,Ukraine,1659
+27,Dayana Yastremska,2813,WTA,same,Ukraine,1604
+28,Sofia Kenin,2904,WTA,same,USA,1589
+29,Emma Raducanu,2996,WTA,same,United Kingdom,1563
+30,Veronika Kudermetova,2810,WTA,same,World,1558
+31,McCartney Kessler,22072,WTA,same,USA,1558
+32,Maya Joint,52689,WTA,same,Australia,1539
+33,Anna Kalinskaya,1820,WTA,same,World,1461
+34,Marketa Vondrousova,2814,WTA,same,Czech Republic,1445
+35,Iva Jovic,58226,WTA,same,USA,1437
+36,Lois Boisson,8802,WTA,same,France,1351
+37,Daria Kasatkina,1990,WTA,same,Australia,1334
+38,Ann Li,2997,WTA,same,USA,1334
+39,Jaqueline Cristian,2992,WTA,same,Romania,1324
+40,Eva Lys,2088,WTA,same,Germany,1291
+41,Tatjana Maria,2414,WTA,same,Germany,1277
+42,Jessica Bouzas Maneiro,154,WTA,same,Spain,1262
+43,Marie Bouzkova,2820,WTA,same,Czech Republic,1260
+44,Sorana Cirstea,1150,WTA,same,Romania,1243
+45,Ashlyn Krueger,196,WTA,same,USA,1229
+46,Laura Siegemund,464,WTA,same,Germany,1214
+47,Anastasia Pavlyuchenkova,2694,WTA,same,World,1184
+48,Emiliana Arango,1802,WTA,same,Colombia,1176
+49,Katerina Siniakova,3006,WTA,same,Czech Republic,1172
+50,Alexandra Eala,3490,WTA,same,Philippines,1143
+51,Anastasia Potapova,457,WTA,same,World,1131
+52,Maria Sakkari,2076,WTA,same,Greece,1116
+53,Janice Tjen,28551,WTA,same,Indonesia,1106
+54,Cristina Bucsa,454,WTA,same,Spain,1098
+55,Magda Linette,1154,WTA,same,Poland,1089
+56,Tereza Valentova,8976,WTA,same,Czech Republic,1072
+57,Xinyu Wang,1812,WTA,same,China,1056
+58,Beatriz Haddad Maia,1951,WTA,same,Brazil,1052
+59,Magdalena Frech,2089,WTA,same,Poland,1051
+60,Elsa Jacquemot,1823,WTA,same,France,1044
+61,Hailey Baptiste,490,WTA,same,USA,1023
+62,Anna Blinkova,1779,WTA,same,World,1018
+63,Peyton Stearns,2827,WTA,same,USA,1013
+64,Danielle Collins,34409,WTA,same,USA,996
+65,Barbora Krejcikova,2801,WTA,same,Czech Republic,989
+66,Solana Sierra,140,WTA,same,Argentina,978
+67,Alycia Parks,1792,WTA,same,USA,961
+68,Olga Danilovic,494,WTA,same,Serbia,957
+69,Viktorija Golubic,525,WTA,same,Switzerland,953
+70,Renata Zarazua,1805,WTA,same,Mexico,944
+71,Sonay Kartal,1961,WTA,same,United Kingdom,937
+72,Donna Vekic,455,WTA,same,Croatia,935
+73,Yulia Putintseva,2177,WTA,same,Kazakhstan,924
+74,Rebecca Sramkova,449,WTA,same,Slovakia,914
+75,Antonia Ruzic,168,WTA,same,Croatia,914
+76,Sara Bejlek,9393,WTA,same,Czech Republic,912
+77,Francesca Jones,2991,WTA,same,United Kingdom,912
+78,Anna Bondar,505,WTA,same,Hungary,900
+79,Ons Jabeur,1911,WTA,same,Tunisia,893
+80,Varvara Gracheva,1913,WTA,same,France,887
+81,Caty McNally,1127,WTA,same,USA,864
+82,Camila Osorio,2390,WTA,same,Colombia,860
+83,Ajla Tomljanovic,1146,WTA,same,Australia,844
+84,Elisabetta Cocciaretto,477,WTA,same,Italy,837
+85,Ella Seidel,2415,WTA,same,Germany,833
+86,Simona Waltert,493,WTA,same,Switzerland,830
+87,Suzan Lamens,450,WTA,same,Netherlands,825
+88,Lulu Sun,,WTA,same,New Zealand,825
+89,Katie Volynets,2826,WTA,same,USA,810
+90,Polina Kudermetova,9259,WTA,same,World,809
+91,Moyuka Uchijima,,WTA,same,Japan,808
+92,Julia Grabher,489,WTA,same,Austria,808
+93,Mayar Sherif,510,WTA,same,Egypt,803
+94,Darja Semenistaja,157,WTA,same,Latvia,803
+95,Kimberly Birrell,92,WTA,same,Australia,800
+96,Dalma Galfi,507,WTA,same,Hungary,795
+97,Oksana Selekhmeteva,478,WTA,same,World,783
+98,Kaja Juvan,519,WTA,same,Slovenia,770
+99,Gabriela Ruse Elena,1151,WTA,same,Romania,757
+100,Katie Boulter,2993,WTA,same,United Kingdom,744
+101,Anastasia Zakharova,1794,WTA,same,World,741
+102,Shuai Zhang,1825,WTA,same,China,738
+103,Lucia Bronzetti,516,WTA,same,Italy,731
+104,Priscilla Hon,467,WTA,same,Australia,720
+105,Sinja Kraus,1424,WTA,same,Austria,709
+106,Leolia Jeanjean,9118,WTA,same,France,706
+107,Victoria Jimenez Kasintseva,1137,WTA,same,Andorra,697
+108,Panna Udvardy,1141,WTA,same,Hungary,694
+109,Oleksandra Oliynykova,12876,WTA,same,Ukraine,694
+110,Kamilla Rakhimova,1140,WTA,same,World,692
+111,Aliaksandra Sasnovich,527,WTA,same,World,685
+112,Caroline Dolehide,482,WTA,same,USA,684
+113,Zeynep Sonmez,4062,WTA,same,Turkey,680
+114,Veronika Erjavec,163,WTA,same,Slovenia,680
+115,Yuliia Starodubtseva,50398,WTA,down,Ukraine,671
+116,Petra Marcinko,1143,WTA,down,Croatia,671
+117,Rebeka Masarova,1132,WTA,down,Switzerland,659
+118,Aoi Ito,13618,WTA,up,Japan,655
+119,Taylor Townsend,3214,WTA,same,USA,652
+120,Elina Avanesyan,1810,WTA,same,Armenia,649
+121,Greet Minnen,2191,WTA,down,Belgium,644
+122,Katarzyna Kawa,1780,WTA,down,Poland,630
+123,Joanna Garland,1962,WTA,up,Taiwan,628
+124,Hanne Vandewinkel,9254,WTA,down,Belgium,627
+125,Jil Teichmann,2077,WTA,down,Switzerland,623
+126,Sarah Rakotomanga Rajaonah Tiantsoa,37886,WTA,up,France,621
+127,Diane Parry,1833,WTA,same,France,615
+128,Lourdes Carle Maria,187,WTA,same,Argentina,604
+129,Yue Yuan,,WTA,same,China,585
+130,Nikola Bartunkova,9196,WTA,same,Czech Republic,582
+131,Marina Stakusic,81,WTA,same,Canada,579
+132,Dominika Salkova,179,WTA,same,Czech Republic,573
+133,Maja Chwalinska,1434,WTA,same,Poland,563
+134,Viktoriya Tomova,499,WTA,same,Bulgaria,557
+135,Victoria Azarenka,2174,WTA,same,World,555
+136,Talia Gibson,3326,WTA,same,Australia,555
+137,Linda Fruhvirtova,446,WTA,same,Czech Republic,553
+138,Leyre Romero Gormaz,141,WTA,same,Spain,551
+139,Arantxa Rus,508,WTA,same,Netherlands,535
+140,Lucrezia Stefanini,1113,WTA,down,Italy,525
+141,Tamara Korpatsch,501,WTA,down,Germany,523
+142,Lanlana Tararudee,25728,WTA,down,Thailand,523
+143,Kaitlin Quevedo,13647,WTA,down,Spain,518
+144,Whitney Osuigwe,1431,WTA,up,USA,517
+145,Lola Radivojevic,1364,WTA,same,Serbia,517
+146,Linda Klimovicova,8978,WTA,same,Poland,514
+147,Irina-Camelia Begu,2828,WTA,same,Romania,509
+148,Alexia Todoni Anca,10891,WTA,same,Romania,496
+149,Darja Vidmanova,9260,WTA,up,Czech Republic,495
+150,Sofia Costoulas,9248,WTA,up,Belgium,490
+151,Maria Timofeeva,12869,WTA,up,Uzbekistan,486
+152,Nuria Brancaccio,222,WTA,same,Italy,478
+153,Lilli Tagger,53046,WTA,same,Austria,471
+154,Varvara Lepchenko,2765,WTA,same,USA,468
+155,Iryna Shymanovich,223,WTA,same,World,466
+156,Astra Sharma,,WTA,same,Australia,464
+157,Anhelina Kalinina,2393,WTA,same,Ukraine,462
+158,Bernarda Pera,518,WTA,down,USA,459
+159,Daria Snigur,1131,WTA,up,Ukraine,452
+160,Alina Charaeva,13421,WTA,down,World,451
+161,Tamara Zidansek,2803,WTA,down,Slovenia,445
+162,Daria Saville,1153,WTA,down,Australia,442
+163,Lin Zhu,451,WTA,down,China,429
+164,Carole Monnet,1831,WTA,down,France,429
+165,Jodie Burrage,1437,WTA,up,United Kingdom,425
+166,Polina Iatcenko,9264,WTA,up,World,425
+167,Louisa Chirico,456,WTA,same,USA,421
+168,Guiomar Maristany Zuleta De Reales,142,WTA,down,Spain,418
+169,Hanyu Guo,7931,WTA,up,China,415
+170,Clervie Ngounoue,2994,WTA,up,USA,414
+171,Julia Riera,2281,WTA,up,Argentina,413
+172,Jessika Ponchet,472,WTA,up,France,406
+173,Despina Papamichail,1111,WTA,up,Greece,406
+174,Tatiana Prozorova,9253,WTA,up,World,405
+175,Xiyu Wang,463,WTA,up,China,404
+176,Emerson Jones,10924,WTA,down,Australia,403
+177,Maddison Inglis,1788,WTA,up,Australia,401
+178,Andrea Lazaro Garcia,1117,WTA,down,Spain,400
+179,Harriet Dart,2998,WTA,up,United Kingdom,399
+180,Xinyu Gao,7289,WTA,up,China,398
+181,Himeno Sakatsume,115,WTA,up,Japan,395
+182,Rebecca Marino,479,WTA,up,Canada,390
+183,Ekaterine Gorgodze,491,WTA,up,Georgia,390
+184,Carson Branstine,6528,WTA,up,Canada,389
+185,Elizabeth Mandlik,209,WTA,same,USA,387
+186,Sofia Sanchez Ana,123,WTA,up,Mexico,387
+187,Nao Hibino,465,WTA,up,Japan,386
+188,Cadence Brace,204,WTA,up,Canada,385
+189,Nuria Parrizas-Diaz,513,WTA,up,Spain,384
+190,Nina Stojanovic,3004,WTA,up,Serbia,383
+191,Teodora Kostovic,52707,WTA,up,Serbia,382
+192,Anastasia Gasanova,468,WTA,down,World,379
+193,Gabriela Knutson,24736,WTA,up,Czech Republic,377
+194,Anna-Lena Friedsam,522,WTA,up,Germany,376
+195,Laura Pigossi,1125,WTA,up,Brazil,373
+196,Manon Leonard,7520,WTA,up,France,373
+197,Ena Shibahara,1986,WTA,up,Japan,370
+198,Jana Fett,1801,WTA,up,Croatia,369
+199,Anouk Koevermans,13375,WTA,up,Netherlands,368
+200,Alice Rame,1124,WTA,up,France,368
+201,Elena Pridankina,9399,WTA,up,World,365
+202,Robin Montgomery,2123,WTA,down,USA,358
+203,Elvina Kalieva,198,WTA,down,USA,358
+204,Lina Gjorcheska,227,WTA,down,North Macedonia,358
+205,Silvia Ambrosio,2292,WTA,down,Italy,356
+206,Sijia Wei,40,WTA,down,China,354
+207,Francisca Jorge,1410,WTA,up,Portugal,354
+208,Arina Rodionova,453,WTA,up,Australia,353
+209,Anastasija Sevastova,2825,WTA,up,Latvia,351
+210,Claire Liu,509,WTA,up,USA,349
+211,Caterina Grant Tyra,40794,WTA,up,Italy,349
+212,Petra Martic,2173,WTA,up,Croatia,348
+213,Youngsuh Lee Carol,38969,WTA,same,USA,347
+214,Olivia Gadecki,1809,WTA,same,Australia,343
+215,Alina Korneeva,,WTA,same,World,343
+216,Jasmin Ortenzi,224,WTA,same,Argentina,342
+217,Taylah Preston,3324,WTA,down,Australia,341
+218,Eva Vedder,2277,WTA,down,Netherlands,340
+219,Viktoria Hruncakova,445,WTA,down,Slovakia,338
+220,Harmony Tan,1156,WTA,down,France,334
+221,Justina Mikulskyte,232,WTA,up,Lithuania,332
+222,Mananchaya Sawangkaew,12716,WTA,up,Thailand,332
+223,Kathinka von Deichmann,459,WTA,up,Liechtenstein,331
+224,Bianca Bulgaru Miriam,173,WTA,up,Romania,327
+225,Camilla Rosatello,216,WTA,up,Italy,326
+226,Wakana Sonobe,38855,WTA,up,Japan,323
+227,Yexin Ma,126,WTA,up,China,322
+228,Bianca Andreescu,2817,WTA,up,Canada,319
+229,Jessica Pieri,3003,WTA,up,Italy,318
+230,Selena Janicijevic,470,WTA,down,France,317
+231,Mona Barthel,171,WTA,up,Germany,314
+232,Hina Inoue,118,WTA,down,USA,313
+233,Kayla Cross,6700,WTA,down,Canada,312
+234,Aliona Bolsova Zadoinov,1107,WTA,up,Spain,311
+235,Barbora Palicova,2280,WTA,down,Czech Republic,310
+236,Destanee Aiava,3134,WTA,up,Australia,308
+237,Tara Wuerth,2578,WTA,up,Croatia,307
+238,Sada Nahimana,1988,WTA,up,Burundi,305
+239,Mai Hontama,1787,WTA,down,Japan,303
+240,Carolina Alves,495,WTA,up,Brazil,302
+241,Susan Bandecchi,484,WTA,up,Switzerland,301
+242,Marina Bassols Ribera,135,WTA,down,Spain,297
+243,Fiona Crawley,20540,WTA,down,USA,297
+244,Kyoka Okamura,1396,WTA,up,Japan,296
+245,Sara Saito,,WTA,down,Japan,296
+246,Jule Niemeier,471,WTA,up,Germany,295
+247,Georgiana Serban Raluca,1807,WTA,up,Cyprus,293
+248,Irene Burillo Escorihuela,1907,WTA,up,Spain,293
+249,Chloe Paquet,1142,WTA,up,France,290
+250,Lizette Cabrera,497,WTA,up,Australia,289
+251,Sinclair Rogers Anna,124,WTA,same,USA,288
+252,Erika Andreeva,1958,WTA,down,World,287
+253,Kiara Toth Amarissa,9242,WTA,up,Hungary,285
+254,Arianne Hartono,1134,WTA,up,Netherlands,283
+255,Yeonwoo Ku,9407,WTA,up,South Korea,282
+256,Kayla Day,132,WTA,down,USA,280
+257,Ayana Akli,53646,WTA,up,USA,279
+258,Lily Miyazaki Yuriko,462,WTA,up,United Kingdom,275
+259,Mingge Xu,9391,WTA,up,United Kingdom,273
+260,Mary Stoiana,56261,WTA,down,USA,273
+261,Caroline Werner,4802,WTA,up,Germany,273
+262,Anastasia Tikhonova,1122,WTA,down,World,273
+263,Angela Fita Boluda,159,WTA,down,Spain,270
+264,Matilde Jorge,97,WTA,up,Portugal,270
+265,Laura Samson,2815,WTA,up,Czech Republic,270
+266,Anastasiia Sobolieva,13987,WTA,down,Ukraine,267
+267,Heather Watson,1155,WTA,up,United Kingdom,264
+268,Celine Naef,10911,WTA,up,Switzerland,264
+269,Katherine Sebov,6701,WTA,up,Canada,263
+270,Katharina Hobgarski,1827,WTA,up,Germany,263
+271,Luisina Giovannini,21359,WTA,up,Argentina,262
+272,Tessah Andrianjafitrimo,1147,WTA,up,France,260
+273,Hanna Chang,1128,WTA,up,USA,258
+274,Valentina Ryser,101,WTA,same,Switzerland,258
+275,Mia Ristic,38070,WTA,same,Serbia,257
+276,Mariam Bolkvadze,1806,WTA,same,Georgia,253
+277,Haruka Kaji,5088,WTA,up,Japan,253
+278,Renata Jamrichova,37894,WTA,up,Slovakia,252
+279,Yafan Wang,2276,WTA,up,China,251
+280,Katie Swan,1129,WTA,down,United Kingdom,251
+281,Lisa Pigato,230,WTA,down,Italy,249
+282,Mei Yamaguchi,98,WTA,up,Japan,248
+283,Eva Guerrero Alvarez,5342,WTA,down,Spain,248
+284,Kajsa Rinaldo Persson,2592,WTA,up,Sweden,245
+285,Anna Siskova,218,WTA,up,Czech Republic,242
+286,Julie Belgraver,1404,WTA,down,France,238
+287,Wushuang Zheng,,WTA,up,China,237
+288,Ekaterina Reyngold,1814,WTA,up,World,236
+289,Madelyn Nugroho Priska,9261,WTA,up,Indonesia,236
+290,Xiaodi You,1819,WTA,up,China,235
+291,Sakura Hosogi,1399,WTA,up,Japan,235
+292,Ylena In-Albon,1110,WTA,up,Switzerland,234
+293,Alisa Oktiabreva,78480,WTA,up,World,233
+294,Julia Avdeeva,14150,WTA,up,World,229
+295,Lia Karatancheva,155,WTA,up,Bulgaria,227
+296,Johanna Brockmann Tessa,63288,WTA,up,Germany,226
+297,Zarina Diyas,1800,WTA,down,Kazakhstan,223
+298,Gabriela Lee,1786,WTA,up,Romania,222
+299,Eunhye Lee,,WTA,down,South Korea,221
+300,Emina Bektas,1796,WTA,up,USA,220
+301,Lauren Davis,2389,WTA,up,USA,220
+302,Noma Noha Akugue,1029,WTA,down,Germany,220
+303,Veronika Podrez,40100,WTA,down,Ukraine,220
+304,Carol Zhao,1822,WTA,up,Canada,219
+305,Sohyun Park,205,WTA,up,South Korea,217
+306,Amarni Banks,13898,WTA,up,United Kingdom,216
+307,Nastasja Schunk,487,WTA,same,Germany,215
+308,Anouck Vrancken Peeters,2250,WTA,up,Netherlands,214
+309,Cagla Buyukakcay,2988,WTA,down,Turkey,213
+310,Sahaja Yamalapalli,13919,WTA,up,India,212
+311,Caroline Garcia,1148,WTA,up,France,211
+312,Lea Boskovic,161,WTA,up,Croatia,209
+313,Ruxandra Bertea Elena,67747,WTA,down,Romania,207
+314,Amandine Hesse,2990,WTA,up,France,206
+315,Dayeon Back,20923,WTA,up,South Korea,206
+316,Nicole Fossa Huergo,15246,WTA,up,Italy,205
+317,Alicia Herrero Linana,14112,WTA,up,Spain,204
+318,Katarina Jokic,8284,WTA,down,Serbia,202
+319,Jennifer Ruggeri,21178,WTA,down,Italy,202
+320,Nadine Smith Tina,12994,WTA,up,Australia,200
+321,Margaux Rouvroy,9119,WTA,down,France,198
+322,Aurora Zantedeschi,170,WTA,up,Italy,198
+323,Katrina Scott,186,WTA,down,USA,197
+324,Laura Hietaranta,9247,WTA,up,Finland,197
+325,Gabriela Ce,4752,WTA,same,Brazil,195
+326,Hiromi Abe,14313,WTA,down,Japan,195
+327,Anastasia Zolotareva,13411,WTA,same,World,193
+328,Sara Sorribes Tormo,2910,WTA,same,Spain,192
+329,Rina Saigo,73,WTA,same,Japan,192
+330,Giorgia Pedone,10892,WTA,up,Italy,190
+331,Ariana Geerlings Martinez,37888,WTA,same,Spain,190
+332,Zhibek Kulambayeva,14355,WTA,same,Kazakhstan,189
+333,Irina Bara,469,WTA,down,Romania,188
+334,Dalila Jakupovic,1427,WTA,down,Slovenia,188
+335,Isabella Shinikova,503,WTA,down,Bulgaria,188
+336,Dalila Spiteri,4188,WTA,down,Italy,187
+337,Tiphanie Lemaitre,1432,WTA,down,France,187
+338,Aliona Falei,9265,WTA,down,World,186
+339,Leonie Kung,,WTA,down,Switzerland,184
+340,Vendula Valdmannova,30799,WTA,down,Czech Republic,183
+341,Shuo Liang En,2574,WTA,down,Taiwan,182
+342,Julieta Pareja,32553,WTA,down,USA,180
+343,Mika Stojsavljevic,63495,WTA,down,United Kingdom,180
+344,Monika Ekstrand,68739,WTA,down,USA,178
+345,Valeriya Strakhova,148,WTA,down,Ukraine,178
+346,Samira De Stefano,37984,WTA,down,Italy,178
+347,Ekaterina Makarova,524,WTA,down,World,177
+348,Tatiana Pieri,1426,WTA,down,Italy,177
+349,Miriana Tona,22868,WTA,down,Italy,176
+350,Katarina Zavatska,480,WTA,down,Ukraine,176
+351,Saki Imamura,1359,WTA,same,Japan,176
+352,Maria Mateas,111,WTA,up,USA,174
+353,Lea Ma,53951,WTA,up,USA,174
+354,Astrid Lew Yan Foon,14241,WTA,down,France,174
+355,Jenny Duerst,2260,WTA,down,Switzerland,174
+356,Kristina Dmitruk,2298,WTA,up,World,173
+357,Fangran Tian,13672,WTA,down,China,173
+358,Maria Tig Patricia,3128,WTA,up,Romania,172
+359,Martyna Kubka,2295,WTA,same,Poland,172
+360,Vivian Wolff,13506,WTA,down,USA,171
+361,Ane Mintegi Del Olmo,9267,WTA,down,Spain,169
+362,Cristina Diaz Adrover,64290,WTA,down,Spain,169
+363,Alexis Blokhina,1412,WTA,down,USA,168
+364,Denislava Glushkova,10906,WTA,down,Bulgaria,168
+365,Diletta Cherubini,1016,WTA,same,Italy,166
+366,Martina Capurro Taborda,1960,WTA,same,Argentina,166
+367,Francesca Curmi,145,WTA,up,Malta,166
+368,Carolyn Ansari,40166,WTA,down,USA,164
+369,Yidi Yang,,WTA,down,China,163
+370,Victoria Rodriguez,5922,WTA,down,Mexico,162
+371,Sayaka Ishii,37885,WTA,down,Japan,161
+372,Carlota Martinez Cirez,144,WTA,down,Spain,161
+373,Haley Giavara,1429,WTA,down,USA,161
+374,Miho Kuramochi,1052,WTA,down,Japan,161
+375,Jia-Jing Lu,1002,WTA,up,China,160
+376,Ikumi Yamazaki,13990,WTA,same,Japan,160
+377,Julie Struplova,15563,WTA,down,Czech Republic,160
+378,Katarina Kuzmova,13326,WTA,up,Slovakia,160
+379,Xinxin Yao,46,WTA,up,China,159
+380,Emily Appleton,2598,WTA,up,United Kingdom,158
+381,Victoria Bosio,4019,WTA,down,Argentina,158
+382,Momoko Kobori,7356,WTA,down,Japan,157
+383,Eryn Cayetano,38190,WTA,down,USA,155
+384,Natalija Senic,14152,WTA,down,Serbia,152
+385,Antonia Schmidt,1026,WTA,down,Germany,152
+386,Rashmikaa Bhamidipaty Shrivalli,18040,WTA,up,India,151
+387,Ekaterina Kazionova,1985,WTA,up,World,151
+388,Alina Granwehr,18373,WTA,down,Switzerland,150
+389,Judith Visscher Stephanie,21,WTA,up,Netherlands,150
+390,Elena Micic,10904,WTA,same,Australia,147
+391,Alexandra Shubladze,38880,WTA,same,World,147
+392,Akasha Urhobo,127,WTA,down,USA,146
+393,Martina Okalova,38017,WTA,up,Slovakia,146
+394,Ayano Shimizu,5085,WTA,up,Japan,146
+395,Lian Tran,13212,WTA,up,Netherlands,145
+396,Yasmine Mansouri,42,WTA,up,France,145
+397,Alana Smith,17346,WTA,up,USA,144
+398,Lucie Havlickova,8975,WTA,down,Czech Republic,142
+399,Victoria Hu,20331,WTA,down,USA,142
+400,Alevtina Ibragimova,51378,WTA,up,World,142
+401,Vittoria Paganetti,29728,WTA,up,Italy,142
+402,Federica Urgesi,10912,WTA,down,Italy,141
+403,Viktoria Morvayova,72,WTA,up,Slovakia,141
+404,Mathilde Lollia,14672,WTA,up,France,141
+405,Han Shi,38097,WTA,up,China,140
+406,Ayla Aksu,4363,WTA,up,Turkey,140
+407,Francesca Pace,24135,WTA,down,Italy,139
+408,Anastasia Abbagnato,38052,WTA,down,Italy,138
+409,Maria Kozyreva,19544,WTA,down,World,138
+410,Andreea Craciun Georgia,14036,WTA,down,Romania,138
+411,Antonia Vergara Rivera,23356,WTA,up,Chile,138
+412,Naiktha Bains,2567,WTA,up,United Kingdom,138
+413,Sophie Steur Joelle Lilly,15649,WTA,down,Germany,138
+414,Sandra Samir,8362,WTA,down,Egypt,138
+415,Lucija Ciric Bagaric,2575,WTA,down,Croatia,137
+416,Fiona Ferro,526,WTA,down,France,137
+417,Eri Shimizu,13810,WTA,down,Japan,137
+418,Weronika Falkowska,164,WTA,down,Poland,136
+419,Yasmine Kabbaj,37878,WTA,down,Morocco,136
+420,Martha Matoula,34,WTA,up,Greece,136
+421,Sapfo Sakellaridi,226,WTA,down,Greece,136
+422,Sofia Shapatava,120,WTA,up,Georgia,135
+423,Mayu Crossley,33954,WTA,up,Japan,135
+424,Lucciana Perez Alarcon,38782,WTA,up,Peru,134
+425,Daria Khomutsianskaya,37975,WTA,up,World,134
+426,Sara Daavettila,13521,WTA,up,USA,134
+427,Alice Tubello,7522,WTA,up,France,133
+428,Tena Lukas,1438,WTA,up,Croatia,133
+429,Amandine Monnot,14242,WTA,same,France,133
+430,Kira Pavlova,13072,WTA,same,World,133
+431,Berfu Cengiz,1241,WTA,same,Turkey,132
+432,Aneta Kucmova,,WTA,down,Czech Republic,132
+433,Zuzanna Pawlikowska,15409,WTA,down,Poland,132
+434,Julia Adams,15344,WTA,up,USA,132
+435,Victoria Allen,71438,WTA,up,United Kingdom,131
+436,Madison Sieg,9246,WTA,down,USA,129
+437,Lisa Zaar,12814,WTA,up,Sweden,129
+438,Elizara Yaneva,58227,WTA,up,Bulgaria,127
+439,Gergana Topalova,169,WTA,down,Bulgaria,126
+440,Mina Hodzic,147,WTA,down,Germany,125
+441,Ana Bogdan,2004,WTA,down,Romania,124
+442,Hayu Kinoshita,10909,WTA,down,Japan,124
+443,Wilda Hennemann Caijsa,162,WTA,down,Sweden,123
+444,Ayumi Koshiishi,38,WTA,down,Japan,123
+445,Shiho Akita,4315,WTA,up,Japan,123
+446,Amelia Rajecki,39071,WTA,down,United Kingdom,122
+447,Robin Anderson,1798,WTA,down,USA,122
+448,Fernanda Labrana,2121,WTA,down,Chile,121
+449,Madison Brengle,2391,WTA,down,USA,120
+450,Ruth Roura Llaverias,58496,WTA,down,Spain,120
+451,Meiqi Guo,9108,WTA,down,China,120
+452,Noemi Basiletti,13420,WTA,up,Italy,120
+453,Patcharin Cheapchandej,5426,WTA,down,Thailand,120
+454,Ipek Oz,486,WTA,down,Turkey,119
+455,Elena Malygina,1994,WTA,down,Estonia,119
+456,Dalina Amariei Ilinca,30,WTA,up,Romania,119
+457,Thaisa Pedretti,4778,WTA,up,Brazil,118
+458,Weronika Ewald,38788,WTA,down,Poland,118
+459,Valentini Grammatikopoulou,504,WTA,up,Greece,118
+460,Mia Pohankova,61034,WTA,down,Slovakia,116
+461,Aleksandra Krunic,443,WTA,down,Serbia,115
+462,Emily Seibold,13503,WTA,down,Germany,115
+463,Daria Lodikova,993,WTA,down,World,114
+464,Mariia Tkacheva,13204,WTA,up,World,114
+465,Ekaterina Khayrutdinova,10901,WTA,down,World,114
+466,Hibah Shaikh,28034,WTA,same,USA,114
+467,Angelina Voloshchuk,39033,WTA,down,Portugal,113
+468,Florencia Urrutia Maria,54084,WTA,down,Argentina,113
+469,Fangzhou Liu,1959,WTA,down,China,113
+470,Georgeta Simion Oana,167,WTA,down,Romania,113
+471,Akua Stoiber Ranah,9387,WTA,down,United Kingdom,112
+472,Urszula Radwanska,2272,WTA,down,Poland,112
+473,Jeline Vandromme,73460,WTA,down,Belgium,112
+474,Malene Helgo,172,WTA,down,Norway,111
+475,Martina Colmegna,1348,WTA,down,Italy,110
+476,Anastasia Kulikova,458,WTA,down,Finland,110
+477,Ana Candiotto,10902,WTA,up,Brazil,110
+478,Ekaterina Ovcharenko,18807,WTA,down,World,110
+479,Olivia Lincer,19335,WTA,up,Poland,110
+480,Sofya Lansere,69,WTA,down,World,110
+481,Britt Du Pree,54738,WTA,down,Netherlands,110
+482,Josy Daems,40135,WTA,down,Germany,110
+483,Radka Zelnickova,1363,WTA,down,Slovakia,109
+484,Andreea Prisacariu,13793,WTA,down,Romania,109
+485,Rasheeda McAdoo,1414,WTA,down,USA,109
+486,Zongyu Li,22722,WTA,down,China,108
+487,Jasmijn Gimbrere,13078,WTA,up,Netherlands,108
+488,Alice Gillan,2565,WTA,down,United Kingdom,107
+489,Natsumi Kawaguchi,13546,WTA,down,Japan,107
+490,Anja Stankovic,52257,WTA,down,Serbia,107
+491,Pia Lovric,11488,WTA,down,Slovenia,106
+492,Lamis Alhussein Abdel Aziz,13865,WTA,down,Egypt,106
+493,Yufei Ren,51632,WTA,same,China,105
+494,Emeline Dartron,1114,WTA,up,France,105
+495,Ankita Raina,1442,WTA,up,India,105
+496,Ying Zhang,8910,WTA,up,China,105
+497,Ania Hertel,12792,WTA,down,Poland,104
+498,Yaroslava Bartashevich,9169,WTA,up,France,103
+499,Boyoung Jeong,24516,WTA,down,South Korea,102
+500,Misaki Matsuda,1423,WTA,down,Japan,102
+501,Darya Astakhova,1435,WTA,up,World,101
+502,Jessica Bertoldo,37972,WTA,up,Italy,101
+503,Sarah Van Emst,50288,WTA,same,Netherlands,101
+504,Alicia Dudeney,37850,WTA,same,United Kingdom,101
+505,Katerina Tsygourova,23388,WTA,same,Switzerland,101
+506,Haruna Arakawa,75,WTA,up,Japan,101
+507,Ariana Arseneault,185,WTA,down,Canada,100
+508,Riya Bhatia,93,WTA,up,India,100
+509,Arina Bulatova,51324,WTA,down,World,100
+510,Storm Hunter,,WTA,up,Australia,99
+511,Cody Wong Hong Yi,2566,WTA,up,Hong Kong,99
+512,Yelyzaveta Kotliar,38883,WTA,up,Ukraine,99
+513,Aunchisa Chanta,,WTA,up,Thailand,99
+514,Rositsa Dencheva,34106,WTA,down,Bulgaria,99
+515,Tereza Martincova,1149,WTA,up,Czech Republic,98
+516,Petra Kvitova,2693,WTA,up,Czech Republic,97
+517,Sachia Vickery,1790,WTA,up,USA,97
+518,Eudice Chong,7589,WTA,up,Hong Kong,97
+519,Kristiana Sidorova,57527,WTA,up,World,97
+520,Alessandra Mazzola,15681,WTA,up,Italy,97
+521,Vitalia Diatchenko,1115,WTA,up,World,96
+522,Carla Markus,39540,WTA,up,Argentina,95
+523,Sara Dols,36845,WTA,down,Spain,95
+524,Malaika Rapolu,19546,WTA,up,USA,94
+525,Rada Zolotareva,40163,WTA,up,World,94
+526,Ashley Lahey,13742,WTA,same,USA,93
+527,Lina Glushko,1829,WTA,up,Israel,92
+528,Ella McDonald,24733,WTA,same,United Kingdom,92
+529,Verena Meliss,2580,WTA,down,Italy,92
+530,Jiaqi Wang,,WTA,same,China,92
+531,Dasha Plekhanova,50654,WTA,down,Canada,91
+532,Louise Van den Broek Isis,55590,WTA,down,Netherlands,91
+533,Rinko Matsuda,39924,WTA,down,Japan,91
+534,Marie Dittmann Gina,19899,WTA,up,Germany,91
+535,Andreea Herea Carmen,28104,WTA,up,Romania,90
+536,Meiling Wang,2263,WTA,up,China,90
+537,Draginja Vukovic,1367,WTA,down,Serbia,90
+538,Jaeda Daniel,31723,WTA,down,USA,90
+539,Carolina Kuhl,10896,WTA,up,Germany,89
+540,Marie Voracek Eva,58571,WTA,up,Germany,89
+541,Jenny Lim,8545,WTA,up,France,88
+542,Thasaporn Naklo,58067,WTA,up,Thailand,88
+543,Jana Kovackova,71705,WTA,up,Czech Republic,88
+544,Varvara Panshina,67427,WTA,down,World,88
+545,Lidia Encheva,50682,WTA,up,Bulgaria,88
+546,Arianna Zucchini,2581,WTA,up,Italy,87
+547,Alana Subasic,68363,WTA,down,Australia,87
+548,Julie Pastikova,30860,WTA,down,Czech Republic,87
+549,Victoria Osuigwe,19463,WTA,down,USA,87
+550,Elena Milovanovic,13620,WTA,up,Serbia,87
+551,Yuki Naito,,WTA,up,Japan,86
+552,Christine Svendsen Johanne,9257,WTA,down,Denmark,85
+553,Camilla Zanolini,55115,WTA,down,Italy,85
+554,Marie Weckerle,7413,WTA,down,Luxembourg,85
+555,Iva Primorac,5330,WTA,up,Croatia,85
+556,Dana Guzman,9241,WTA,down,Peru,84
+557,Zeel Desai,13676,WTA,down,India,84
+558,Mayuka Aikawa,13333,WTA,down,Japan,84
+559,Marie Vogt,28610,WTA,same,Germany,84
+560,Jamie Loeb,1782,WTA,up,USA,83
+561,Sara Cakarevic,228,WTA,down,France,83
+562,Sara Popa Maria,14322,WTA,up,Romania,83
+563,Ena Koike,40075,WTA,up,Japan,83
+564,Kamilla Bartone,220,WTA,up,Latvia,83
+565,Punnin Kovapitukted,12715,WTA,up,Thailand,83
+566,Nina Vargova,15593,WTA,same,Slovakia,82
+567,Ellie Schoppe,77239,WTA,same,USA,82
+568,Eva Bennemann,57345,WTA,down,Germany,82
+569,Jada Robinson,59623,WTA,up,USA,82
+570,Maria Martinez Vaquero,20501,WTA,same,Spain,82
+571,Vaidehi Chaudhari,13982,WTA,up,India,82
+572,Marine Szostak,13505,WTA,up,France,82
+573,Elizabeth Reasco Gonzalez Mell,11487,WTA,down,Ecuador,81
+574,Venus Williams,5341,WTA,up,USA,80
+575,Ana Konjuh,1824,WTA,up,Croatia,80
+576,Makenna Jones,38040,WTA,up,USA,80
+577,Ksenia Zaytseva,2526,WTA,up,World,80
+578,Noelia Bouzo Zanotti,31,WTA,up,Spain,80
+579,Deborah Chiesa,231,WTA,down,Italy,79
+580,Gabriella da Silva Fick,1366,WTA,down,Australia,79
+581,Elena Cabezas Dominguez Sofia,56279,WTA,down,Venezuela,79
+582,Chihiro Muramatsu,5343,WTA,up,Japan,79
+583,Alba Rey Garcia,1418,WTA,up,Spain,79
+584,Valentina Steiner,74837,WTA,down,Germany,78
+585,Lavinia Tanasie,13031,WTA,up,Romania,78
+586,Laura Mair,5151,WTA,up,Italy,78
+587,Bianca Barbulescu,29,WTA,up,Romania,78
+588,Jenna Defalco,13650,WTA,up,USA,78
+589,Chenting Zhu,53060,WTA,up,China,77
+590,Noelia Zeballos,6,WTA,same,Bolivia,77
+591,Loes Ebeling Koning,66095,WTA,down,Netherlands,77
+592,Karina Miller,23171,WTA,up,USA,77
+593,Hikaru Sato,39077,WTA,up,Japan,77
+594,Hannah Klugman,55586,WTA,same,United Kingdom,76
+595,Alena Kovackova,52683,WTA,down,Czech Republic,76
+596,Danka Kovinic,2524,WTA,down,Montenegro,75
+597,Amy Zhu,133,WTA,up,USA,75
+598,Nahia Berecoechea,9266,WTA,down,France,75
+599,Merna Refaat,1044,WTA,down,Egypt,75
+600,Kristina Kroitor,75363,WTA,down,World,75
+601,Esther Adeshina,70322,WTA,down,United Kingdom,75
+602,Diana Martynov,13466,WTA,down,France,74
+603,Jana Otzipka,51326,WTA,up,Belgium,74
+604,Erika Sema,4526,WTA,up,Japan,74
+605,Arlinda Rushiti,104,WTA,down,Kosovo,74
+606,Ekaterina Perelygina,75890,WTA,down,Austria,74
+607,Amelie Van Impe,21360,WTA,down,Belgium,74
+608,Melisa Ercan,40065,WTA,down,Australia,73
+609,Yuno Kitahara,61695,WTA,up,Japan,73
+610,Stefania Bojica,38154,WTA,up,Romania,73
+611,Amelia Honer,9526,WTA,up,USA,72
+612,Ekaterina Yashina,1987,WTA,up,World,72
+613,Ilay Yoruk,1344,WTA,up,Turkey,72
+614,Sara Errani,474,WTA,down,Italy,71
+615,Lucia Cortez Llorca,5919,WTA,down,Spain,71
+616,Alyssa Reguer,2545,WTA,up,France,71
+617,Angella Okutoyi,10913,WTA,up,Kenya,71
+618,Ema Burgic,9356,WTA,down,Bosnia and Herzegovina,71
+619,Marcelina Podlinska,9047,WTA,down,Poland,71
+620,Angelica Raggi,1443,WTA,down,Italy,70
+621,Jeong Jang Su,1803,WTA,up,South Korea,70
+622,Alice Robbe,91,WTA,down,France,70
+623,Stephanie Wagner,1416,WTA,down,Germany,70
+624,Camila Romero,22529,WTA,up,Ecuador,70
+625,Maria Ionescu Eva,54081,WTA,up,Romania,70
+626,Adelina Lachinova,50429,WTA,down,Latvia,69
+627,Hiroko Kuwata,5244,WTA,down,Japan,69
+628,Ekaterina Maklakova,9256,WTA,down,World,69
+629,Valeria Bhunu,7729,WTA,down,Zimbabwe,69
+630,Mara Guth,8334,WTA,down,Germany,69
+631,Dasha Ivanova,1050,WTA,down,USA,69
+632,Kristina Mladenovic,514,WTA,down,France,68
+633,Monique Barry,40167,WTA,down,New Zealand,68
+634,Mariella Thamm,70149,WTA,down,Germany,68
+635,Evialina Laskevich,2114,WTA,down,World,68
+636,Tian Jialin,69107,WTA,down,China,68
+637,Kateryna Lazarenko,38153,WTA,down,Ukraine,68
+638,Kayo Nishimura,49582,WTA,down,Japan,68
+639,Beatrise Zeltina,80157,WTA,down,Latvia,67
+640,Maitane Arconada Usue,3001,WTA,up,USA,66
+641,Vaishnavi Adkar,39035,WTA,down,India,66
+642,Luiza Fullana,52392,WTA,down,Brazil,66
+643,Dalayna Hewitt,189,WTA,up,USA,66
+644,Tahlia Kokkinis,63057,WTA,down,Australia,66
+645,Monika Stankiewicz,52685,WTA,down,Poland,66
+646,Rachel Gailis,1351,WTA,up,USA,66
+647,Mary Lewis,40229,WTA,down,USA,65
+648,Christasha McNeil,32551,WTA,down,USA,65
+649,Luca Udvardy,38781,WTA,up,Hungary,65
+650,Rebecca Munk Mortensen,37903,WTA,down,Denmark,65
+651,Astrid Cirotte,13324,WTA,down,France,65
+652,Clara Burel,515,WTA,down,France,64
+653,Gina Feistel,38149,WTA,down,Poland,64
+654,Elina Nepliy,62081,WTA,up,World,64
+655,Sarah Iliev,9250,WTA,up,France,64
+656,Maria Serban Isabella,58892,WTA,same,Italy,64
+657,Alexis Nguyen,,WTA,down,USA,63
+658,Maaya Rajeshwaran Revathi,63412,WTA,down,India,63
+659,Joy De Zeeuw,54718,WTA,down,Netherlands,63
+660,Natsuki Yoshimoto,53278,WTA,down,Japan,63
+661,Maria Gonzalez Daniele Justina,53436,WTA,down,Argentina,63
+662,Adrienn Nagy,12932,WTA,down,Hungary,63
+663,Marie Mettraux,2265,WTA,down,Switzerland,62
+664,Alize Lim,5432,WTA,up,France,62
+665,Alexandra Vagramov,7035,WTA,down,Canada,62
+666,Luisa Meyer Auf Der Heide,53,WTA,up,Germany,62
+667,Anna Petkovic,72578,WTA,down,Germany,61
+668,Celia Cervino Ruiz,137,WTA,down,Spain,61
+669,Berta Bonardi,4005,WTA,up,Argentina,61
+670,Andre Lukosiute,11326,WTA,up,Lithuania,61
+671,Stefi Webb,10932,WTA,down,Australia,61
+672,Clara Vlasselaer,1357,WTA,up,Belgium,61
+673,Milana Zhabrailova,43,WTA,down,World,61
+674,Oceane Dodin,523,WTA,up,France,60
+675,Federica Oana Anamaria,55524,WTA,down,Romania,60
+676,Kylie Collins,20330,WTA,down,USA,60
+677,Vitoria Leme Da Silva Nauhany,65788,WTA,up,Brazil,59
+678,Sofia Rocchetti,2584,WTA,down,Italy,59
+679,Yuliya Hatouka,466,WTA,up,World,59
+680,Raphaelle Lacasse,6697,WTA,down,Canada,59
+681,Yi Yang Ya,1023,WTA,up,Taiwan,59
+682,Mio Mushika,10893,WTA,up,Japan,59
+683,Petra Hule,33387,WTA,up,Australia,58
+684,Eleejah Inisan,40528,WTA,up,France,58
+685,Valeriia Iushchenko,,WTA,up,World,58
+686,Fiona Ganz,12561,WTA,up,Switzerland,58
+687,Daria Kudashova,13424,WTA,up,World,57
+688,Anastasiia Gureva,9245,WTA,down,World,57
+689,Enola Chiesa,176,WTA,up,Italy,57
+690,Eliska Tichackova,56385,WTA,down,Czech Republic,57
+691,Emma Lene,13258,WTA,up,France,57
+692,Maria Golovina,51418,WTA,up,World,57
+693,Ivana Sebestova,14,WTA,down,Czech Republic,57
+694,Jesika Maleckova,1109,WTA,up,Czech Republic,56
+695,Aneta Laboutkova,4085,WTA,up,Czech Republic,56
+696,Lea Nilsson,51328,WTA,down,Sweden,56
+697,Daria Egorova,63419,WTA,up,World,56
+698,Kristina Liutova,76966,WTA,down,World,56
+699,Diana Demidova,1001,WTA,up,World,56
+700,Salma Ewing,38259,WTA,up,USA,56
+701,Jaimee Fourlis,441,WTA,up,Australia,55
+702,Zhuoxuan Bai,9107,WTA,up,China,55
+703,Kristina Novak,38150,WTA,down,Slovenia,55
+704,Gaia Maduzzi,55153,WTA,up,Italy,55
+705,Federica Sacco,57428,WTA,up,Italy,55
+706,Amina Anshba,1983,WTA,up,World,54
+707,Jose Portillo Ramirez Maria,1428,WTA,up,Mexico,54
+708,Briana Szabo,13381,WTA,down,Romania,54
+709,Ayumi Miyamoto,11583,WTA,up,Japan,54
+710,Honoka Kobayashi,13415,WTA,up,Japan,54
+711,Martina Trevisan,512,WTA,up,Italy,53
+712,Federica Di Sarra,1799,WTA,up,Italy,53
+713,Mariana Diaz-Oliva,,WTA,up,Argentina,53
+714,Jana Kolodynska,199,WTA,up,World,53
+715,Tamila Gadamauri,80301,WTA,down,Belgium,53
+716,Zoziya Kardava,11480,WTA,down,Georgia,53
+717,Karolina Schmiedlova Anna,1145,WTA,up,Slovakia,52
+718,Marie Benoit,2289,WTA,up,Belgium,52
+719,Stacey Fung,13329,WTA,up,Canada,52
+720,Dimitra Pavlou,28,WTA,up,Greece,52
+721,Brooke Black,55157,WTA,up,United Kingdom,52
+722,Carmen Lopez Martinez,38035,WTA,down,Spain,52
+723,Ava Markham,40193,WTA,up,USA,52
+724,Irina Balus,10898,WTA,down,Slovakia,52
+725,Marie Nijkamp Rose,61974,WTA,up,Netherlands,52
+726,Iva Ivanova,52708,WTA,up,Bulgaria,52
+727,Junhan Zhang,63420,WTA,up,China,52
+728,Laura Svatikova,14635,WTA,up,Slovakia,52
+729,Alyssa Ahn,48889,WTA,up,USA,51
+730,Julia Konishi Camargo Silva,2120,WTA,up,Brazil,51
+731,Jessica Hinojosa Gomez,1051,WTA,up,Mexico,51
+732,Ida Wobker,81722,WTA,up,Germany,51
+733,Ziva Falkner,2278,WTA,up,Slovenia,51
+734,Ksenia Efremova,63490,WTA,up,France,50
+735,Anastasia Bertacchi,68678,WTA,up,Italy,50
+736,Maria Sholokhova,9258,WTA,up,World,50
+737,Edda Mamedova,14563,WTA,down,World,50
+738,Melany Fajmonova Sarah,83920,WTA,down,Czech Republic,50
+739,Chantal Sauvant,19,WTA,up,Germany,50
+740,Anna Kubareva,1417,WTA,up,World,50
+741,Yanina Wickmayer,74,WTA,up,Belgium,49
+742,Julia Stusek,38313,WTA,down,Germany,49
+743,Yi Chen Meng,40110,WTA,up,China,49
+744,Akiko Omae,4342,WTA,up,Japan,49
+745,Victoria Milovanova,63416,WTA,up,World,49
+746,Mia Horvit,38670,WTA,up,USA,49
+747,Jiangxue Han,,WTA,up,China,49
+748,Elena Korokozidi,37979,WTA,down,Greece,49
+749,Franziska Sziedat,2116,WTA,up,Germany,49
+750,Ruien Zhang,,WTA,up,China,48
+751,Nadiya Kolb,7553,WTA,up,Ukraine,48
+752,Matilde Paoletti,9395,WTA,up,Italy,48
+753,Chengyiyi Yuan,10227,WTA,up,China,48
+754,Gaeul Jang,32808,WTA,up,South Korea,48
+755,Vicky Van De Peer,13820,WTA,up,Belgium,48
+756,Daria Zelinskaya,14549,WTA,up,World,48
+757,Yuliana Lizarazo,150,WTA,up,Colombia,47
+758,Sophia Biolay,16091,WTA,up,France,47
+759,Patricija Paukstyte,10903,WTA,up,Lithuania,47
+760,Michika Ozeki,7561,WTA,up,Japan,47
+761,Angelina Wirges,1368,WTA,up,Germany,47
+762,Geraldine Gerald Gonzalez Jimar,19896,WTA,up,Chile,46
+763,Naho Sato,,WTA,down,Japan,46
+764,Reina Goto,50792,WTA,up,Japan,46
+765,Yujia Huang,56997,WTA,up,China,46
+766,Daria Yesypchuk,52647,WTA,down,Ukraine,46
+767,Mirjam Bjorklund,498,WTA,up,Sweden,45
+768,Safina Popa Giulia,69063,WTA,up,Romania,45
+769,Demi Tran,13208,WTA,up,Netherlands,45
+770,Michaela Bayerlova,194,WTA,up,Czech Republic,45
+771,Anne-Christine Lutkemeyer,1358,WTA,up,USA,45
+772,Onyu Choi,24515,WTA,up,South Korea,45
+773,Anita Sahdiieva,13920,WTA,up,Ukraine,45
+774,JiaYi Wang,5683,WTA,up,China,45
+775,Jessica Failla,13323,WTA,up,USA,44
+776,Victoria Gomez O'Hayon,40095,WTA,down,Spain,44
+777,Ana Grubor,89,WTA,down,Canada,44
+778,Maria Kalyakina,61314,WTA,up,World,44
+779,Madelief Hageman,2527,WTA,same,Netherlands,44
+780,Linda Sevcikova,21842,WTA,up,Czech Republic,44
+781,Kaylah McPhee,3191,WTA,up,Australia,43
+782,Valentina Mediorreal Arias,50044,WTA,down,Colombia,43
+783,Beatrice Ricci,1024,WTA,up,Italy,43
+784,Aran Teixido Garcia Maria,22522,WTA,up,Spain,43
+785,Yiming Dang,53147,WTA,up,China,43
+786,Iveta Dapkute,11610,WTA,up,Lithuania,43
+787,Chloe Noel,13077,WTA,up,France,43
+788,Dune Vaissaud,52684,WTA,up,France,43
+789,Lan Mi,68334,WTA,up,China,43
+790,Tilwith Di Girolami,33,WTA,down,Belgium,43
+791,Nadia Podoroska,2805,WTA,up,Argentina,42
+792,Bunyawi Thamchaiwat,38246,WTA,up,Thailand,42
+793,Yasmin Ezzat,1035,WTA,up,Egypt,42
+794,Nagi Hanatani,2602,WTA,up,Japan,42
+795,Merel Hoedt,2296,WTA,up,Netherlands,42
+796,Nika Radisic,175,WTA,up,Slovenia,41
+797,Tamira Paszek,2756,WTA,up,Austria,41
+798,Laquisa Khan,58844,WTA,up,Australia,41
+799,Romina Ccuno,2119,WTA,up,Peru,41
+800,Diana Marcinkevica,122,WTA,up,Latvia,40
+801,Yuhan Wang,85999,WTA,up,China,39
+802,Julieta Estable Lara,2283,WTA,up,Argentina,39
+803,Dileep Nitture Akanksha,18042,WTA,up,India,39
+804,Ya-Hsuan Lee,5239,WTA,down,Taiwan,39
+805,Yujin Kim,62139,WTA,up,South Korea,39
+806,Suana Tucakovic,50431,WTA,up,Bosnia and Herzegovina,39
+807,Akasha Ceuca Ann,75973,WTA,down,Germany,39
+808,Adriana Reami,2586,WTA,up,USA,39
+809,Wanja Brune Olsen Astrid,20694,WTA,up,Norway,39
+810,Brenda Fruhvirtova,9532,WTA,up,Czech Republic,38
+811,Camila Torres Murcia Maria,1053,WTA,up,Colombia,38
+812,Viola Turini,1375,WTA,up,Italy,38
+813,Shilin Xu,131,WTA,up,China,38
+814,Olga Helmi,1406,WTA,up,Denmark,38
+815,Vlada Mincheva,61490,WTA,up,World,37
+816,Sarah Rokusek,10929,WTA,down,Australia,37
+817,Laia Petretic,22,WTA,up,France,37
+818,Eugenie Bouchard,2941,WTA,up,Canada,36
+819,Ines Murta,90,WTA,up,Portugal,36
+820,Arabella Koller,14207,WTA,up,Austria,36
+821,Mara Gae,55170,WTA,up,Romania,36
+822,Luciana Moyano,40060,WTA,down,Argentina,36
+823,Gaia Squarcialupi,2533,WTA,up,Italy,36
+824,Garbiela Vasilescu Arina,13991,WTA,up,Romania,36
+825,Fernanda Herazo Gonzalez Maria,1415,WTA,down,Colombia,35
+826,Nellie Taraba Wallberg,40173,WTA,up,Sweden,35
+827,Sofia Rojas,,WTA,up,Ecuador,35
+828,Victoria Kan,1421,WTA,up,World,35
+829,Jacqueline Cabaj Awad,87,WTA,up,Sweden,35
+830,Elena Jamshidi,50,WTA,down,Denmark,35
+831,Anastasiia Firman,69527,WTA,up,Ukraine,35
+832,Maddalena Giordano,58312,WTA,up,Italy,35
+833,Noemi Maines,73807,WTA,down,Italy,35
+834,Lilian Poling,61430,WTA,down,USA,35
+835,Sonja Zhenikhova,57568,WTA,up,Germany,34
+836,Peangtarn Plipuech,3409,WTA,up,Thailand,34
+837,Xinran Sun,82564,WTA,up,China,34
+838,Mao Mushika,37889,WTA,up,Japan,34
+839,Marianne Argyrokastriti,53625,WTA,down,Greece,34
+840,Karine Sarkisova,40214,WTA,down,World,34
+841,Marie Villet,13075,WTA,up,France,34
+842,Kristina Penickova,58224,WTA,up,USA,33
+843,Katy Dunne,5016,WTA,up,United Kingdom,33
+844,Amy Sucha,56476,WTA,down,Czech Republic,33
+845,Anastasija Cvetkovic,57899,WTA,up,Serbia,33
+846,Ilinca Burcescu Maia,69713,WTA,up,Romania,33
+847,Belle Thompson,39129,WTA,same,Australia,33
+848,Mana Kawamura,2570,WTA,down,Japan,33
+849,Maria Toma,13545,WTA,down,Romania,33
+850,Anja Wildgruber,1387,WTA,up,Germany,33
+851,Freya Christie,2273,WTA,same,United Kingdom,32
+852,Shiyu Ye,,WTA,same,China,32
+853,Ophelie Boullay,90171,WTA,same,France,32
+854,Klara Veldman,13168,WTA,down,Netherlands,32
+855,Darja Suvirdjonkova,38698,WTA,down,Serbia,32
+856,Jing-Jing Lu,8238,WTA,down,China,31
+857,Petra Konjikusic,50681,WTA,down,Serbia,31
+858,Shannon Lam,32562,WTA,down,USA,31
+859,Polina Leykina,5264,WTA,up,World,31
+860,Natalija Stevanovic,219,WTA,up,Serbia,31
+861,Aruzhan Sagandikova,10917,WTA,down,Kazakhstan,31
+862,Louna Zoppas,54698,WTA,same,France,31
+863,Ella Haavisto,38990,WTA,same,Finland,31
+864,Claudia Ferrer Perez,51629,WTA,down,Spain,31
+865,Julia Garcia,,WTA,down,Mexico,30
+866,Laima Vladson,68753,WTA,down,Lithuania,30
+867,Cristina Dinu,1441,WTA,down,Romania,30
+868,Raquel Gonzalez Vilar,13821,WTA,up,Spain,30
+869,Coco Bosman,70147,WTA,up,Netherlands,30
+870,Solymar Colling,13367,WTA,down,USA,30
+871,Salma Drugdova,15598,WTA,down,Slovakia,30
+872,Ysaline Bonaventure,461,WTA,same,Belgium,29
+873,Saisai Zheng,3398,WTA,same,China,29
+874,Natalia Sousa Salazar,67621,WTA,down,Mexico,29
+875,Sylvie Zund,,WTA,up,Liechtenstein,29
+876,Anna Pircher,72884,WTA,up,Austria,29
+877,Ava Hrastar,84406,WTA,up,USA,29
+878,Angelica Blake,,WTA,up,United Kingdom,29
+879,Lucie Petruzelova,1355,WTA,down,Czech Republic,29
+880,Alicia Smith,6292,WTA,up,Australia,29
+881,Agustina Chlpac,13036,WTA,up,Argentina,29
+882,Diana-Ioana Simionescu,55523,WTA,down,Romania,29
+883,Camilla Gennaro,15629,WTA,up,Italy,29
+884,Polona Hercog,2819,WTA,up,Slovenia,28
+885,Irem Kurt,13034,WTA,up,Turkey,28
+886,Carolina Bohrer Martins,52056,WTA,up,Brazil,28
+887,Tian Deng Tiana,51325,WTA,down,Sweden,28
+888,Lavinia Luciano,68315,WTA,down,Italy,28
+889,Alexandra Vasilyeva,1347,WTA,down,World,28
+890,Wozuko Mdlulwa,50501,WTA,down,South Africa,28
+891,Celine Simunyu,11612,WTA,same,Ireland,27
+892,Sae Noguchi,76009,WTA,down,Japan,27
+893,Valentina Ivanov,3215,WTA,down,New Zealand,27
+894,Tianmei Wang,6173,WTA,up,USA,27
+895,Aspen Schuman,54119,WTA,down,USA,27
+896,Lucie Urbanova,33202,WTA,up,Czech Republic,27
+897,Nadia Lagaev,5775,WTA,up,Canada,27
+898,Lucie Nguyen Tan,1135,WTA,up,France,27
+899,Cherry Kim,22975,WTA,up,South Korea,27
+900,Kate Mansfield,24735,WTA,up,USA,27
+901,Jamilah Snells,13360,WTA,up,USA,27
+902,Stefania Rogozinska Dzik,12791,WTA,up,Poland,27
+903,Carolin Raschdorf,65988,WTA,up,Germany,27
+904,Julia Stamatova,2600,WTA,up,Bulgaria,27
+905,Daphnee Mpetshi Perricard,52022,WTA,same,France,26
+906,Defne Cirpanli,1009,WTA,same,Turkey,26
+907,Elyse Tse,13809,WTA,down,New Zealand,26
+908,Bella Payne,82380,WTA,down,USA,26
+909,Adithya Karunaratne,13074,WTA,down,Hong Kong,26
+910,Abigail Rencheli,31238,WTA,down,Moldova,26
+911,Elena-Teodora Cadar,77,WTA,down,Romania,26
+912,Sina Herrmann,1413,WTA,down,Germany,26
+913,Shiho Tsujioka,73854,WTA,down,Japan,26
+914,Evgeniya Burdina,13376,WTA,down,World,26
+915,Christina McHale,496,WTA,down,USA,25
+916,Yu Ye Qiu,8624,WTA,down,China,25
+917,Allura Zamarripa,14438,WTA,down,USA,25
+918,Dunja Maric,54858,WTA,down,Serbia,25
+919,Teah Chavez,38269,WTA,down,Canada,25
+920,Dabin Kim,,WTA,down,South Korea,25
+921,Beatrice Stagno,20873,WTA,down,Italy,25
+922,Jordyn McBride,79400,WTA,down,USA,25
+923,Chelsea Fontenel,9252,WTA,down,Switzerland,25
+924,Candela Vazquez,57346,WTA,up,Argentina,24
+925,Jin Ahn Yu,3133,WTA,down,South Korea,24
+926,Elza Tomase,13500,WTA,down,Latvia,24
+927,Anna Gabric,2572,WTA,down,Germany,24
+928,Antonia Stoyanov,70319,WTA,down,Netherlands,24
+929,Irina Fetecau,3000,WTA,down,Romania,24
+930,Indianna Spink,86839,WTA,down,United Kingdom,24
+931,Ying Cheuk Shek,70300,WTA,down,Hong Kong,24
+932,Yingqun Sun,58612,WTA,down,China,24
+933,An Lin Fang,40156,WTA,up,Taiwan,24
+934,Valeriia Artemeva,76954,WTA,up,World,24
+935,Clarissa Blomqvist,23386,WTA,up,Finland,24
+936,Victoria Pohle,55087,WTA,down,Germany,24
+937,Paula Cembranos,38981,WTA,down,Switzerland,24
+938,Simona Ogescu,2544,WTA,down,Romania,24
+939,Mila Masic,38009,WTA,same,Serbia,24
+940,Mihaela Buzarnescu,483,WTA,same,Romania,23
+941,Vivian Yang,11482,WTA,same,New Zealand,23
+942,Petra Sedlackova,9069,WTA,down,Czech Republic,23
+943,Lea Tholey,5757,WTA,same,France,23
+944,Jahnie Van Zyl,69923,WTA,same,South Africa,23
+945,Adriana Tkachenko,82997,WTA,down,Ukraine,23
+946,Johanna Silva,38157,WTA,down,Germany,23
+947,Marta Lombardini,72030,WTA,same,Italy,23
+948,Elizabeth Ionescu,53647,WTA,same,USA,23
+949,Gabriella Price,114,WTA,same,USA,23
+950,Lisa-Marie Rioux,19163,WTA,down,Japan,23
+951,Ksenia Laskutova,7190,WTA,down,World,23
+952,Nanari Katsumi,40160,WTA,down,Japan,23
+953,Sara Svetac,38952,WTA,down,Croatia,22
+954,Filipa Santos Ana,100,WTA,down,Portugal,22
+955,Eszter Meri,2117,WTA,up,Slovakia,22
+956,Krisha Mahendran,80829,WTA,down,India,22
+957,Ani Amiraghyan,4535,WTA,down,Armenia,22
+958,Francesca Mattioli,61631,WTA,down,Argentina,22
+959,Aysegul Mert,10894,WTA,down,Turkey,22
+960,Ekaterina Shalimova,9168,WTA,down,World,22
+961,Lily Taylor,10895,WTA,up,Australia,22
+962,Xuan Leong Shihomi Li,40287,WTA,down,Malaysia,22
+963,Gabriella Broadfoot,38791,WTA,down,South Africa,22
+964,Xi Luo,53035,WTA,down,China,22
+965,Lorena Solar Donoso,54884,WTA,down,Spain,22
+966,Ava Rodriguez,81885,WTA,down,USA,22
+967,Romane Longueville,76314,WTA,down,Belgium,22
+968,Arina Varaksina,14553,WTA,down,World,22
+969,Kisa Yoshioka,13971,WTA,down,Japan,22
+970,Nala Milic Ela,50633,WTA,up,Slovenia,22
+971,Eri Hozumi,3442,WTA,up,Japan,21
+972,Maya Iyengar,68681,WTA,up,USA,21
+973,Aya El Aouni,10897,WTA,up,Morocco,21
+974,Kate Fakih,40835,WTA,up,USA,21
+975,Lauryn John-Baptiste,19166,WTA,down,United Kingdom,21
+976,Yanan Hou,31155,WTA,up,China,21
+977,Polina Kuharenko,40793,WTA,up,World,21
+978,Isabella Barrera Aguirre,13331,WTA,down,USA,21
+979,Jizel Matos Sequeira Fernandes,66514,WTA,down,United Kingdom,21
+980,Neus Torner Sensano,74878,WTA,down,Spain,20
+981,Maribella Zamarripa,23069,WTA,up,USA,20
+982,Sophie Chang,2126,WTA,up,USA,20
+983,Sofia Da Cruz Mendonca,1019,WTA,up,Brazil,20
+984,Fanny Norin,38948,WTA,down,Sweden,20
+985,Eleonora Alvisi,8441,WTA,up,Italy,20
+987,Veronica Miroshnichenko,40122,WTA,up,World,20
+988,Carson Tanguilig,69984,WTA,up,USA,20
+989,Savannah Broadus,30106,WTA,up,USA,20
+990,Maria Garcia Cid,18071,WTA,down,Spain,20
+991,Kathleen Kanev,96,WTA,up,Germany,20
+992,Nada Fouad,1020,WTA,down,Egypt,20
+993,Anjali Rathi,25031,WTA,up,India,20
+994,Lexue Xiao,31666,WTA,up,China,20
+995,Nina Radovanovic,13073,WTA,up,France,20
+995,Valentina Losciale,15372,WTA,up,Italy,20
+997,Gloria Ceschi,1014,WTA,up,Italy,20
+998,Arina Arifullina,24512,WTA,up,World,20
+999,Sofia Martinez Solis Claudia,25343,WTA,up,Mexico,19
+1000,Tegan Bush,70748,WTA,up,United Kingdom,19
+1001,Kallista Liu,60031,WTA,up,USA,19
+1002,Isabella Guillen Giselle,63491,WTA,up,Australia,19
+1003,Jizelle Sibai,78990,WTA,up,Australia,19
+1004,Daria Frayman,53774,WTA,up,Cyprus,19
+1005,Gloriana Nahum,54699,WTA,up,Benin,19
+1006,Kira Bataikina,67383,WTA,up,World,19
+1006,Maria Lazarenko,,WTA,up,Ukraine,19
+1008,Carolina Millan Ingrid,91244,WTA,down,Mexico,19
+1009,Marion Job Karine,38136,WTA,down,Cameroon,19
+1010,Lara Schmidt,,WTA,up,Germany,19
+1011,Daria Kuczer,38181,WTA,up,Poland,19
+1012,Lucie Pawlak,38780,WTA,up,France,19
+1013,Kolie Allen,39131,WTA,up,USA,19
+1014,Jenna Dean,66635,WTA,up,USA,19
+1015,Carlotta Moccia,40162,WTA,up,Italy,19
+1016,Karolina Vlckova,1037,WTA,down,Czech Republic,19
+1017,Brandy Walker,5,WTA,up,USA,19
+1018,Liv Hovde,9522,WTA,up,USA,18
+1019,Sabastiani Leon,,WTA,up,Mexico,18
+1020,Suha Lee,4095,WTA,up,South Korea,18
+1021,DJ Bennett,52057,WTA,up,USA,18
+1022,Sonja Zhiyenbayeva,40076,WTA,down,Kazakhstan,18
+1023,Kateryna Diatlova,20381,WTA,down,Ukraine,18
+1024,Sofia Milatova,1405,WTA,up,Slovakia,18
+1025,Polina Skliar,86096,WTA,up,Ukraine,18
+1026,Thea Frodin,53978,WTA,down,USA,18
+1026,Anna Ureke,13214,WTA,up,World,18
+1028,Zuzanna Kolonus,37956,WTA,up,Poland,18
+1029,Seda Baslilar,65411,WTA,up,France,18
+1030,Inka Wawrzkiewicz,84424,WTA,down,Poland,18
+1031,Maria Kononova,202,WTA,up,World,18
+1032,Ustiniya Lekomtseva,49392,WTA,down,World,18
+1033,Alisa Kummel,14558,WTA,up,World,18
+1034,Georgiana Goina Patricia,58114,WTA,down,Romania,18
+1034,Polina Bakhmutkina,1342,WTA,up,Belgium,18
+1036,Sara Mikaca,19162,WTA,down,Bosnia and Herzegovina,18
+1037,Natsuho Arakawa,68,WTA,up,Japan,18
+1038,Claudia Gasparovic,68425,WTA,up,Austria,18
+1039,Maelle Leclercq,38971,WTA,down,France,18
+1040,Tianmi Mi,40821,WTA,up,China,18
+1041,Paulina Perez Garcia Maria,136,WTA,up,Colombia,17
+1042,Alexandra Osborne,71,WTA,up,Australia,17
+1043,Kim Chiarello,90503,WTA,up,France,17
+1044,Eva Garkusha,1346,WTA,up,World,17
+1045,Emma Charney,19702,WTA,up,USA,17
+1045,Tina Manescu,88208,WTA,up,Germany,17
+1047,Jo-Yee Chan,84315,WTA,up,USA,17
+1048,Lucia Peyre,17376,WTA,down,Argentina,17
+1049,Julita Saner,2597,WTA,up,Sweden,17
+1050,Judith Perello Saavedra,1420,WTA,up,Spain,17
+1050,Krystyna Pochtovyk,20383,WTA,up,Ukraine,17
+1052,Valerie Glozman,37843,WTA,up,USA,16
+1053,Karolina Pliskova,517,WTA,up,Czech Republic,16
+1054,Tayisiya Morderger,1997,WTA,up,Germany,16
+1055,Daniela Piani,28606,WTA,up,United Kingdom,16
+1056,Charlotte Keitel,67693,WTA,up,Germany,16
+1056,Amy Stevens,15341,WTA,up,Australia,16
+1056,Kylie McKenzie,9127,WTA,up,USA,16
+1056,Kennedy Drenser-Hagmann,92077,WTA,up,USA,16
+1060,Amelia Paszun,84716,WTA,down,Poland,16
+1060,Annika Penickova,58204,WTA,up,USA,16
+1062,Anna Snigireva,51594,WTA,up,World,16
+1062,Andrea Obradovic,40062,WTA,up,Serbia,16
+1064,Lara Smejkal,39923,WTA,up,Slovenia,16
+1065,Sofia Cohen Perovani,2264,WTA,up,Brazil,16
+1066,Eunji Lee,,WTA,up,South Korea,16
+1067,Rinon Okuwaki,39116,WTA,up,Japan,16
+1068,Yui Chikaraishi,12992,WTA,up,Japan,16
+1069,Vlada Ekshibarova,27727,WTA,up,Israel,16
+1070,Nicole Gadient,13738,WTA,down,Switzerland,16
+1071,Giulia Paterno,23392,WTA,down,Italy,16
+1072,Sloane Stephens,1826,WTA,up,USA,15
+1073,Xi Wu Ru,90543,WTA,up,China,15
+1074,Tara Moore,1909,WTA,up,United Kingdom,15
+1075,Nadia Kulbiej,70751,WTA,up,Poland,15
+1076,Laetitia Sarrazin,3746,WTA,up,France,15
+1076,Barbara Kostecka,86095,WTA,up,Poland,15
+1078,Kiara Zabkova,73135,WTA,up,Slovakia,15
+1079,Sarah Mildren,78988,WTA,up,Australia,15
+1080,Funa Kozaki,13819,WTA,up,Japan,15
+1081,Lani Chang,83235,WTA,down,USA,15
+1081,Jessie Aney,214,WTA,up,USA,15
+1083,Margaux Maquet,69067,WTA,up,Belgium,15
+1084,Chukwumelije Clarke,,WTA,down,USA,15
+1085,Maelys Bougrat,14109,WTA,down,France,15
+1086,Andjela Lazarevic,52255,WTA,up,Serbia,15
+1087,Cindy Langlais,62516,WTA,up,France,14
+1088,Isabel Higuita Barraza Mariana,21720,WTA,up,Colombia,14
+1089,Ruby Cooling,84355,WTA,up,United Kingdom,14
+1090,Maria Cinalli Luna,63493,WTA,up,Argentina,14
+1091,Denisa Hindova,4082,WTA,down,Czech Republic,14
+1092,Selina Atay,2525,WTA,up,Turkey,14
+1093,Midori Castillo Meza,90153,WTA,down,USA,14
+1094,Diae El Jardi,64804,WTA,up,Morocco,14
+1095,Georgina Garcia-Perez,1784,WTA,up,Spain,14
+1096,Lorena Schaedel,34690,WTA,up,Germany,14
+1097,Alessia Monteleone Giulia,75456,WTA,up,Italy,14
+1098,Kristina Paskauskas,40089,WTA,up,United Kingdom,14
+1099,Anri Nagata,13621,WTA,up,Japan,14
+1100,Emma Kamper Malmkjaer,87042,WTA,down,Denmark,14
+1100,Vlada Zvereva,,WTA,up,World,14
+1102,Luana Plaza Araujo,13083,WTA,up,Brazil,14
+1103,Miyu Nakashima,56185,WTA,up,Japan,14
+1104,Katerina Mandelikova,14354,WTA,down,Czech Republic,14
+1105,Nagomi Higashitani,38988,WTA,up,Japan,14
+1106,Ching Wu Ho,1362,WTA,up,Hong Kong,14
+1107,Irina Anghel Alexandra,69065,WTA,up,Romania,14
+1108,Ying Ruan Zi,67675,WTA,up,China,14
+1109,Tori Kinard,192,WTA,down,USA,14
+1110,Kianah Motosono,22705,WTA,up,USA,14
+1111,Marta Soriano Santiago,24523,WTA,up,Spain,14
+1111,Polina Kaibekova,60798,WTA,up,World,14
+1113,Helena Stevic,14382,WTA,up,France,14
+1114,Tanisha Kashyap,40820,WTA,up,India,14
+1115,Bethanie Mattek-Sands,2749,WTA,up,USA,13
+1116,Rebeca Pereira,8439,WTA,up,Brazil,13
+1117,Marian Gomez Pezuela Cano,2556,WTA,up,Mexico,13
+1118,Alexandra Bozovic,3321,WTA,up,Australia,13
+1119,Tamara Kostic,38119,WTA,up,Austria,13
+1120,Liel Rothensteiner,49347,WTA,up,Austria,13
+1121,Anna Pushkareva,92497,WTA,up,Russia,13
+1121,Dejana Radanovic,4190,WTA,up,Serbia,13
+1123,Luciana Perry,84407,WTA,up,USA,13
+1124,Alice Ferlito,71935,WTA,up,Spain,13
+1125,Federica Bilardo,2284,WTA,up,Italy,13
+1126,Naomi McKenzie,75585,WTA,up,Australia,13
+1127,Alisa Vasileva,91358,WTA,up,World,13
+1128,Anna Kartseva,77927,WTA,up,World,13
+1128,Mia Slama,69230,WTA,up,USA,13
+1130,Emma Wilson,24734,WTA,up,United Kingdom,13
+1131,Mercedes Aristegui,20222,WTA,up,Spain,13
+1131,Ilinca Sagmar,68665,WTA,up,Romania,13
+1133,Lara Pfeifer,13337,WTA,up,Italy,13
+1134,Lena Ebster Anna,84408,WTA,up,Austria,13
+1135,Giuliana Bestetti,25,WTA,down,Italy,13
+1136,Nana Kawagishi,13071,WTA,up,Japan,13
+1137,Paola Lopez,60664,WTA,up,USA,13
+1138,Yushan Shao,9041,WTA,up,China,12
+1139,Catherine Aulia,3325,WTA,up,Australia,12
+1140,Charo Esquiva Banuls,52706,WTA,down,Spain,12
+1141,Shuo Feng,9106,WTA,up,China,12
+1142,Marina Bulbarella,2559,WTA,down,Argentina,12
+1143,Mavie Osterreicher,7359,WTA,up,Austria,12
+1144,Ying Xun Fang,1379,WTA,up,China,12
+1145,Min Liu,4581,WTA,up,China,12
+1146,Anastasia Sysoeva,125,WTA,up,USA,12
+1147,Zaire Clarke,76243,WTA,up,USA,12
+1148,Janae Preston,89244,WTA,up,USA,12
+1149,Berta Passola,53340,WTA,up,Spain,12
+1149,Xinle Geng,84720,WTA,up,China,12
+1151,Aravane Rezai,3539,WTA,up,France,12
+1151,Nicole Rivkin,9269,WTA,up,Germany,12
+1153,Raveena Kingsley,9157,WTA,up,USA,12
+1154,Katherine Barnes,58551,WTA,up,United Kingdom,12
+1155,Josefina Estevez,38941,WTA,down,Argentina,12
+1156,Margaret Sohns,73855,WTA,down,USA,12
+1157,Nao Nishino,58203,WTA,up,Japan,12
+1158,Leilany Ipunesso,56269,WTA,up,New Caledonia,12
+1159,Manca Pislak,11882,WTA,up,Slovenia,12
+1160,Zoe Hitt,20874,WTA,up,USA,12
+1161,Kaede Usui,75546,WTA,down,USA,12
+1161,Fabienne Gettwart,14243,WTA,up,Germany,12
+1163,Kaat Coppez,66485,WTA,up,Belgium,12
+1163,Oceane Babel,492,WTA,down,France,12
+1165,Stefaniya Pushkar,73480,WTA,up,Ukraine,12
+1166,Jasmine Conway,9401,WTA,up,United Kingdom,12
+1167,Barbara Straszewska,73134,WTA,down,Poland,12
+1168,Barbora Michalkova,70093,WTA,down,Czech Republic,12
+1168,Annabelle Xu,,WTA,up,Canada,12
+1170,Feier Hu,54660,WTA,up,China,12
+1170,Remika Ohashi,72037,WTA,up,Japan,12
+1172,Rachael Smith,7919,WTA,up,USA,12
+1173,Barbara Dessolis,2282,WTA,up,Italy,12
+1174,Maria Oliver Sanchez,38007,WTA,up,Spain,12
+1175,Ada Kumru,38327,WTA,down,Turkey,11
+1176,Aoi Ide,82980,WTA,up,Japan,11
+1177,Shruti Ahlawat,25026,WTA,up,India,11
+1178,Welles Newman,73853,WTA,up,USA,11
+1179,Lisa Claeys,68070,WTA,up,Belgium,11
+1180,Tereza Krejcova,73864,WTA,up,Czech Republic,11
+1181,Karla Bartel,82378,WTA,up,Germany,11
+1181,Mandegar Farzami,71459,WTA,up,Iran,11
+1181,Luna Vujovic,65718,WTA,up,Serbia,11
+1181,Daria Shadchneva,40518,WTA,up,World,11
+1185,Mouna Bouzgarrou,23295,WTA,up,Tunisia,11
+1185,Humera Baharmus,13978,WTA,up,India,11
+1185,Yuka Hosoki,8723,WTA,up,Japan,11
+1188,Smriti Bhasin,58,WTA,up,India,11
+1188,Klara Kosan,11728,WTA,up,USA,11
+1188,Elizabeth Coleman,9239,WTA,down,USA,11
+1191,Kanako Morisaki,6933,WTA,up,Japan,11
+1191,Mia Wainwright,76419,WTA,up,United Kingdom,11
+1193,Alana Parnaby,1408,WTA,up,Australia,11
+1194,Claudia Hoste Ferrer,146,WTA,up,Spain,11
+1194,Milana Maslenkova,7030,WTA,up,Uzbekistan,11
+1196,Carolina Nava Elkin Amanda,39505,WTA,up,Mexico,11
+1197,Amelie Hejtmankova,69485,WTA,up,Czech Republic,11
+1198,Angelica Sara,65858,WTA,down,Italy,11
+1198,Emily De Oliveira,75929,WTA,up,USA,11
+1200,Alesia Breaz,85934,WTA,up,Romania,11
+1200,Esina Samardzic Ayline,9335,WTA,up,Switzerland,11
+1200,Maayan Laron,83613,WTA,down,Israel,11
+1200,Maria Mikhaylova,38938,WTA,up,World,11
+1200,Kamonwan Yodpetch,27706,WTA,up,Thailand,11
+1200,Isabella Svahn,40199,WTA,up,Sweden,11
+1200,Sofia Martianova,74763,WTA,up,World,11
+1207,Laura Boehner,15846,WTA,up,Germany,11
+1207,Caterina Odorizzi,38949,WTA,up,Italy,11
+1209,Analu Freitas,63826,WTA,up,Portugal,10
+1210,Sara Lanca,94,WTA,down,Portugal,10
+1211,Leticia Garcia Vidal,57688,WTA,up,Brazil,10
+1211,Naoko Eto,5249,WTA,up,Japan,10
+1213,Karla Popovic,5707,WTA,up,Croatia,10
+1213,Thessy Ntondele Zinga,18142,WTA,up,France,10
+1215,Kali Supova,60799,WTA,up,Slovakia,10
+1216,Piper Charney,58202,WTA,up,USA,10
+1216,Pei-Chi Lee,1397,WTA,up,Taiwan,10
+1218,Ava-Monet Sycamore,65356,WTA,up,Australia,10
+1219,Cara Korhonen,56715,WTA,up,Finland,10
+1219,Celia Anson Sanchez,58397,WTA,up,Spain,10
+1219,Cristina Ramos Sierra,64791,WTA,up,Spain,10
+1219,Selina Dal,13255,WTA,up,Germany,10
+1223,Anastasia Sukhotina,13462,WTA,up,World,10
+1223,Patricia Bejenaru Karola,20152,WTA,up,Romania,10
+1225,Karolina Mrazikova,51003,WTA,up,Slovakia,10
+1225,Lucrezia Musetti,73781,WTA,up,Italy,10
+1227,Rikke De Koning,40086,WTA,up,Netherlands,10
+1228,Sydney Jara,75928,WTA,up,USA,10
+1228,Malkia Menguene,,WTA,down,USA,10
+1230,Ciara Moore,55154,WTA,up,United Kingdom,10
+1230,Georgina Groth,74171,WTA,up,Germany,10
+1232,Anna Kmiecik,72749,WTA,up,Poland,10
+1232,Juliana Giaccio,76054,WTA,up,Spain,10
+1232,Jiho Shin,3130,WTA,up,South Korea,10
+1232,Sofia Suslova,90177,WTA,up,World,10
+1232,Saoirse Breen,52222,WTA,up,Fiji,10
+1237,Marie Mattel,89697,WTA,up,France,10
+1238,Rosa Dourado Zimermman Jennifer,24284,WTA,up,Brazil,10
+1239,Olivia Bergler,15525,WTA,up,Poland,10
+1240,Jeong Moon,24519,WTA,up,South Korea,10
+1240,Kanon Sawashiro,50791,WTA,down,Japan,10
+1240,Laura Cilekova,49791,WTA,up,Slovakia,10
+1240,Francesca Gandolfi,61315,WTA,down,Italy,10
+1244,Anna Tabunshchyk,80336,WTA,up,Canada,10
+1245,Lourdes Ayala,24413,WTA,up,Argentina,10
+1246,Beatris Spasova,1345,WTA,up,Bulgaria,10
+1246,Saumya Vig,13980,WTA,up,India,10
+1246,Summer Yardley,58641,WTA,up,United Kingdom,10
+1249,Emma Van Poppel,13203,WTA,up,Netherlands,10
+1250,Jose Sanchez Uribe Maria,3885,WTA,up,Colombia,9
+1251,Yana Morderger,1830,WTA,up,Germany,9
+1252,Marie Desvignes Eva,52686,WTA,up,Singapore,9
+1253,Kailey Evans,22282,WTA,up,USA,9
+1253,Riko Kikawada,68050,WTA,up,Japan,9
+1253,Sabine Rutlauka,19429,WTA,up,Latvia,9
+1256,Kseniia Ruchkina,90809,WTA,up,Russia,9
+1257,Isabel Skoog,40792,WTA,up,Sweden,9
+1257,Maria Garcia,38929,WTA,up,Portugal,9
+1259,Gabriella Mikaul,78523,WTA,up,USA,9
+1260,Camilla Bossi,38280,WTA,up,Brazil,9
+1260,Marcella Dessolis,53621,WTA,up,Italy,9
+1260,Laalitya Kalluri,53623,WTA,up,India,9
+1260,Pilar Beveraggi Lespiau,59522,WTA,down,Argentina,9
+1260,Liu Yuhan,90141,WTA,up,China,9
+1265,Ashmitha Easwaramurthi,99,WTA,up,India,9
+1266,Francesca Dell'Edera,17,WTA,up,Italy,9
+1266,Ekaterina Tupitsyna,81408,WTA,up,World,9
+1266,Klaudija Bubelyte,19431,WTA,up,Lithuania,9
+1266,Hephzibah Oluwadare,64356,WTA,up,United Kingdom,9
+1266,Tamara Sramkova,65045,WTA,down,Slovakia,9
+1271,Soha Sadiq,13983,WTA,up,India,9
+1272,Polina Isakova,71279,WTA,up,Ukraine,9
+1272,Teodora Sava Ioana,54092,WTA,up,Romania,9
+1272,Daria Gorska,54024,WTA,up,Poland,9
+1272,Emma Slavikova,61722,WTA,up,Czech Republic,9
+1276,Giovanna Giessler Elena,29352,WTA,up,Germany,9
+1277,Laura Brunkel,56754,WTA,down,Denmark,9
+1277,Victoria Balan Sara,72448,WTA,up,Romania,9
+1279,Natalia Krockova,40725,WTA,up,Slovakia,9
+1280,Melis Rasim,75050,WTA,up,Bulgaria,9
+1281,Lucia Llinares Domingo,15842,WTA,up,Spain,9
+1282,Anna Frey,53648,WTA,up,USA,8
+1283,Anna Dvorackova,81423,WTA,up,Czech Republic,8
+1284,Linea Bajraliu,67387,WTA,up,Sweden,8
+1285,Alja Senica,59689,WTA,up,Slovenia,8
+1286,Ariadna Garcia-Patron Canals,66137,WTA,up,Spain,8
+1286,Mia Kupres,6702,WTA,up,Canada,8
+1286,Yasmine Wagner,49044,WTA,up,Germany,8
+1289,Sophie Llewellyn,67444,WTA,up,USA,8
+1289,Vanessa Teiusanu,13543,WTA,up,Romania,8
+1289,Milla Sequeira,38914,WTA,down,Portugal,8
+1289,Won Wi Hwui,18965,WTA,up,South Korea,8
+1289,Aishi Das,62582,WTA,up,New Zealand,8
+1294,Zdena Safarova,6687,WTA,up,Czech Republic,8
+1295,Carmen Gallardo Guevara,16110,WTA,up,Spain,8
+1295,Isabel Adrover Gallego,20218,WTA,up,Spain,8
+1295,Mariia Bergen,23,WTA,up,Ukraine,8
+1298,Maria Eduarda Lages,22869,WTA,up,Brazil,8
+1298,Margaux Komano,17377,WTA,up,France,8
+1298,Asylzhan Arystanbekova,39124,WTA,up,Kazakhstan,8
+1298,Aglaya Fedorova,14552,WTA,up,World,8
+1298,Viktoria Veleva,90855,WTA,down,Bulgaria,8
+1298,Ailin Larraya Guidi Sol,38942,WTA,up,Argentina,8
+1304,Pooja Ingale,,WTA,up,India,8
+1305,Xichen Zhao,22721,WTA,up,China,8
+1306,Paula Ormaechea,1118,WTA,same,Argentina,7
+1307,Makoto Ninomiya,4310,WTA,same,Japan,7
+1308,Luiza Barros Victoria,70747,WTA,same,Brazil,7
+1309,Sara Milanese,49617,WTA,up,Italy,7
+1309,Jelena Cvijanovic,10919,WTA,same,Australia,7
+1309,Elena Michel,78662,WTA,same,France,7
+1309,Kaur Sandhu Gurmanat,93944,WTA,up,Australia,7
+1309,Seo Lee Gyeong,39108,WTA,same,South Korea,7
+1314,Karolina Lincer,61432,WTA,same,Poland,7
+1315,Marcella Cruz,75889,WTA,same,USA,7
+1315,Mathilde Ngijol-Carre,74666,WTA,same,France,7
+1315,Oriana Gniewkowska,72916,WTA,same,Poland,7
+1315,Doga Turkmen,13028,WTA,same,Turkey,7
+1315,Danielle Daley,41,WTA,same,United Kingdom,7
+1320,Julie Myatovic,49584,WTA,same,France,7
+1321,Jade Groen,85497,WTA,same,Netherlands,7
+1321,Nigina Abduraimova,1439,WTA,same,Uzbekistan,7
+1321,Avery Alexander,87957,WTA,same,Canada,7
+1324,Catarina Ibiaraba Melleiro,,WTA,down,Brazil,7
+1324,Anastasia Grechkina,35429,WTA,down,World,7
+1324,Danique Havermans,58611,WTA,down,Netherlands,7
+1324,Elena Grekul,20909,WTA,down,Ukraine,7
+1324,Hania Abouelsaad,69486,WTA,down,Egypt,7
+1324,Mutsumi Uemura,81772,WTA,down,Japan,7
+1324,Matylda Burylo,61144,WTA,down,Norway,7
+1324,Maddy Zampardo,82381,WTA,down,USA,7
+1324,Katarina Kujovic,83338,WTA,down,Belgium,7
+1333,Lois Newberry,86840,WTA,down,United Kingdom,7
+1333,Mirjana Jovanovic,65091,WTA,up,Serbia,7
+1335,Milena Ciocan,58750,WTA,same,France,7
+1335,Dia Evtimova,1341,WTA,up,Bulgaria,7
+1335,Vivien Sandberg,1006,WTA,down,Germany,7
+1335,Tenika Mcgiffin,33854,WTA,same,Australia,7
+1339,Anna Yang,72041,WTA,up,China,6
+1340,Yuyao Li,4144,WTA,same,China,6
+1341,Qianhui Tang,9104,WTA,same,China,6
+1341,Allegra Korpanec Davies,91359,WTA,same,United Kingdom,6
+1343,Yuliana Monroy,8063,WTA,same,Colombia,6
+1344,Ximena Senties,64461,WTA,up,Mexico,6
+1344,Lena Couto,39827,WTA,same,Portugal,6
+1346,Alice Soulie,68755,WTA,up,France,6
+1347,Victoria Gobbi Monllau Ana,6241,WTA,same,Argentina,6
+1347,Karolina Krajmer,77248,WTA,same,Slovakia,6
+1349,Moeka Miyata,49563,WTA,same,Japan,6
+1349,Margot Phanthala,14670,WTA,same,France,6
+1349,Magdalena Smekalova,53796,WTA,same,Czech Republic,6
+1349,Amelie Brooks,,WTA,same,United Kingdom,6
+1349,Anika Jaskova,13032,WTA,same,Slovakia,6
+1349,Ria Dernikovic,49895,WTA,same,Croatia,6
+1355,Pia Praefke,13085,WTA,up,Germany,6
+1355,Sana Garakani,38903,WTA,same,Iran,6
+1355,Vanja Gudelj,1008,WTA,same,Netherlands,6
+1355,Yui Ohwaki,65787,WTA,same,Japan,6
+1355,Ana Giraldi Requena,38018,WTA,same,Spain,6
+1355,Lavinia Puiac Alexia,54023,WTA,up,Romania,6
+1355,Dominika Podhajecka,71086,WTA,down,Poland,6
+1355,Didi Bredberg Canizares,85919,WTA,down,USA,6
+1355,Dusica Popovski,68680,WTA,same,Serbia,6
+1355,Claire An,67443,WTA,same,USA,6
+1355,Gala Ivanovic,84069,WTA,same,Serbia,6
+1355,Maria Vancea Gabriela,92126,WTA,same,Romania,6
+1355,Ellie Daniels,38794,WTA,same,Canada,6
+1355,Maria Andrienko,40096,WTA,same,World,6
+1355,Na-Ri Kim,4348,WTA,same,South Korea,6
+1355,Megan Heuser,39181,WTA,same,USA,6
+1355,Nikola Breckova,6334,WTA,same,Czech Republic,6
+1355,Naomi Xu,83820,WTA,same,Canada,6
+1355,Katarina Stresnakova,14034,WTA,same,Slovakia,6
+1355,Lola Giza,57083,WTA,same,Germany,6
+1375,Maria Fedotova Anna,63414,WTA,up,Dominican Republic,6
+1376,Carmen Zamburek Ana,39110,WTA,up,Dominican Republic,6
+1376,Ines Leon,51431,WTA,up,Spain,6
+1376,Shria Atturu,13976,WTA,up,USA,6
+1376,Prathyusha Rachapudi,23741,WTA,up,India,6
+1380,Olivia Hansen Sarafina,29957,WTA,up,Denmark,6
+1380,Yuna Ohashi,27844,WTA,up,Japan,6
+1380,Himari Sato,9092,WTA,up,Japan,6
+1380,Meshkatolzahra Safi,10908,WTA,down,Iran,6
+1380,Meritxell Teixido Garcia,70752,WTA,up,Spain,6
+1380,Ginevra Parentini,2115,WTA,up,Italy,6
+1380,Chiara Fornasieri,38893,WTA,up,Italy,6
+1387,Stefanie Voegele,1804,WTA,up,Switzerland,5
+1388,Valeria Savinykh,1116,WTA,up,World,5
+1389,Amalia Suciu,60360,WTA,up,Portugal,5
+1390,Teresa Franco Dias,59607,WTA,up,Portugal,5
+1391,Ha Jang Soo,,WTA,up,South Korea,5
+1391,Valeriia Shvestova,,WTA,up,World,5
+1391,Victoria Chramcova,23299,WTA,up,Slovakia,5
+1391,Phillippa Preugschat,19222,WTA,up,Germany,5
+1391,Alice Battesti,18145,WTA,up,France,5
+1391,Anastasiya Lopata,62788,WTA,up,Ukraine,5
+1391,Carla Tomai,59608,WTA,up,Portugal,5
+1391,Camila Rodero,73111,WTA,up,Chile,5
+1391,Heike Janse Van Vuuren,21854,WTA,up,South Africa,5
+1391,Emilija Tverijonaite,50062,WTA,up,Lithuania,5
+1391,Massiva Boukirat,48922,WTA,up,France,5
+1391,Paulina Montiel,74126,WTA,up,Mexico,5
+1391,Mariia Masiianskaia,23833,WTA,up,World,5
+1391,Lucia Natal,69062,WTA,up,Spain,5
+1391,Helena Buchwald,38989,WTA,up,Germany,5
+1391,Honori Koyama,50995,WTA,up,Japan,5
+1391,Isabella Harvison,14154,WTA,up,USA,5
+1391,Maria Buculei Iulia,75051,WTA,up,Romania,5
+1391,Demi Teso Kaili,69068,WTA,up,Japan,5
+1391,Julia Khramtsova,76626,WTA,up,World,5
+1391,Victoria Rennert Julia,13169,WTA,up,Germany,5
+1412,Liv Boulard,62009,WTA,up,France,5
+1412,Conny Perrin,448,WTA,up,Switzerland,5
+1414,Charlotte Van Zonneveld,64496,WTA,down,Netherlands,5
+1414,Ela Plosnik,53165,WTA,up,Slovenia,5
+1414,Darya Velikova,68706,WTA,up,Bulgaria,5
+1414,Hanna Bougouffa,20385,WTA,up,France,5
+1414,Anastasia Mozgaleva,21946,WTA,down,World,5
+1414,Isabella Marton,65100,WTA,down,Canada,5
+1414,Priyanshi Bhandari,80129,WTA,up,India,5
+1414,Rhiann Newborn,22462,WTA,up,USA,5
+1414,Sonal Patil,66515,WTA,up,India,5
+1423,Tara Malik,19225,WTA,up,USA,5
+1423,Sofia Avataneo,56782,WTA,up,Italy,5
+1423,Wen Wan I,63417,WTA,up,Taiwan,5
+1423,Helena Bueno,22590,WTA,up,Brazil,5
+1423,Mariam Atia,1042,WTA,up,Egypt,5
+1423,Paavanii Paathak,37451,WTA,up,India,5
+1423,Maria Maruca Melina,34552,WTA,down,Argentina,5
+1423,Mika Buchnik,38186,WTA,down,Israel,5
+1423,Anastasia Safta,14380,WTA,up,Romania,5
+1423,Nicoleta Todoni Cristiana,68666,WTA,up,Romania,5
+1433,Daniela Martinez,60554,WTA,up,Mexico,4
+1434,Pietra Rivoli,51930,WTA,up,Brazil,4
+1435,Francisca Laundes,74404,WTA,up,Portugal,4
+1435,Jolie Fernandez Bianca,3456,WTA,up,Canada,4
+1435,Mariia Nozdrachova,89937,WTA,up,Ukraine,4
+1438,Madhurima Sawant,62374,WTA,up,India,4
+1438,Mia Yamakita,40146,WTA,up,USA,4
+1438,Kseniya Yersh,13499,WTA,up,World,4
+1438,Cayetana Gay,62060,WTA,up,Spain,4
+1438,Francoise Abanda,6699,WTA,up,Canada,4
+1438,Charlotte Pikkaart,82542,WTA,up,Netherlands,4
+1438,Dora Miskovic,49896,WTA,up,Croatia,4
+1438,Venla Ahti,56783,WTA,up,Finland,4
+1438,Yu-Yun Li,,WTA,up,Taiwan,4
+1438,Yichen Zhao,71899,WTA,up,China,4
+1448,Xenia Bandurowska,37999,WTA,up,Poland,4
+1448,Yuzuha Negishi,74582,WTA,up,Japan,4
+1448,Ruirui Zou,60781,WTA,up,China,4
+1448,Daria Belyaeva,75364,WTA,down,World,4
+1448,Gloria Contrino,77940,WTA,up,Italy,4
+1448,Emma Mazzoni,21653,WTA,up,France,4
+1448,Carolann Delaunay,21526,WTA,up,New Caledonia,4
+1448,Aurora Urso,57058,WTA,up,Italy,4
+1448,Alisa Danilova,87011,WTA,up,World,4
+1448,Aleksandra Pozarenko,52629,WTA,up,World,4
+1448,Abigayel Vosloo,78078,WTA,up,South Africa,4
+1448,Laura Badia,62569,WTA,up,Brazil,4
+1448,Holly Hutchinson,23391,WTA,up,United Kingdom,4
+1448,Joody Elkady,13554,WTA,up,Egypt,4
+1448,Juliette Mazzoni,2267,WTA,up,France,4
+1448,Juliette Trunet,74087,WTA,up,France,4
+1448,Michelle Dzjachangirova,33199,WTA,up,Azerbaijan,4
+1448,Maya Drozd,51912,WTA,up,Germany,4
+1448,Victoria Marchesini Maria,38943,WTA,up,Argentina,4
+1448,Maria Penalver Aguilo,83298,WTA,up,Spain,4
+1468,Maryna Kolb,40211,WTA,up,Ukraine,3
+1469,Jennifer Jackson,16817,WTA,up,USA,3
+1469,Yihan Qu,70637,WTA,up,China,3
+1471,Olga Bienzobas Fernandez,92130,WTA,up,Spain,3
+1471,Nala Kovacic,67678,WTA,up,Slovenia,3
+1471,Fernanda Rain Contreras,65095,WTA,up,Chile,3
+1474,Gabriela Kawano Cho,84311,WTA,up,Brazil,3
+1474,Kaur Kaler Havah,81406,WTA,up,Canada,3
+1474,Ottavia Ghirardato Emma,52688,WTA,up,Italy,3
+1474,Chrystal Lopez,24582,WTA,up,Belgium,3
+1474,Duanrui Gao,53036,WTA,up,China,3
+1474,Ekaterina Agureeva,66797,WTA,up,World,3
+1474,Eleni Tsetsou,77247,WTA,up,Greece,3
+1474,Defne Aydemir,79909,WTA,up,Turkey,3
+1474,Denise Valente,10916,WTA,up,Italy,3
+1474,Dominika Pirohova,74921,WTA,up,Slovakia,3
+1474,Diana Yakovleva,59864,WTA,up,Uzbekistan,3
+1474,Aliesia Reva,87044,WTA,up,Ukraine,3
+1474,Alina Yuneva,75457,WTA,up,World,3
+1474,Aurora Corvi,67759,WTA,up,Italy,3
+1474,Ava Schueller,89146,WTA,up,Austria,3
+1474,Bianca Bernardes,2268,WTA,up,Brazil,3
+1474,Bruna Liotto de Carvalho,83819,WTA,up,Brazil,3
+1474,Najah Dawson,72577,WTA,up,Jamaica,3
+1474,Nika Hurkacz,87758,WTA,up,Poland,3
+1474,Nicole Giannini,76960,WTA,up,Brazil,3
+1474,Pauline Gloeckner,84193,WTA,up,Germany,3
+1474,Nina Sozaonova,84299,WTA,up,Russia,3
+1474,Melissa Boyden,39056,WTA,up,Netherlands,3
+1474,Hyun Kang Na,52572,WTA,up,South Korea,3
+1474,Maria Aytoyan,84742,WTA,up,USA,3
+1474,Madalena Matias,84428,WTA,up,Portugal,3
+1474,Luisa Hrda,58145,WTA,up,Germany,3
+1474,Luisa Schruff,75944,WTA,up,Germany,3
+1474,Magdalena Baniak,73805,WTA,up,Poland,3
+1474,Magdalena Stoilkovska,2557,WTA,up,North Macedonia,3
+1474,Margarita Ignatjeva,13492,WTA,up,Latvia,3
+1474,India Houghton,57056,WTA,up,USA,3
+1474,Isabelle Cherny,52424,WTA,up,United Kingdom,3
+1474,Jaquelyn Ogunwale,9403,WTA,up,United Kingdom,3
+1474,Larisa Arnautovic,80802,WTA,up,Australia,3
+1474,Yuka Naito,475,WTA,up,Japan,3
+1474,Zixuan Zeng,48890,WTA,up,China,3
+1474,Pranjala Yadlapalli,11768,WTA,up,India,3
+1474,Polina Skopintseva,82996,WTA,up,Russia,3
+1474,Sofia Meabe,61630,WTA,up,Argentina,3
+1474,Sandugash Kenzhibayeva,38789,WTA,up,Kazakhstan,3
+1474,Valeria Garnevska,84197,WTA,up,Bulgaria,3
+1474,Viola Bedini,88829,WTA,up,Italy,3
+1474,Taylor Gruber,57429,WTA,up,USA,3
+1474,Sophia Ksandinov,56800,WTA,up,Germany,3

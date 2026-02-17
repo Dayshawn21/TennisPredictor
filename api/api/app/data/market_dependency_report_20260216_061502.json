@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-02-16T06:15:02.475056Z",
+  "market_split": {
+    "has_market": {
+      "n": 48,
+      "accuracy": 0.6041666666666666
+    },
+    "no_market": {
+      "n": 18,
+      "accuracy": 0.7222222222222222
+    }
+  },
+  "freshness_split": {
+    "missing": {
+      "n": 18,
+      "accuracy": 0.7222222222222222,
+      "mean_abs_prob_gap_vs_market": null
+    },
+    "stale_180m_plus": {
+      "n": 48,
+      "accuracy": 0.6041666666666666,
+      "mean_abs_prob_gap_vs_market": 0.1624805789802047
+    }
+  },
+  "hidden_market_copy_monitor": {
+    "mean_abs_gap_high_conf": 0.20837132584805293,
+    "alert_threshold": 0.015,
+    "alert": false
+  }
+}

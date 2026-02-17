@@ -1,0 +1,69 @@
+{
+  "csv": "C:\\Users\\dayshawn\\Desktop\\SportApp\\api\\tennis_training_combined.csv",
+  "date_col": "match_date",
+  "split": {
+    "val_days": 180,
+    "test_days": 180,
+    "early_stop_days": 120
+  },
+  "rows": {
+    "train": 17210,
+    "val": 2908,
+    "test": 2503,
+    "train_fit": 15483,
+    "early_stop": 1727
+  },
+  "metrics": {
+    "val": {
+      "accuracy": 0.8239339752407153,
+      "log_loss": 0.36210508642674,
+      "brier": 0.11744234710931778,
+      "auc": 0.9167428734796504
+    },
+    "test": {
+      "accuracy": 0.8409908110267679,
+      "log_loss": 0.3500621627557047,
+      "brier": 0.11097752302885056,
+      "auc": 0.9242728466399971
+    },
+    "test_calibrated": {
+      "accuracy": 0.8162205353575709,
+      "log_loss": 0.4094832112109579,
+      "brier": 0.12933956303657346,
+      "auc": 0.9025380756045349
+    }
+  },
+  "features": [
+    "d_win_rate_last_20",
+    "d_win_rate_surface",
+    "d_experience",
+    "d_rest_days",
+    "d_matches_10d",
+    "d_matches_30d",
+    "is_hard",
+    "is_clay",
+    "is_grass",
+    "is_grand_slam",
+    "is_masters",
+    "best_of",
+    "h2h_p1_win_pct",
+    "h2h_total_matches",
+    "h2h_surface_p1_win_pct",
+    "h2h_surface_matches",
+    "d_last5_hold",
+    "d_last5_break",
+    "d_last10_hold",
+    "d_last10_break",
+    "d_surf_last10_hold",
+    "d_surf_last10_break",
+    "d_last10_aces_pg",
+    "d_surf_last10_aces_pg",
+    "d_last10_df_pg",
+    "d_surf_last10_df_pg",
+    "d_last10_tb_match_rate",
+    "d_last10_tb_win_pct",
+    "d_surf_last10_tb_match_rate",
+    "d_surf_last10_tb_win_pct"
+  ],
+  "calibration": "sigmoid"
+}

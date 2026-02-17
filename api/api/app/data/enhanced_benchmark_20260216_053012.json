@@ -1,0 +1,232 @@
+{
+  "summary": {
+    "rows": 18,
+    "brier": 0.16923711833333333,
+    "log_loss": 0.5159279999971207,
+    "pick_accuracy": 0.7222222222222222,
+    "avg_edge_blended": null,
+    "roi_by_edge_bucket": {},
+    "clv_proxy": {
+      "available": false,
+      "note": "Uses no-vig market probability gap proxy; true CLV needs historical close snapshots."
+    }
+  },
+  "rows": [
+    {
+      "match_id": "1c525722-09f1-4949-94a2-1e12605bd646",
+      "match_date": "2026-01-23",
+      "ensemble_p1_prob": 0.6603,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "640a51ab-286d-453d-a7fe-f2379c0a2ddd",
+      "match_date": "2026-01-23",
+      "ensemble_p1_prob": 0.3074,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "a9404ee5-d445-4bbb-b88f-10d45638c6e3",
+      "match_date": "2026-01-23",
+      "ensemble_p1_prob": 0.1707,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "b304903e-ae08-40c5-8224-7074a3bb163c",
+      "match_date": "2026-01-23",
+      "ensemble_p1_prob": 0.6861,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "e15d621e-5bed-43dd-9bf6-61612a37571f",
+      "match_date": "2026-01-23",
+      "ensemble_p1_prob": 0.4837,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "e7835fa6-bf93-448e-a412-c5255108bfeb",
+      "match_date": "2026-01-23",
+      "ensemble_p1_prob": 0.6193,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "eeaaccf6-308e-4fb6-bf92-b98b6d58e45f",
+      "match_date": "2026-01-23",
+      "ensemble_p1_prob": 0.2729,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "03aadec7-fd50-4aeb-8357-acfa20e261be",
+      "match_date": "2026-01-24",
+      "ensemble_p1_prob": 0.1193,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "3ba5b34f-9ce5-43fe-8ed7-cc551b2573e9",
+      "match_date": "2026-01-24",
+      "ensemble_p1_prob": 0.229,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "5acf06d9-ddab-457c-82ed-ec2622ed48f8",
+      "match_date": "2026-01-24",
+      "ensemble_p1_prob": 0.788,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "870988ec-00b9-4e32-9135-5c5014e4c89d",
+      "match_date": "2026-01-24",
+      "ensemble_p1_prob": 0.19,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "9e40e265-6888-437e-9bfd-9d721912b031",
+      "match_date": "2026-01-24",
+      "ensemble_p1_prob": 0.7636,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "a71a147f-c917-445c-82f7-511bfd809290",
+      "match_date": "2026-01-24",
+      "ensemble_p1_prob": 0.3154,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "2c2eed1d-7bb5-4058-89fb-86ecbc9dda94",
+      "match_date": "2026-01-25",
+      "ensemble_p1_prob": 0.783,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "45c3bf44-de71-4d9b-95ee-24745862f501",
+      "match_date": "2026-01-25",
+      "ensemble_p1_prob": 0.4137,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "95e969ec-12e3-41d6-9aab-e98a6fd00f7c",
+      "match_date": "2026-01-25",
+      "ensemble_p1_prob": 0.7359,
+      "p1_won": 1,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "ae24d0bf-2b47-4018-8eae-e94456070db9",
+      "match_date": "2026-01-25",
+      "ensemble_p1_prob": 0.4248,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    },
+    {
+      "match_id": "edcbb803-bbc9-45db-b7ed-372480bdb288",
+      "match_date": "2026-01-25",
+      "ensemble_p1_prob": 0.5722,
+      "p1_won": 0,
+      "edge_no_vig": null,
+      "edge_blended": null,
+      "bet_eligible": null,
+      "bet_side": "none",
+      "unit_profit": null,
+      "odds_age_minutes": null
+    }
+  ]
+}

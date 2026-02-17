@@ -1,0 +1,1556 @@
+{
+  "as_of": "2026-01-29",
+  "source": "combined_ensemble",
+  "cached": false,
+  "count": 11,
+  "items": [
+    {
+      "match_id": "33ac4d7e-6dc1-4e22-8b09-68bd42a2cd17",
+      "match_key": "sofascore:15345296",
+      "match_date": "2026-01-29",
+      "match_start_utc": "2026-01-30T03:30:00Z",
+      "tour": "ATP",
+      "tournament": "Australian Open, Melbourne, Australia",
+      "round": "Semifinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 5,
+      "p1_name": "Carlos Alcaraz",
+      "p2_name": "Alexander Zverev",
+      "p1_player_id": 79200,
+      "p2_player_id": 19609,
+      "p1_ta_id": 59913,
+      "p2_ta_id": 640,
+      "p1_win_prob": 0.7732061917388449,
+      "p2_win_prob": 0.22679380826115514,
+      "p1_fair_american": -340,
+      "p2_fair_american": 340,
+      "p1_market_odds_american": -714,
+      "p2_market_odds_american": 450,
+      "odds_fetched_at": "2026-01-29T17:36:17.636879Z",
+      "p1_market_implied_prob": 0.8771498771498771,
+      "p2_market_implied_prob": 0.18181818181818182,
+      "p1_market_no_vig_prob": 0.8283062645011601,
+      "p2_market_no_vig_prob": 0.1716937354988399,
+      "p1_blended_win_prob": 0.7732061917388449,
+      "p2_blended_win_prob": 0.22679380826115514,
+      "predicted_winner_blended": "p1",
+      "missing_reason": null,
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 3,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.9372311038676198,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.5816312432289124,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.8283062645011601,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.655433545059948,
+          "expected_sets": 3.9835445922643236,
+          "expected_total_games": 40.77180166342876,
+          "p_three_sets": 0.3224787607897086,
+          "p_four_sets": 0.3714978861562588,
+          "p_five_sets": 0.30602335305403255,
+          "set_score_probs": {
+            "3-0": 0.2815697494335141,
+            "3-1": 0.291058471141994,
+            "3-2": 0.20057797116333662,
+            "0-3": 0.04090901135619454,
+            "1-3": 0.08043941501426478,
+            "2-3": 0.10544538189069594
+          },
+          "set_dist": {
+            "6,1": 0.040575870256123074,
+            "4,6": 0.09865068280877685,
+            "6,4": 0.17370593072579574,
+            "5,7": 0.03459184539714316,
+            "6,7": 0.0955710594025648,
+            "7,6": 0.13219179469474024,
+            "3,6": 0.0771389098637966,
+            "1,6": 0.011116472666896849,
+            "6,2": 0.08145637918403559,
+            "0,6": 0.001225311547583367,
+            "2,6": 0.026272173253290503,
+            "6,0": 0.006689446416374143,
+            "7,5": 0.0609099555031057,
+            "6,3": 0.15990416827977355
+          },
+          "meta": {
+            "pAserve": 0.671496415915007,
+            "pBserve": 0.6230506823741935,
+            "holdA": 0.8631078512468237,
+            "holdB": 0.7816943416066755,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.7732061917388449,
+            "p_set_target_p1": 0.655433545059948,
+            "pAserve_raw": 0.6687315531488424,
+            "pBserve_raw": 0.6258155451403582,
+            "delta_used": 0.024222866770406748,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 20.38590083171438,
+          "aces": {
+            "p1_expected": 10.091020911698617,
+            "p2_expected": 10.294879920015763,
+            "total_expected": 20.38590083171438,
+            "p1_rate_per_service_game": 0.495,
+            "p2_rate_per_service_game": 0.505,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 11.806248996652252,
+            "p2_created": 8.495096870542882,
+            "p1_faced": 8.495096870542882,
+            "p2_faced": 11.806248996652252,
+            "p1_breaks": 4.450357503008429,
+            "p2_breaks": 2.7906697691225464,
+            "p1_implied_conv": 0.37694931762580647,
+            "p2_implied_conv": 0.3285035840849932,
+            "p1_hist_conv": 0.446,
+            "p2_hist_conv": 0.412,
+            "p1_hist_save": 0.609,
+            "p2_hist_save": 0.621
+          },
+          "inputs": {
+            "pAserve": 0.671496415915007,
+            "pBserve": 0.6230506823741935,
+            "holdA": 0.8631078512468237,
+            "holdB": 0.7816943416066755,
+            "expected_total_games": 40.77180166342876
+          }
+        }
+      },
+      "predicted_winner": "p1",
+      "projected_total_games": 40.77180166342876,
+      "projected_spread_p1": null,
+      "projected_sets": "3.98"
+    },
+    {
+      "match_id": "43df1c41-d43f-45c7-a92d-3b2b70527716",
+      "match_key": "sofascore:15345441",
+      "match_date": "2026-01-29",
+      "match_start_utc": "2026-01-29T08:30:00Z",
+      "tour": "WTA",
+      "tournament": "Australian Open, Melbourne, Australia",
+      "round": "Semifinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Aryna Sabalenka",
+      "p2_name": "Elina Svitolina",
+      "p1_player_id": 99452,
+      "p2_player_id": 156946,
+      "p1_ta_id": 133521,
+      "p2_ta_id": 68032,
+      "p1_win_prob": 0.7386365765646061,
+      "p2_win_prob": 0.26136342343539387,
+      "p1_fair_american": -282,
+      "p2_fair_american": 282,
+      "p1_market_odds_american": -455,
+      "p2_market_odds_american": 333,
+      "odds_fetched_at": "2026-01-29T17:35:37.062011Z",
+      "p1_market_implied_prob": 0.8198198198198198,
+      "p2_market_implied_prob": 0.23094688221709006,
+      "p1_market_no_vig_prob": 0.7802110765697088,
+      "p2_market_no_vig_prob": 0.21978892343029127,
+      "p1_blended_win_prob": 0.7386365765646061,
+      "p2_blended_win_prob": 0.26136342343539387,
+      "predicted_winner_blended": "p1",
+      "missing_reason": null,
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 3,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.8839578388757146,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.572528064250946,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.7802110765697088,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.6650904011197567,
+          "expected_sets": 2.445490318916236,
+          "expected_total_games": 23.78869389887308,
+          "p_two_sets": 0.5545096810837643,
+          "p_three_sets": 0.4454903189162357,
+          "set_score_probs": {
+            "2-0": 0.44234524166163885,
+            "2-1": 0.2962913349029675,
+            "0-2": 0.11216443942212546,
+            "1-2": 0.14919898401326814
+          },
+          "set_dist": {
+            "6,1": 0.06976420389457999,
+            "4,6": 0.09334333913418508,
+            "6,4": 0.15526746424216192,
+            "5,7": 0.041063105131372804,
+            "6,7": 0.05950187686230651,
+            "7,6": 0.08136595306339475,
+            "3,6": 0.07429963294381292,
+            "1,6": 0.02026306404496321,
+            "6,2": 0.1162646049635097,
+            "0,6": 0.004418850042744565,
+            "2,6": 0.0420197307208577,
+            "6,0": 0.020337644270992855,
+            "7,5": 0.06830443678999029,
+            "6,3": 0.1537860938951272
+          },
+          "meta": {
+            "pAserve": 0.6020522689329357,
+            "pBserve": 0.5533505500240403,
+            "holdA": 0.7399939074136609,
+            "holdB": 0.6311310737641224,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.7386365765646061,
+            "p_set_target_p1": 0.6650904011197565,
+            "pAserve_raw": 0.5937871381360128,
+            "pBserve_raw": 0.5616156808209631,
+            "delta_used": 0.024350859454447704,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 11.89434694943654,
+          "aces": {
+            "p1_expected": 3.9251344933140584,
+            "p2_expected": 4.281964901797155,
+            "total_expected": 8.207099395111213,
+            "p1_rate_per_service_game": 0.33,
+            "p2_rate_per_service_game": 0.36,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 9.823039047180718,
+            "p2_created": 7.7713790851292845,
+            "p1_faced": 7.7713790851292845,
+            "p2_faced": 9.823039047180718,
+            "p1_breaks": 4.3874549875156434,
+            "p2_breaks": 3.092602674189237,
+            "p1_implied_conv": 0.4466494499759598,
+            "p2_implied_conv": 0.3979477310670644,
+            "p1_hist_conv": 0.506,
+            "p2_hist_conv": 0.495,
+            "p1_hist_save": 0.6920000000000001,
+            "p2_hist_save": 0.565
+          },
+          "inputs": {
+            "pAserve": 0.6020522689329357,
+            "pBserve": 0.5533505500240403,
+            "holdA": 0.7399939074136609,
+            "holdB": 0.6311310737641224,
+            "expected_total_games": 23.78869389887308
+          }
+        }
+      },
+      "predicted_winner": "p1",
+      "projected_total_games": 23.78869389887308,
+      "projected_spread_p1": null,
+      "projected_sets": "2.45"
+    },
+    {
+      "match_id": "8043ba7e-4509-4e56-85d7-7e55f1ef1f41",
+      "match_key": "sofascore:15345475",
+      "match_date": "2026-01-29",
+      "match_start_utc": "2026-01-29T10:10:00Z",
+      "tour": "WTA",
+      "tournament": "Australian Open, Melbourne, Australia",
+      "round": "Semifinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Jessica Pegula",
+      "p2_name": "Elena Rybakina",
+      "p1_player_id": 156947,
+      "p2_player_id": 99889,
+      "p1_ta_id": 68006,
+      "p2_ta_id": 79961,
+      "p1_win_prob": 0.3857780758800165,
+      "p2_win_prob": 0.6142219241199836,
+      "p1_fair_american": 159,
+      "p2_fair_american": -159,
+      "p1_market_odds_american": 175,
+      "p2_market_odds_american": -227,
+      "odds_fetched_at": "2026-01-29T17:36:18.900494Z",
+      "p1_market_implied_prob": 0.36363636363636365,
+      "p2_market_implied_prob": 0.6941896024464832,
+      "p1_market_no_vig_prob": 0.3437582128777924,
+      "p2_market_no_vig_prob": 0.6562417871222076,
+      "p1_blended_win_prob": 0.3857780758800165,
+      "p2_blended_win_prob": 0.6142219241199836,
+      "predicted_winner_blended": "p2",
+      "missing_reason": null,
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 3,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.3170506878582367,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.4755153954029083,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.3437582128777924,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.4232492315850787,
+          "expected_sets": 2.4882186390954386,
+          "expected_total_games": 24.5507739883006,
+          "p_two_sets": 0.5117813609045617,
+          "p_three_sets": 0.4882186390954383,
+          "set_score_probs": {
+            "2-0": 0.1791399120373596,
+            "2-1": 0.20663816384265712,
+            "0-2": 0.3326414488672022,
+            "1-2": 0.2815804752527812
+          },
+          "set_dist": {
+            "6,1": 0.028185887544646987,
+            "4,6": 0.14437914204743388,
+            "6,4": 0.11422552236501257,
+            "5,7": 0.06270316372537217,
+            "6,7": 0.08428078211635234,
+            "7,6": 0.07304374322298691,
+            "3,6": 0.1333948426887922,
+            "1,6": 0.049628703080365974,
+            "6,2": 0.05620008173634779,
+            "0,6": 0.012575874837082418,
+            "2,6": 0.08978825991952222,
+            "6,0": 0.006227508005680661,
+            "7,5": 0.04960759240497815,
+            "6,3": 0.09575889630542567
+          },
+          "meta": {
+            "pAserve": 0.5750441506579831,
+            "pBserve": 0.5972741980314471,
+            "holdA": 0.6814477578332141,
+            "holdB": 0.7300154795683466,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.3857780758800165,
+            "p_set_target_p1": 0.42324923158507854,
+            "pAserve_raw": 0.5885571394910802,
+            "pBserve_raw": 0.58376120919835,
+            "delta_used": 0.011115023686732006,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.2753869941503,
+          "aces": {
+            "p1_expected": 3.375731423391333,
+            "p2_expected": 5.769431887250641,
+            "total_expected": 9.145163310641975,
+            "p1_rate_per_service_game": 0.275,
+            "p2_rate_per_service_game": 0.47,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 8.229332351015872,
+            "p2_created": 9.201784271251235,
+            "p1_faced": 9.201784271251235,
+            "p2_faced": 8.229332351015872,
+            "p1_breaks": 3.314164470728625,
+            "p2_breaks": 3.9103520504515807,
+            "p1_implied_conv": 0.402725801968553,
+            "p2_implied_conv": 0.4249558493420169,
+            "p1_hist_conv": 0.472,
+            "p2_hist_conv": 0.436,
+            "p1_hist_save": 0.5720000000000001,
+            "p2_hist_save": 0.629
+          },
+          "inputs": {
+            "pAserve": 0.5750441506579831,
+            "pBserve": 0.5972741980314471,
+            "holdA": 0.6814477578332141,
+            "holdB": 0.7300154795683466,
+            "expected_total_games": 24.5507739883006
+          }
+        }
+      },
+      "predicted_winner": "p2",
+      "projected_total_games": 24.5507739883006,
+      "projected_spread_p1": null,
+      "projected_sets": "2.49"
+    },
+    {
+      "match_id": "adf4a6dd-effc-4943-ba63-a9b48bf9d514",
+      "match_key": "sofascore:15409285",
+      "match_date": "2026-01-29",
+      "match_start_utc": "2026-01-29T12:30:00Z",
+      "tour": "WTA",
+      "tournament": "Manila, Philippines",
+      "round": "Quarterfinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Camila Osorio",
+      "p2_name": "Alexandra Eala",
+      "p1_player_id": 100693,
+      "p2_player_id": 108151,
+      "p1_ta_id": 80761,
+      "p2_ta_id": 88177,
+      "p1_win_prob": 0.3629957285001563,
+      "p2_win_prob": 0.6370042714998436,
+      "p1_fair_american": 175,
+      "p2_fair_american": -175,
+      "p1_market_odds_american": 225,
+      "p2_market_odds_american": -300,
+      "odds_fetched_at": "2026-01-29T17:36:23.442549Z",
+      "p1_market_implied_prob": 0.3076923076923077,
+      "p2_market_implied_prob": 0.75,
+      "p1_market_no_vig_prob": 0.2909090909090909,
+      "p2_market_no_vig_prob": 0.7090909090909091,
+      "p1_blended_win_prob": 0.3629957285001563,
+      "p2_blended_win_prob": 0.6370042714998436,
+      "predicted_winner_blended": "p2",
+      "missing_reason": null,
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 3,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.38466063338747436,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.37737414240837097,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.2909090909090909,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.4076123900442654,
+          "expected_sets": 2.482929059053334,
+          "expected_total_games": 24.05377898947329,
+          "p_two_sets": 0.5170709409466658,
+          "p_three_sets": 0.4829290590533341,
+          "set_score_probs": {
+            "2-0": 0.16614786051759836,
+            "2-1": 0.1968478679825577,
+            "0-2": 0.35092308042906756,
+            "1-2": 0.2860811910707764
+          },
+          "set_dist": {
+            "6,1": 0.031489230998764696,
+            "4,6": 0.13995943038955017,
+            "6,4": 0.10721081339379832,
+            "5,7": 0.06701515192840177,
+            "6,7": 0.07016036780680598,
+            "7,6": 0.0593781644979525,
+            "3,6": 0.1324948322225065,
+            "1,6": 0.06091256941183882,
+            "6,2": 0.059902196025158484,
+            "0,6": 0.019758386734080258,
+            "2,6": 0.10208687146255119,
+            "6,0": 0.008880977210781946,
+            "7,5": 0.05133451120768022,
+            "6,3": 0.08941649671012923
+          },
+          "meta": {
+            "pAserve": 0.531876230277239,
+            "pBserve": 0.5581452210611809,
+            "holdA": 0.5792072275132518,
+            "holdB": 0.6424641353011971,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.3629957285001563,
+            "p_set_target_p1": 0.4076123900442655,
+            "pAserve_raw": 0.5325143997160307,
+            "pBserve_raw": 0.5575070516223892,
+            "delta_used": 0.01313449539197098,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.026889494736645,
+          "aces": {
+            "p1_expected": 3.187125716105211,
+            "p2_expected": 2.164840109052596,
+            "total_expected": 5.351965825157807,
+            "p1_rate_per_service_game": 0.265,
+            "p2_rate_per_service_game": 0.18000000000000002,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 9.73180452062739,
+            "p2_created": 10.810876315635877,
+            "p1_faced": 10.810876315635877,
+            "p2_faced": 9.73180452062739,
+            "p1_breaks": 4.300044335137615,
+            "p2_breaks": 5.060828174881979,
+            "p1_implied_conv": 0.441854778938819,
+            "p2_implied_conv": 0.4681237697227609,
+            "p1_hist_conv": 0.4539999999999999,
+            "p2_hist_conv": 0.457,
+            "p1_hist_save": 0.5489999999999999,
+            "p2_hist_save": 0.518
+          },
+          "inputs": {
+            "pAserve": 0.531876230277239,
+            "pBserve": 0.5581452210611809,
+            "holdA": 0.5792072275132518,
+            "holdB": 0.6424641353011971,
+            "expected_total_games": 24.05377898947329
+          }
+        }
+      },
+      "predicted_winner": "p2",
+      "projected_total_games": 24.05377898947329,
+      "projected_spread_p1": null,
+      "projected_sets": "2.48"
+    },
+    {
+      "match_id": "ebcdbeaa-0dd9-4c8a-82a8-fb59463fe00f",
+      "match_key": "sofascore:15409287",
+      "match_date": "2026-01-29",
+      "match_start_utc": "2026-01-29T08:45:00Z",
+      "tour": "WTA",
+      "tournament": "Manila, Philippines",
+      "round": "Quarterfinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Donna Vekić",
+      "p2_name": "Lin Zhu",
+      "p1_player_id": 68037,
+      "p2_player_id": 156939,
+      "p1_ta_id": 68037,
+      "p2_ta_id": null,
+      "p1_win_prob": 0.5375057761752755,
+      "p2_win_prob": 0.4624942238247245,
+      "p1_fair_american": -116,
+      "p2_fair_american": 116,
+      "p1_market_odds_american": -188,
+      "p2_market_odds_american": 138,
+      "odds_fetched_at": "2026-01-29T17:35:44.429938Z",
+      "p1_market_implied_prob": 0.6527777777777778,
+      "p2_market_implied_prob": 0.42016806722689076,
+      "p1_market_no_vig_prob": 0.6083976938975307,
+      "p2_market_no_vig_prob": 0.39160230610246927,
+      "p1_blended_win_prob": 0.5375057761752755,
+      "p2_blended_win_prob": 0.4624942238247245,
+      "predicted_winner_blended": "p1",
+      "missing_reason": "elo_missing",
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 2,
+        "individual_predictions": [
+          {
+            "name": "xgb",
+            "p1_prob": 0.502059817314148,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.6083976938975307,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": false,
+        "has_rolling": false,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.525024746043215,
+          "expected_sets": 2.4987475241709456,
+          "expected_total_games": 24.342632183002337,
+          "p_two_sets": 0.5012524758290549,
+          "p_three_sets": 0.4987475241709452,
+          "set_score_probs": {
+            "2-0": 0.27565098395774246,
+            "2-1": 0.2618547922175328,
+            "0-2": 0.22560149187131237,
+            "1-2": 0.23689273195341243
+          },
+          "set_dist": {
+            "6,1": 0.04768970115858636,
+            "4,6": 0.1210961798433921,
+            "6,4": 0.13014509805792118,
+            "5,7": 0.057525020050327044,
+            "6,7": 0.06631054097588046,
+            "7,6": 0.06936080793023716,
+            "3,6": 0.10549431069517504,
+            "1,6": 0.03991974201264656,
+            "6,2": 0.08449297924698582,
+            "0,6": 0.011477515082495723,
+            "2,6": 0.07315194529686786,
+            "6,0": 0.014247543391743082,
+            "7,5": 0.06182358010728134,
+            "6,3": 0.11726503615046006
+          },
+          "meta": {
+            "pAserve": 0.5550688603921203,
+            "pBserve": 0.5479954410320393,
+            "holdA": 0.6352051447006133,
+            "holdB": 0.6183493650930338,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.5375057761752755,
+            "p_set_target_p1": 0.5250247460432151,
+            "pAserve_raw": 0.5420286133761704,
+            "pBserve_raw": 0.5610356880479892,
+            "delta_used": 0.003536709680040495,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.171316091501168,
+          "aces": {
+            "p1_expected": 4.016534310195386,
+            "p2_expected": 2.5559763792152457,
+            "total_expected": 6.572510689410631,
+            "p1_rate_per_service_game": 0.33,
+            "p2_rate_per_service_game": 0.21000000000000002,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 10.276866509003636,
+            "p2_created": 9.979147551495927,
+            "p1_faced": 9.979147551495927,
+            "p2_faced": 10.276866509003636,
+            "p1_breaks": 4.645190513974795,
+            "p2_breaks": 4.440033492402266,
+            "p1_implied_conv": 0.4520045589679607,
+            "p2_implied_conv": 0.4449311396078798,
+            "p1_hist_conv": 0.513,
+            "p2_hist_conv": 0.44,
+            "p1_hist_save": 0.563,
+            "p2_hist_save": 0.475
+          },
+          "inputs": {
+            "pAserve": 0.5550688603921203,
+            "pBserve": 0.5479954410320393,
+            "holdA": 0.6352051447006133,
+            "holdB": 0.6183493650930338,
+            "expected_total_games": 24.342632183002337
+          }
+        }
+      },
+      "predicted_winner": "p1",
+      "projected_total_games": 24.342632183002337,
+      "projected_spread_p1": null,
+      "projected_sets": "2.50"
+    },
+    {
+      "match_id": "681ef826-31a7-4504-a835-fbc8c021c0ac",
+      "match_key": "sofascore:15409292",
+      "match_date": "2026-01-29",
+      "match_start_utc": "2026-01-29T10:45:00Z",
+      "tour": "WTA",
+      "tournament": "Manila, Philippines",
+      "round": "Quarterfinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Lanlana Tararudee",
+      "p2_name": "Solana Sierra",
+      "p1_player_id": 107188,
+      "p2_player_id": 106231,
+      "p1_ta_id": 87226,
+      "p2_ta_id": 86277,
+      "p1_win_prob": 0.4601215342376968,
+      "p2_win_prob": 0.5398784657623033,
+      "p1_fair_american": 117,
+      "p2_fair_american": -117,
+      "p1_market_odds_american": -162,
+      "p2_market_odds_american": 120,
+      "odds_fetched_at": "2026-01-29T17:36:22.771633Z",
+      "p1_market_implied_prob": 0.6183206106870229,
+      "p2_market_implied_prob": 0.45454545454545453,
+      "p1_market_no_vig_prob": 0.5763260025873221,
+      "p2_market_no_vig_prob": 0.42367399741267786,
+      "p1_blended_win_prob": 0.4601215342376968,
+      "p2_blended_win_prob": 0.5398784657623033,
+      "predicted_winner_blended": "p2",
+      "missing_reason": null,
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 3,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.3136411308932933,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.5484997034072876,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.5763260025873221,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.4733892308722399,
+          "expected_sets": 2.4985837339328585,
+          "expected_total_games": 24.506356178290062,
+          "p_two_sets": 0.5014162660671418,
+          "p_three_sets": 0.49858373393285815,
+          "set_score_probs": {
+            "2-0": 0.22409736390581084,
+            "2-1": 0.23602417033188522,
+            "0-2": 0.27731890216133115,
+            "1-2": 0.262559563600973
+          },
+          "set_dist": {
+            "6,1": 0.03723089144995169,
+            "4,6": 0.1327108563440113,
+            "6,4": 0.12269535176247898,
+            "5,7": 0.060572069708735014,
+            "6,7": 0.07491405118784042,
+            "7,6": 0.07136776811296938,
+            "3,6": 0.11924933950893746,
+            "1,6": 0.04509903209461823,
+            "6,2": 0.06994363556227882,
+            "0,6": 0.012236864640053694,
+            "2,6": 0.08182855564356417,
+            "6,0": 0.00967019276931506,
+            "7,5": 0.05600077947375854,
+            "6,3": 0.10648061174148743
+          },
+          "meta": {
+            "pAserve": 0.5654999589263818,
+            "pBserve": 0.5730866977027946,
+            "holdA": 0.6596247333967866,
+            "holdB": 0.677015675172153,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.4601215342376968,
+            "p_set_target_p1": 0.4733892308722404,
+            "pAserve_raw": 0.5855847268762114,
+            "pBserve_raw": 0.5530019297529649,
+            "delta_used": 0.0037933693882064023,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.253178089145031,
+          "aces": {
+            "p1_expected": 3.4921557554063343,
+            "p2_expected": 2.3281038369375557,
+            "total_expected": 5.82025959234389,
+            "p1_rate_per_service_game": 0.28500000000000003,
+            "p2_rate_per_service_game": 0.19,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 9.270229882325651,
+            "p2_created": 9.598799458163334,
+            "p1_faced": 9.598799458163334,
+            "p2_faced": 9.270229882325651,
+            "p1_breaks": 3.9575844521178762,
+            "p2_breaks": 4.170678758829393,
+            "p1_implied_conv": 0.42691330229720525,
+            "p2_implied_conv": 0.43450004107361817,
+            "p1_hist_conv": 0.4479999999999999,
+            "p2_hist_conv": 0.449,
+            "p1_hist_save": 0.556,
+            "p2_hist_save": 0.514
+          },
+          "inputs": {
+            "pAserve": 0.5654999589263818,
+            "pBserve": 0.5730866977027946,
+            "holdA": 0.6596247333967866,
+            "holdB": 0.677015675172153,
+            "expected_total_games": 24.506356178290062
+          }
+        }
+      },
+      "predicted_winner": "p2",
+      "projected_total_games": 24.506356178290062,
+      "projected_spread_p1": null,
+      "projected_sets": "2.50"
+    },
+    {
+      "match_id": "ddc3ae79-d130-4615-8ee5-522e7aa1331c",
+      "match_key": "sofascore:15409286",
+      "match_date": "2026-01-29",
+      "match_start_utc": "2026-01-29T06:00:00Z",
+      "tour": "WTA",
+      "tournament": "Manila, Philippines",
+      "round": "Quarterfinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Tatiana Prozorova",
+      "p2_name": "Sofia Costoulas",
+      "p1_player_id": 121853,
+      "p2_player_id": 108219,
+      "p1_ta_id": 101571,
+      "p2_ta_id": 88244,
+      "p1_win_prob": 0.5348661853408222,
+      "p2_win_prob": 0.4651338146591778,
+      "p1_fair_american": -114,
+      "p2_fair_american": 114,
+      "p1_market_odds_american": -175,
+      "p2_market_odds_american": 125,
+      "odds_fetched_at": "2026-01-29T17:35:43.605048Z",
+      "p1_market_implied_prob": 0.6363636363636364,
+      "p2_market_implied_prob": 0.4444444444444444,
+      "p1_market_no_vig_prob": 0.5887850467289719,
+      "p2_market_no_vig_prob": 0.41121495327102797,
+      "p1_blended_win_prob": 0.5348661853408222,
+      "p2_blended_win_prob": 0.4651338146591778,
+      "predicted_winner_blended": "p1",
+      "missing_reason": null,
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 3,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.5979441614822442,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.4448287785053253,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.5887850467289719,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.5232609045875527,
+          "expected_sets": 2.4989178606355376,
+          "expected_total_games": 24.606578514244177,
+          "p_two_sets": 0.5010821393644624,
+          "p_three_sets": 0.49891786063553756,
+          "set_score_probs": {
+            "2-0": 0.2738019742697839,
+            "2-1": 0.2610642110710379,
+            "0-2": 0.22728016509467852,
+            "1-2": 0.23785364956449961
+          },
+          "set_dist": {
+            "6,1": 0.04294200145555532,
+            "4,6": 0.12441394818328605,
+            "6,4": 0.13336946957207485,
+            "5,7": 0.05553744221497713,
+            "6,7": 0.07465532861424026,
+            "7,6": 0.07791367810561839,
+            "3,6": 0.10800043466173836,
+            "1,6": 0.03626876584636648,
+            "6,2": 0.07920838921411111,
+            "0,6": 0.008935048758490934,
+            "2,6": 0.06892812713334838,
+            "6,0": 0.011006746941748295,
+            "7,5": 0.05953511899396775,
+            "6,3": 0.11928550030447702
+          },
+          "meta": {
+            "pAserve": 0.5809911629266361,
+            "pBserve": 0.5743284403063619,
+            "holdA": 0.694766624265656,
+            "holdB": 0.6798299430545597,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.5348661853408222,
+            "p_set_target_p1": 0.5232609045875529,
+            "pAserve_raw": 0.5665423383615685,
+            "pBserve_raw": 0.5887772648714295,
+            "delta_used": 0.0033313613101371153,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.303289257122088,
+          "aces": {
+            "p1_expected": 2.5221742977100283,
+            "p2_expected": 3.875536115993458,
+            "total_expected": 6.397710413703486,
+            "p1_rate_per_service_game": 0.20500000000000002,
+            "p2_rate_per_service_game": 0.315,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 9.253953505618417,
+            "p2_created": 8.962518639982616,
+            "p1_faced": 8.962518639982616,
+            "p2_faced": 9.253953505618417,
+            "p1_breaks": 3.9391448220690033,
+            "p2_breaks": 3.755374512587464,
+            "p1_implied_conv": 0.4256715596936383,
+            "p2_implied_conv": 0.419008837073364,
+            "p1_hist_conv": 0.544,
+            "p2_hist_conv": 0.449,
+            "p1_hist_save": 0.531,
+            "p2_hist_save": 0.625
+          },
+          "inputs": {
+            "pAserve": 0.5809911629266361,
+            "pBserve": 0.5743284403063619,
+            "holdA": 0.694766624265656,
+            "holdB": 0.6798299430545597,
+            "expected_total_games": 24.606578514244177
+          }
+        }
+      },
+      "predicted_winner": "p1",
+      "projected_total_games": 24.606578514244177,
+      "projected_spread_p1": null,
+      "projected_sets": "2.50"
+    },
+    {
+      "match_id": "92e04cdd-4845-444e-a5df-9c6c53137012",
+      "match_key": "sofascore:15345294",
+      "match_date": "2026-01-30",
+      "match_start_utc": "2026-01-30T08:30:00Z",
+      "tour": "ATP",
+      "tournament": "Australian Open, Melbourne, Australia",
+      "round": "Semifinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 5,
+      "p1_name": "Novak Djokovic",
+      "p2_name": "Jannik Sinner",
+      "p1_player_id": 23885,
+      "p2_player_id": 77384,
+      "p1_ta_id": 4917,
+      "p2_ta_id": 58117,
+      "p1_win_prob": 0.2123086777814767,
+      "p2_win_prob": 0.7876913222185233,
+      "p1_fair_american": 371,
+      "p2_fair_american": -371,
+      "p1_market_odds_american": 800,
+      "p2_market_odds_american": -1429,
+      "odds_fetched_at": "2026-01-29T17:36:18.273942Z",
+      "p1_market_implied_prob": 0.1111111111111111,
+      "p2_market_implied_prob": 0.934597776324395,
+      "p1_market_no_vig_prob": 0.10625434329395414,
+      "p2_market_no_vig_prob": 0.8937456567060459,
+      "p1_blended_win_prob": 0.2123086777814767,
+      "p2_blended_win_prob": 0.7876913222185233,
+      "predicted_winner_blended": "p2",
+      "missing_reason": null,
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 3,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.09008916201264727,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.3875553607940674,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.10625434329395414,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.33497101109324834,
+          "expected_sets": 3.9660429268192474,
+          "expected_total_games": 40.586995415004004,
+          "p_three_sets": 0.3317037015387543,
+          "p_four_sets": 0.37054967010324413,
+          "p_five_sets": 0.2977466283580016,
+          "set_score_probs": {
+            "3-0": 0.03758561600435352,
+            "3-1": 0.07498657262643793,
+            "3-2": 0.09973648915068545,
+            "0-3": 0.2941180855344008,
+            "1-3": 0.2955630974768062,
+            "2-3": 0.19801013920731617
+          },
+          "set_dist": {
+            "6,1": 0.010399702598060416,
+            "4,6": 0.17591955769783796,
+            "6,4": 0.09601894542404757,
+            "5,7": 0.061327329979305525,
+            "6,7": 0.1336781542111522,
+            "7,6": 0.0945240058152651,
+            "3,6": 0.1626615713748085,
+            "1,6": 0.04149775885744939,
+            "6,2": 0.024756376138681927,
+            "0,6": 0.006844533731802499,
+            "2,6": 0.0831000830543959,
+            "6,0": 0.0011129413803776954,
+            "7,5": 0.03347317164359751,
+            "6,3": 0.07468586809321814
+          },
+          "meta": {
+            "pAserve": 0.6227324314760958,
+            "pBserve": 0.6744208188746206,
+            "holdA": 0.7810896943122692,
+            "holdB": 0.867324768021813,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.2123086777814767,
+            "p_set_target_p1": 0.3349710110932481,
+            "pAserve_raw": 0.6320840295159074,
+            "pBserve_raw": 0.665069220834809,
+            "delta_used": 0.025844193699262386,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 20.293497707502002,
+          "aces": {
+            "p1_expected": 11.77022867035116,
+            "p2_expected": 10.857021273513572,
+            "total_expected": 22.627249943864733,
+            "p1_rate_per_service_game": 0.58,
+            "p2_rate_per_service_game": 0.535,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 8.269707254269381,
+            "p2_created": 11.775345026353754,
+            "p1_faced": 11.775345026353754,
+            "p2_faced": 8.269707254269381,
+            "p1_breaks": 2.692444515991634,
+            "p2_breaks": 4.442455786622529,
+            "p1_implied_conv": 0.3255791811253793,
+            "p2_implied_conv": 0.37726756852390414,
+            "p1_hist_conv": 0.472,
+            "p2_hist_conv": 0.462,
+            "p1_hist_save": 0.623,
+            "p2_hist_save": 0.741
+          },
+          "inputs": {
+            "pAserve": 0.6227324314760958,
+            "pBserve": 0.6744208188746206,
+            "holdA": 0.7810896943122692,
+            "holdB": 0.867324768021813,
+            "expected_total_games": 40.586995415004004
+          }
+        }
+      },
+      "predicted_winner": "p2",
+      "projected_total_games": 40.586995415004004,
+      "projected_spread_p1": null,
+      "projected_sets": "3.97"
+    },
+    {
+      "match_id": "bf2c8c71-7cb9-4d28-9897-cab95bf7c6bc",
+      "match_key": "sofascore:15409288",
+      "match_date": "2026-01-30",
+      "match_start_utc": "2026-01-30T08:10:00Z",
+      "tour": "WTA",
+      "tournament": "Manila, Philippines",
+      "round": "Semifinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Solana Sierra",
+      "p2_name": "Camila Osorio",
+      "p1_player_id": 106231,
+      "p2_player_id": 100693,
+      "p1_ta_id": 86277,
+      "p2_ta_id": 80761,
+      "p1_win_prob": 0.5215610888668993,
+      "p2_win_prob": 0.47843891113310066,
+      "p1_fair_american": -109,
+      "p2_fair_american": 109,
+      "p1_market_odds_american": null,
+      "p2_market_odds_american": null,
+      "odds_fetched_at": null,
+      "p1_market_implied_prob": null,
+      "p2_market_implied_prob": null,
+      "p1_market_no_vig_prob": null,
+      "p2_market_no_vig_prob": null,
+      "p1_blended_win_prob": 0.5215610888668993,
+      "p2_blended_win_prob": 0.47843891113310066,
+      "predicted_winner_blended": "p1",
+      "missing_reason": "market_missing",
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 2,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.47907174171390116,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.5640504360198975,
+            "weight": 0.4
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": true,
+        "has_odds": false,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.5143780223552689,
+          "expected_sets": 2.4995865449463026,
+          "expected_total_games": 24.386319260168616,
+          "p_two_sets": 0.5004134550536972,
+          "p_three_sets": 0.4995865449463028,
+          "set_score_probs": {
+            "2-0": 0.2645847498821175,
+            "2-1": 0.2569763389847809,
+            "0-2": 0.23582870517157975,
+            "1-2": 0.2426102059615219
+          },
+          "set_dist": {
+            "6,1": 0.045440184769274944,
+            "4,6": 0.12346876485075725,
+            "6,4": 0.1287092972045885,
+            "5,7": 0.05822491047692481,
+            "6,7": 0.06800788708931801,
+            "7,6": 0.06979187666957508,
+            "3,6": 0.10826777517540066,
+            "1,6": 0.04101783900602637,
+            "6,2": 0.08146722981111872,
+            "0,6": 0.011666560514716273,
+            "2,6": 0.07496824053158738,
+            "6,0": 0.01321603816289095,
+            "7,5": 0.06069621994148517,
+            "6,3": 0.11505717579633545
+          },
+          "meta": {
+            "pAserve": 0.5573056773018048,
+            "pBserve": 0.553236949377947,
+            "holdA": 0.6404876935701251,
+            "holdB": 0.6308612489736305,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.5215610888668993,
+            "p_set_target_p1": 0.5143780223552694,
+            "pAserve_raw": 0.554000874210949,
+            "pBserve_raw": 0.5565417524688027,
+            "delta_used": 0.002034363961928909,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.193159630084308,
+          "aces": {
+            "p1_expected": 3.2311873019723416,
+            "p2_expected": 2.0728371371143326,
+            "total_expected": 5.304024439086675,
+            "p1_rate_per_service_game": 0.265,
+            "p2_rate_per_service_game": 0.17,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 10.074619444574758,
+            "p2_created": 9.902071737811157,
+            "p1_faced": 9.902071737811157,
+            "p2_faced": 10.074619444574758,
+            "p1_breaks": 4.500967716914471,
+            "p2_breaks": 4.383590941279249,
+            "p1_implied_conv": 0.4467630506220529,
+            "p2_implied_conv": 0.44269432269819503,
+            "p1_hist_conv": 0.449,
+            "p2_hist_conv": 0.4539999999999999,
+            "p1_hist_save": 0.514,
+            "p2_hist_save": 0.5489999999999999
+          },
+          "inputs": {
+            "pAserve": 0.5573056773018048,
+            "pBserve": 0.553236949377947,
+            "holdA": 0.6404876935701251,
+            "holdB": 0.6308612489736305,
+            "expected_total_games": 24.386319260168616
+          }
+        }
+      },
+      "predicted_winner": "p1",
+      "projected_total_games": 24.386319260168616,
+      "projected_spread_p1": null,
+      "projected_sets": "2.50"
+    },
+    {
+      "match_id": "37465a0c-fa41-41c6-b78a-b8a357fd1f3a",
+      "match_key": "sofascore:15409293",
+      "match_date": "2026-01-30",
+      "match_start_utc": "2026-01-30T07:00:00Z",
+      "tour": "WTA",
+      "tournament": "Manila, Philippines",
+      "round": "Semifinals",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Tatiana Prozorova",
+      "p2_name": "Donna Vekić",
+      "p1_player_id": 121853,
+      "p2_player_id": 68037,
+      "p1_ta_id": 101571,
+      "p2_ta_id": 68037,
+      "p1_win_prob": 0.38745918321571493,
+      "p2_win_prob": 0.6125408167842851,
+      "p1_fair_american": 158,
+      "p2_fair_american": -158,
+      "p1_market_odds_american": null,
+      "p2_market_odds_american": null,
+      "odds_fetched_at": null,
+      "p1_market_implied_prob": null,
+      "p2_market_implied_prob": null,
+      "p1_market_no_vig_prob": null,
+      "p2_market_no_vig_prob": null,
+      "p1_blended_win_prob": 0.38745918321571493,
+      "p2_blended_win_prob": 0.6125408167842851,
+      "predicted_winner_blended": "p2",
+      "missing_reason": "market_missing",
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 2,
+        "individual_predictions": [
+          {
+            "name": "elo",
+            "p1_prob": 0.24617629146499925,
+            "weight": 0.4
+          },
+          {
+            "name": "xgb",
+            "p1_prob": 0.5287420749664307,
+            "weight": 0.4
+          }
+        ],
+        "has_elo": true,
+        "has_rolling": false,
+        "has_odds": false,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.4243966028553683,
+          "expected_sets": 2.4885682526803823,
+          "expected_total_games": 24.210627322512984,
+          "p_two_sets": 0.5114317473196178,
+          "p_three_sets": 0.4885682526803822,
+          "set_score_probs": {
+            "2-0": 0.1801124765151772,
+            "2-1": 0.2073467067005374,
+            "0-2": 0.3313192708044406,
+            "1-2": 0.28122154597984483
+          },
+          "set_dist": {
+            "6,1": 0.03272480309725648,
+            "4,6": 0.13869701952051564,
+            "6,4": 0.11134533029752983,
+            "5,7": 0.06535680115159304,
+            "6,7": 0.07215874275757686,
+            "7,6": 0.06292561977303258,
+            "3,6": 0.12942999314289552,
+            "1,6": 0.05623029233855304,
+            "6,2": 0.06217499344816314,
+            "0,6": 0.017257502567478912,
+            "2,6": 0.09647304566601783,
+            "6,0": 0.008928789506627588,
+            "7,5": 0.05246813980986572,
+            "6,3": 0.09382892692289296
+          },
+          "meta": {
+            "pAserve": 0.5435296527415473,
+            "pBserve": 0.5650401599432914,
+            "holdA": 0.6075986958858337,
+            "holdB": 0.6585602902746752,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.38745918321571493,
+            "p_set_target_p1": 0.4243966028553685,
+            "pAserve_raw": 0.563523307986689,
+            "pBserve_raw": 0.5450465046981496,
+            "delta_used": 0.010755253600872039,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.105313661256492,
+          "aces": {
+            "p1_expected": 2.481589300557581,
+            "p2_expected": 3.389487825151818,
+            "total_expected": 5.871077125709399,
+            "p1_rate_per_service_game": 0.20500000000000002,
+            "p2_rate_per_service_game": 0.28,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 9.502566448650864,
+            "p2_created": 10.406241929880627,
+            "p1_faced": 10.406241929880627,
+            "p2_faced": 9.502566448650864,
+            "p1_breaks": 4.1332347826334255,
+            "p2_breaks": 4.7501408673880805,
+            "p1_implied_conv": 0.4349598400567086,
+            "p2_implied_conv": 0.45647034725845265,
+            "p1_hist_conv": 0.544,
+            "p2_hist_conv": 0.513,
+            "p1_hist_save": 0.531,
+            "p2_hist_save": 0.563
+          },
+          "inputs": {
+            "pAserve": 0.5435296527415473,
+            "pBserve": 0.5650401599432914,
+            "holdA": 0.6075986958858337,
+            "holdB": 0.6585602902746752,
+            "expected_total_games": 24.210627322512984
+          }
+        }
+      },
+      "predicted_winner": "p2",
+      "projected_total_games": 24.210627322512984,
+      "projected_spread_p1": null,
+      "projected_sets": "2.49"
+    },
+    {
+      "match_id": "276b9f25-0b1c-44fd-b6a4-9c59edf6da03",
+      "match_key": "sofascore:15345476",
+      "match_date": "2026-01-31",
+      "match_start_utc": "2026-01-31T08:30:00Z",
+      "tour": "WTA",
+      "tournament": "Australian Open, Melbourne, Australia",
+      "round": "Final",
+      "surface": "hardcourt outdoor",
+      "best_of": 3,
+      "p1_name": "Aryna Sabalenka",
+      "p2_name": "Elena Rybakina",
+      "p1_player_id": null,
+      "p2_player_id": null,
+      "p1_ta_id": null,
+      "p2_ta_id": null,
+      "p1_win_prob": 0.5496792828175462,
+      "p2_win_prob": 0.4503207171824538,
+      "p1_fair_american": -122,
+      "p2_fair_american": 122,
+      "p1_market_odds_american": -161,
+      "p2_market_odds_american": 138,
+      "odds_fetched_at": "2026-01-29T17:36:19.534547Z",
+      "p1_market_implied_prob": 0.6168582375478927,
+      "p2_market_implied_prob": 0.42016806722689076,
+      "p1_market_no_vig_prob": 0.5948337421217672,
+      "p2_market_no_vig_prob": 0.40516625787823285,
+      "p1_blended_win_prob": 0.5496792828175462,
+      "p2_blended_win_prob": 0.4503207171824538,
+      "predicted_winner_blended": "p1",
+      "missing_reason": "elo_missing",
+      "inputs": {
+        "method": "combined_ensemble",
+        "num_predictors": 2,
+        "individual_predictions": [
+          {
+            "name": "xgb",
+            "p1_prob": 0.5271020531654358,
+            "weight": 0.4
+          },
+          {
+            "name": "market_no_vig",
+            "p1_prob": 0.5948337421217672,
+            "weight": 0.2
+          }
+        ],
+        "has_elo": false,
+        "has_rolling": true,
+        "has_odds": true,
+        "totals_sets_sim": {
+          "p_set_win_p1": 0.5331681741847525,
+          "expected_sets": 2.4977997444425,
+          "expected_total_games": 24.896339064384396,
+          "p_two_sets": 0.5022002555575001,
+          "p_three_sets": 0.49779974444249986,
+          "set_score_probs": {
+            "2-0": 0.28426830196350256,
+            "2-1": 0.265410980854044,
+            "0-2": 0.21793195359399758,
+            "1-2": 0.2323887635884558
+          },
+          "set_dist": {
+            "6,1": 0.03915158024035946,
+            "4,6": 0.1254340226989416,
+            "6,4": 0.1391215669458471,
+            "5,7": 0.052274035685727305,
+            "6,7": 0.08380969145113966,
+            "7,6": 0.08921725093930499,
+            "3,6": 0.10743396638592359,
+            "1,6": 0.030570213399640826,
+            "6,2": 0.07507142893591921,
+            "0,6": 0.006283677334622154,
+            "2,6": 0.06102621885925252,
+            "6,0": 0.008573362882470605,
+            "7,5": 0.057978255011691265,
+            "6,3": 0.12405472922915986
+          },
+          "meta": {
+            "pAserve": 0.6048012469816584,
+            "pBserve": 0.5951475295987678,
+            "holdA": 0.7456554266899982,
+            "holdB": 0.7255190430102432,
+            "used_defaults": false,
+            "calibrated_from_match_prob": true,
+            "p_match_p1": 0.5496792828175462,
+            "p_set_target_p1": 0.5331681741847523,
+            "pAserve_raw": 0.6074328761726107,
+            "pBserve_raw": 0.5925159004078157,
+            "delta_used": 0.004826858691445279,
+            "calibration_error": null
+          }
+        },
+        "totals_sets_error": null,
+        "totals_sets_used_defaults": false,
+        "projected_props": {
+          "expected_service_games_each": 12.448169532192198,
+          "aces": {
+            "p1_expected": 4.356859336267269,
+            "p2_expected": 6.348566461418021,
+            "total_expected": 10.70542579768529,
+            "p1_rate_per_service_game": 0.35,
+            "p2_rate_per_service_game": 0.51,
+            "windows_used": {
+              "p1_service": "12 month",
+              "p1_return": "12 month",
+              "p2_service": "12 month",
+              "p2_return": "12 month"
+            }
+          },
+          "break_points": {
+            "p1_created": 8.439581664354465,
+            "p2_created": 8.011473578736338,
+            "p1_faced": 8.011473578736338,
+            "p2_faced": 8.439581664354465,
+            "p1_breaks": 3.416785485966848,
+            "p2_breaks": 3.1661243681559896,
+            "p1_implied_conv": 0.4048524704012322,
+            "p2_implied_conv": 0.3951987530183414,
+            "p1_hist_conv": 0.506,
+            "p2_hist_conv": 0.436,
+            "p1_hist_save": 0.6920000000000001,
+            "p2_hist_save": 0.629
+          },
+          "inputs": {
+            "pAserve": 0.6048012469816584,
+            "pBserve": 0.5951475295987678,
+            "holdA": 0.7456554266899982,
+            "holdB": 0.7255190430102432,
+            "expected_total_games": 24.896339064384396
+          }
+        }
+      },
+      "predicted_winner": "p1",
+      "projected_total_games": 24.896339064384396,
+      "projected_spread_p1": null,
+      "projected_sets": "2.50"
+    }
+  ]
+}

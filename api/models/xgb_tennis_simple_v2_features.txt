@@ -1,0 +1,17 @@
+d_win_rate_last_20
+d_win_rate_surface
+d_experience
+d_rest_days
+d_matches_10d
+d_matches_30d
+is_hard
+is_clay
+is_grass
+is_grand_slam
+is_masters
+best_of
+d_svc_pts_w
+d_ret_pts_w
+d_ace_pg
+d_bp_save
+d_bp_win

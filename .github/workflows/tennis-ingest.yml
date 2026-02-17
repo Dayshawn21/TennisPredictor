@@ -1,0 +1,102 @@
+﻿name: Tennis Ingest
+
+on:
+  schedule:
+    # Hourly odds refresh (UTC)
+    - cron: "10 * * * *"
+    # Daily full ingest (UTC)
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Which job to run"
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - odds
+          - full
+      hours_ahead:
+        description: "Odds refresh window (hours ahead)"
+        required: false
+        default: "4"
+
+concurrency:
+  group: tennis-ingest
+  cancel-in-progress: false
+
+jobs:
+  odds-refresh:
+    name: Odds Refresh
+    if: >-
+      github.event_name == 'workflow_dispatch' &&
+      (inputs.run_mode == 'all' || inputs.run_mode == 'odds') ||
+      github.event_name == 'schedule' && github.event.schedule == '10 * * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: api
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Refresh near-start odds
+        run: |
+          HRS="${{ inputs.hours_ahead }}"
+          if [ -z "$HRS" ]; then HRS=4; fi
+          python -m scripts.refresh_near_start_odds --hours-ahead "$HRS" --sleep-sec 0.25 --limit 300
+
+  full-ingest:
+    name: Full Ingest
+    if: >-
+      github.event_name == 'workflow_dispatch' &&
+      (inputs.run_mode == 'all' || inputs.run_mode == 'full') ||
+      github.event_name == 'schedule' && github.event.schedule == '15 6 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: api
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      INGEST_ODDS: "1"
+      AUTO_BACKFILL_CANONICAL: "1"
+      AUTO_FILL_ELO: "1"
+      AUTO_BACKFILL_H2H: "1"
+      START_DATE: ${{ vars.TENNIS_START_DATE }}
+      END_DATE: ${{ vars.TENNIS_END_DATE }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Full sofascore ingest
+        run: |
+          # Optional repo vars TENNIS_START_DATE / TENNIS_END_DATE can pin the window.
+          # If unset, script defaults apply.
+          python -m app.ingest.tennis.sofascore_matchups

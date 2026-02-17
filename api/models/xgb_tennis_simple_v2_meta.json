@@ -1,0 +1,57 @@
+{
+  "csv": "C:\\Users\\dayshawn\\Desktop\\SportApp\\api\\tennis_training_simple.csv",
+  "date_col": "match_date",
+  "split": {
+    "val_days": 180,
+    "test_days": 180,
+    "early_stop_days": 120
+  },
+  "rows": {
+    "train": 24668,
+    "val": 1620,
+    "test": 1278,
+    "train_fit": 23217,
+    "early_stop": 1451
+  },
+  "metrics": {
+    "val": {
+      "accuracy": 0.6166666666666667,
+      "log_loss": 0.6521216740361423,
+      "brier": 0.2290233075618744,
+      "auc": 0.6737444803294149
+    },
+    "test": {
+      "accuracy": 0.6103286384976526,
+      "log_loss": 0.6722149789217214,
+      "brier": 0.23622409999370575,
+      "auc": 0.6611215484364016
+    },
+    "test_calibrated": {
+      "accuracy": 0.6150234741784038,
+      "log_loss": 0.6533786333707411,
+      "brier": 0.2306704908546212,
+      "auc": 0.6669034456237124
+    }
+  },
+  "features": [
+    "d_win_rate_last_20",
+    "d_win_rate_surface",
+    "d_experience",
+    "d_rest_days",
+    "d_matches_10d",
+    "d_matches_30d",
+    "is_hard",
+    "is_clay",
+    "is_grass",
+    "is_grand_slam",
+    "is_masters",
+    "best_of",
+    "d_svc_pts_w",
+    "d_ret_pts_w",
+    "d_ace_pg",
+    "d_bp_save",
+    "d_bp_win"
+  ],
+  "symmetric": true,
+  "calibration": "sigmoid"
+}
