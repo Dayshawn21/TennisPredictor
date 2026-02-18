@@ -55,6 +55,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
+          python -m pip install numpy joblib xgboost scikit-learn
+
+      - name: Verify ML runtime
+        run: |
+          python -c "import numpy, joblib, xgboost, sklearn; print('ml_runtime_ok')"
 
       - name: Log predictions
         run: |
