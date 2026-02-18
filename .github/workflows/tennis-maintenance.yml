@@ -31,10 +31,11 @@ concurrency:
 jobs:
   log-predictions:
     name: Log Prediction Snapshots
+    continue-on-error: true
     if: >-
       github.event_name == 'workflow_dispatch' &&
       (inputs.run_mode == 'all' || inputs.run_mode == 'log') ||
-      github.event_name == 'schedule' && github.event.schedule == '20 0,2,4,14,16,18,20,22 * * *'
+      github.event_name == 'schedule'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     defaults:
