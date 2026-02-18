@@ -4,8 +4,8 @@ on:
   schedule:
     # Hourly odds refresh (UTC)
     - cron: "10 * * * *"
-    # Daily full ingest (UTC) -> 03:00 UTC = 9:00 PM US Central (CST)
-    - cron: "0 3 * * *"
+    # Daily full ingest (UTC) -> 03:12 UTC = 9:12 PM US Central (CST)
+    - cron: "12 3 * * *"
   workflow_dispatch:
     inputs:
       run_mode:
@@ -94,7 +94,7 @@ jobs:
     if: >-
       github.event_name == 'workflow_dispatch' &&
       (inputs.run_mode == 'all' || inputs.run_mode == 'full') ||
-      github.event_name == 'schedule' && github.event.schedule == '0 3 * * *'
+      github.event_name == 'schedule'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     defaults:
