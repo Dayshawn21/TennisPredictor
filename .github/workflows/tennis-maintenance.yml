@@ -61,8 +61,8 @@ jobs:
 
       - name: Log predictions
         run: |
-          DAYS="${{ inputs.days_ahead }}"
-          if [ -z "$DAYS" ]; then DAYS=3; fi
+          DAYS="${{ github.event.inputs.days_ahead }}"
+          DAYS="${DAYS:-3}"
           python -m scripts.log_todays_predictions --days-ahead "$DAYS" --include-incomplete --bust-cache
 
   settle-metrics:
