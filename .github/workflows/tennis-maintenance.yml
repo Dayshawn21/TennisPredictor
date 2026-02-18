@@ -2,10 +2,7 @@ name: Tennis Maintenance
 
 on:
   schedule:
-    # Snapshot predictions every 2 hours during active day window.
-    # UTC hours map to 8:20 AM..10:20 PM US Central (CST): 14,16,18,20,22,0,2,4
-    - cron: "20 0,2,4,14,16,18,20,22 * * *"
-    # Nightly settle + reporting (UTC) -> 05:30 UTC = 11:30 PM US Central (CST)
+    # Nightly maintenance run (UTC) -> 05:30 UTC = 11:30 PM US Central (CST)
     - cron: "30 5 * * *"
   workflow_dispatch:
     inputs:
