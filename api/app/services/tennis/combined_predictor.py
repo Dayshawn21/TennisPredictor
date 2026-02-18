@@ -6,7 +6,14 @@ import concurrent.futures
 from typing import Any, Dict, Optional, List, Tuple
 
 from app.services.tennis.elo_predictor_enhanced import predict_match_elo
-from app.services.tennis.tennis_predictor_simple import predict_match_xgb, predict_match_xgb_batch
+
+_XGB_IMPORT_ERROR: Optional[str] = None
+try:
+    from app.services.tennis.tennis_predictor_simple import predict_match_xgb, predict_match_xgb_batch
+except Exception as e:  # pragma: no cover - defensive runtime fallback
+    predict_match_xgb = None  # type: ignore[assignment]
+    predict_match_xgb_batch = None  # type: ignore[assignment]
+    _XGB_IMPORT_ERROR = f"xgb_import_error:{type(e).__name__}:{e}"
 
 
 def _american_to_implied_prob(odds: Optional[int]) -> Optional[float]:
@@ -180,7 +187,10 @@ def _build_combined_result(
         quality_flags.append("elo_missing")
 
     # XGB predictor
-    if xgb_error_msg:
+    if _XGB_IMPORT_ERROR:
+        missing.append(_XGB_IMPORT_ERROR)
+        quality_flags.append("xgb_missing")
+    elif xgb_error_msg:
         missing.append(xgb_error_msg)
         quality_flags.append("xgb_missing")
     else:
@@ -284,12 +294,15 @@ def predict_batch_combined(match_data_list: List[Dict[str, Any]]) -> List[Dict[s
     # Step 1: Batch XGBoost inference (single predict_proba call)
     xgb_results: List[Optional[Dict[str, Any]]] = [None] * len(match_data_list)
     xgb_error_msg: Optional[str] = None
-    try:
-        xgb_batch = predict_match_xgb_batch(match_data_list)
-        for i, r in enumerate(xgb_batch):
-            xgb_results[i] = r
-    except Exception as e:
-        xgb_error_msg = f"xgb_error:{type(e).__name__}:{e}"
+    if _XGB_IMPORT_ERROR:
+        xgb_error_msg = _XGB_IMPORT_ERROR
+    else:
+        try:
+            xgb_batch = predict_match_xgb_batch(match_data_list)
+            for i, r in enumerate(xgb_batch):
+                xgb_results[i] = r
+        except Exception as e:
+            xgb_error_msg = f"xgb_error:{type(e).__name__}:{e}"
 
     # Step 2: Per-match ELO + market + dynamic blend
     results: List[Dict[str, Any]] = []
