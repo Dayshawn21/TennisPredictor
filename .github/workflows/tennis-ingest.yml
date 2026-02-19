@@ -58,9 +58,9 @@ jobs:
   odds-refresh:
     name: Odds Refresh
     if: >-
-      github.event_name == 'workflow_dispatch' &&
-      (inputs.run_mode == 'all' || inputs.run_mode == 'odds') ||
-      github.event_name == 'schedule' && github.event.schedule == '10 * * * *'
+      (github.event_name == 'workflow_dispatch' &&
+      (inputs.run_mode == 'all' || inputs.run_mode == 'odds')) ||
+      (github.event_name == 'schedule' && github.event.schedule == '10 * * * *')
     runs-on: ubuntu-latest
     timeout-minutes: 30
     defaults:
@@ -92,9 +92,9 @@ jobs:
   full-ingest:
     name: Full Ingest
     if: >-
-      github.event_name == 'workflow_dispatch' &&
-      (inputs.run_mode == 'all' || inputs.run_mode == 'full') ||
-      github.event_name == 'schedule'
+      (github.event_name == 'workflow_dispatch' &&
+      (inputs.run_mode == 'all' || inputs.run_mode == 'full')) ||
+      (github.event_name == 'schedule' && github.event.schedule == '12 3 * * *')
     runs-on: ubuntu-latest
     timeout-minutes: 90
     defaults:
