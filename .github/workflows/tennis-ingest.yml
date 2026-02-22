@@ -1,11 +1,16 @@
 name: Tennis Ingest
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Hourly odds refresh (UTC)
     - cron: "10 * * * *"
     # Daily stats backfill (UTC) -> 03:00 UTC ~= 9:00 PM US Central (CST)
     - cron: "0 3 * * *"
+    # Daily CSV refresh (UTC) shortly after stats backfill
+    - cron: "20 3 * * *"
     # Daily full ingest (UTC) -> 03:12 UTC = 9:12 PM US Central (CST)
     - cron: "12 3 * * *"
   workflow_dispatch:
@@ -19,6 +24,7 @@ on:
           - all
           - odds
           - stats
+          - csv
           - full
       hours_ahead:
         description: "Odds refresh window (hours ahead)"
@@ -171,3 +177,55 @@ jobs:
           END_DATE="$(TZ=America/Chicago date +%F)"
           echo "Running stats backfill START_DATE=${START_DATE} END_DATE=${END_DATE}"
           python -m app.ingest.tennis.sofascore_event_stats_backfill --start-date "${START_DATE}" --end-date "${END_DATE}" --only-missing
+
+  csv-refresh:
+    name: Refresh player_surface_stats.csv
+    if: >-
+      (github.event_name == 'workflow_dispatch' &&
+      (inputs.run_mode == 'all' || inputs.run_mode == 'csv')) ||
+      (github.event_name == 'schedule' && github.event.schedule == '20 3 * * *')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: api
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Export player surface stats CSV
+        run: |
+          START_DATE="$(TZ=America/Chicago date +%Y-01-01)"
+          WINDOW_NAME="$(TZ=America/Chicago date +%Y) ytd"
+          python -m scripts.export_player_surface_stats_csv \
+            --start-date "${START_DATE}" \
+            --window-name "${WINDOW_NAME}" \
+            --min-matches 1 \
+            --output app/data/player_surface_stats.csv
+
+      - name: Commit CSV if changed
+        working-directory: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api/app/data/player_surface_stats.csv
+          if git diff --cached --quiet; then
+            echo "No CSV changes to commit."
+          else
+            git commit -m "chore(data): refresh player_surface_stats.csv"
+            git push
+          fi
