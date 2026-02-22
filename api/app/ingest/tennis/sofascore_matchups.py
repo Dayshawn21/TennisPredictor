@@ -38,6 +38,10 @@ H2H:
 
 Auto-fix Canonicals:
 - AUTO_BACKFILL_CANONICAL=1   (default true)
+- AUTO_CREATE_CANONICAL_PLAYERS=1  (default true)
+- CANONICAL_REPAIR_DAYS_BACK=14
+- CANONICAL_REPAIR_DAYS_AHEAD=14
+- CANONICAL_REPAIR_STRICT=1   (default true; exact normalized name only)
 
 Auto-fill Elo:
 - AUTO_FILL_ELO=1             (default true)
@@ -77,6 +81,7 @@ from sqlalchemy.dialects.postgresql import JSONB
 from app.utils.datetime_utils import match_date_central
 from app.ingest.tennis.player_aliases import resolve_player_id
 from app.ingest.tennis.fix_ta_elo_mapping import run_fix as run_fuzzy_ta_fix
+from app.ingest.tennis.fix_missing_canonical_players import repair_missing_canonical_players
 
 load_dotenv()
 
@@ -1591,6 +1596,36 @@ async def _auto_backfill_canonicals(conn: AsyncConnection, start: dt.date, end: 
     await conn.execute(BACKFILL_CANON_P2_SQL, {"start": start, "end": end})
 
 
+async def _auto_create_missing_canonicals(conn: AsyncConnection, start: dt.date, end: dt.date) -> None:
+    if not parse_bool_env("AUTO_CREATE_CANONICAL_PLAYERS", default=True):
+        return
+    strict = parse_bool_env("CANONICAL_REPAIR_STRICT", default=True)
+    stats = await repair_missing_canonical_players(
+        conn,
+        start=start,
+        end=end,
+        tours=("ATP", "WTA"),
+        target_list_path=None,
+        dry_run=False,
+        strict=strict,
+    )
+    unresolved = stats.get("unresolved") or {}
+    logger.info(
+        "canonical_repair window=%s..%s candidates=%s created=%s mappings=%s backfilled=%s "
+        "NO_SOFA_ID=%s AMBIGUOUS_TA=%s SOURCE_CONFLICT=%s NO_TA_EXACT_MATCH=%s",
+        stats.get("window_start"),
+        stats.get("window_end"),
+        stats.get("candidates_considered"),
+        stats.get("canonicals_created"),
+        stats.get("sofascore_mappings_upserted"),
+        stats.get("matches_backfilled"),
+        unresolved.get("NO_SOFA_ID", 0),
+        unresolved.get("AMBIGUOUS_TA", 0),
+        unresolved.get("SOURCE_CONFLICT", 0),
+        unresolved.get("NO_TA_EXACT_MATCH", 0),
+    )
+
+
 async def _auto_backfill_ta_and_elo(conn: AsyncConnection, start: dt.date, end: dt.date) -> None:
     if not parse_bool_env("AUTO_FILL_ELO", default=True):
         return
@@ -1856,11 +1891,17 @@ async def ingest_window(engine: AsyncEngine) -> None:
 
                 # After each day: fill canonicals + ta ids + elo
                 await _auto_backfill_canonicals(conn, d, d)
+                await _auto_create_missing_canonicals(conn, d, d)
                 await _auto_backfill_ta_and_elo(conn, d, d)
                 await _auto_backfill_h2h_from_raw(conn, d, d)
 
             # Final sweep for the full window
             await _auto_backfill_canonicals(conn, start, end)
+            repair_days_back = max(0, parse_int_env("CANONICAL_REPAIR_DAYS_BACK", 14))
+            repair_days_ahead = max(0, parse_int_env("CANONICAL_REPAIR_DAYS_AHEAD", 14))
+            repair_start = today - dt.timedelta(days=repair_days_back)
+            repair_end = today + dt.timedelta(days=repair_days_ahead)
+            await _auto_create_missing_canonicals(conn, repair_start, repair_end)
             await _auto_backfill_ta_and_elo(conn, start, end)
             await _auto_backfill_h2h_from_raw(conn, start, end)
 

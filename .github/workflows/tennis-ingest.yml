@@ -4,6 +4,8 @@ on:
   schedule:
     # Hourly odds refresh (UTC)
     - cron: "10 * * * *"
+    # Daily stats backfill (UTC) -> 03:00 UTC ~= 9:00 PM US Central (CST)
+    - cron: "0 3 * * *"
     # Daily full ingest (UTC) -> 03:12 UTC = 9:12 PM US Central (CST)
     - cron: "12 3 * * *"
   workflow_dispatch:
@@ -16,6 +18,7 @@ on:
         options:
           - all
           - odds
+          - stats
           - full
       hours_ahead:
         description: "Odds refresh window (hours ahead)"
@@ -133,3 +136,38 @@ jobs:
         run: |
           # Optional START_DATE/END_DATE can pin ingest window.
           python -m app.ingest.tennis.sofascore_matchups
+
+  stats-backfill:
+    name: Stats Backfill (Today + Yesterday)
+    if: >-
+      (github.event_name == 'workflow_dispatch' &&
+      (inputs.run_mode == 'all' || inputs.run_mode == 'stats')) ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 3 * * *')
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: api
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Backfill stats for yesterday and today (US Central)
+        run: |
+          START_DATE="$(TZ=America/Chicago date -d 'yesterday' +%F)"
+          END_DATE="$(TZ=America/Chicago date +%F)"
+          echo "Running stats backfill START_DATE=${START_DATE} END_DATE=${END_DATE}"
+          python -m app.ingest.tennis.sofascore_event_stats_backfill --start-date "${START_DATE}" --end-date "${END_DATE}" --only-missing

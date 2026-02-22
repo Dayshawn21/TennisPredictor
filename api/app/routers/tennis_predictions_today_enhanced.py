@@ -2104,10 +2104,10 @@ def _pick_summary(
     p2_matches_played: Optional[int] = None,
     elo_used_median: bool = False,
 ) -> Optional[str]:
-    """Build a concise, readable pick summary with structured sections.
+    """Build a concise, decision-focused pick summary.
 
     Output format:
-        {intro}  ←  who over whom, odds stance, value verdict
+        {intro} <- who over whom, odds stance, value verdict
         Key factors: factor1; factor2; ...
         Risks: risk1; risk2; ...
     """
@@ -2117,10 +2117,8 @@ def _pick_summary(
     pick_name = p1_name if pick_side == "p1" else p2_name
     opp_name = p2_name if pick_side == "p1" else p1_name
     pick_prob = p1_prob if pick_side == "p1" else p2_prob
-    opp_prob = p2_prob if pick_side == "p1" else p1_prob
     pick_nv = p1_nv if pick_side == "p1" else p2_nv
     odds = p1_odds if pick_side == "p1" else p2_odds
-    opp_odds = p2_odds if pick_side == "p1" else p1_odds
 
     # Helper: pick-side value selector (returns pick's value first, opp second)
     def _pick(v1, v2):
@@ -2141,7 +2139,17 @@ def _pick_summary(
 
     surf_label = _normalize_surface_family(surface).capitalize() if surface else None
 
-    # --- 1. Intro line ---
+    factor_entries: list[tuple[float, str, str]] = []
+    risk_entries: list[tuple[float, str, str]] = []
+
+    def _add_factor(score: float, text: str, category: str) -> None:
+        if text:
+            factor_entries.append((float(score), text, category))
+
+    def _add_risk(score: float, text: str, category: str) -> None:
+        if text:
+            risk_entries.append((float(score), text, category))
+
     label = None
     if odds is not None:
         label = "Fav" if odds < 0 else "Dog"
@@ -2174,14 +2182,58 @@ def _pick_summary(
     if tags:
         header += f" ({', '.join(tags)})"
 
-    # Ranking context
     rank_note = ""
     if pick_rank is not None and opp_rank is not None:
         rank_note = f" Rank #{pick_rank} vs #{opp_rank}."
     elif pick_rank is not None:
         rank_note = f" Rank #{pick_rank}."
 
-    # Prob + edge line
+    model_spread = None
+    if individual_predictions:
+        pred_probs: dict[str, float] = {}
+        for ip in individual_predictions:
+            if not isinstance(ip, dict):
+                continue
+            name = str(ip.get("name") or "").lower()
+            p1p = ip.get("p1_prob") or ip.get("p1Prob")
+            if p1p is None:
+                continue
+            try:
+                val = float(p1p)
+            except (TypeError, ValueError):
+                continue
+            pred_probs[name] = val if pick_side == "p1" else (1.0 - val)
+        if len(pred_probs) >= 2:
+            vals = list(pred_probs.values())
+            model_spread = max(vals) - min(vals)
+            if model_spread <= 0.05:
+                _add_factor(3.5, "models agree", "models")
+            elif model_spread >= 0.15:
+                high_m = max(pred_probs, key=pred_probs.get)
+                low_m = min(pred_probs, key=pred_probs.get)
+                _add_risk(
+                    9.0 + min(4.0, model_spread * 10.0),
+                    f"models split ({high_m} {pred_probs[high_m]*100:.0f}% vs {low_m} {pred_probs[low_m]*100:.0f}%)",
+                    "models",
+                )
+
+    quality_risk = bool(elo_used_median or (pick_mp is not None and pick_mp < 10))
+    conviction = "moderate conviction"
+    if edge_pp is not None:
+        edge_abs = abs(edge_pp)
+        if edge_abs >= 8.0:
+            conviction = "high conviction"
+        elif edge_abs < 3.0:
+            conviction = "lean"
+    elif pick_prob is not None:
+        delta = abs(float(pick_prob) - 0.5)
+        conviction = "high conviction" if delta >= 0.13 else ("lean" if delta < 0.06 else "moderate conviction")
+
+    if model_spread is not None and model_spread >= 0.15:
+        conviction = "lean" if conviction == "moderate conviction" else "moderate conviction"
+    if quality_risk and conviction == "high conviction":
+        conviction = "moderate conviction"
+
     prob_parts: list[str] = []
     if pick_prob is not None:
         prob_parts.append(f"Model {pick_prob*100:.1f}%")
@@ -2192,168 +2244,153 @@ def _pick_summary(
         prob_parts.append(f"Edge {sign}{edge_pp:.1f}pp")
     prob_line = " | ".join(prob_parts)
     if edge_verdict:
-        prob_line += f" → {edge_verdict}" if prob_line else edge_verdict
+        prob_line += f" -> {edge_verdict}" if prob_line else edge_verdict
 
-    sentence1 = f"{header}.{rank_note}"
+    sentence1 = f"{header}. {conviction.capitalize()}.{rank_note}"
     if prob_line:
         sentence1 += f" {prob_line}."
 
-    # --- 2. Key factors (advantages) ---
-    factors: list[str] = []
-    risks: list[str] = []
-
-    # ELO edge
     if pick_elo is not None and opp_elo is not None and not elo_used_median:
         elo_diff = pick_elo - opp_elo
         if elo_diff >= 150:
-            factors.append(f"ELO +{int(elo_diff)} (dominant)")
+            _add_factor(11.0, f"ELO +{int(elo_diff)} (dominant)", "elo")
         elif elo_diff >= 75:
-            factors.append(f"ELO +{int(elo_diff)} (clear edge)")
+            _add_factor(9.0, f"ELO +{int(elo_diff)} (clear edge)", "elo")
         elif elo_diff >= 30:
-            factors.append(f"ELO +{int(elo_diff)}")
+            _add_factor(7.0, f"ELO +{int(elo_diff)}", "elo")
         elif elo_diff <= -75:
-            risks.append(f"ELO deficit {int(elo_diff)}")
+            _add_risk(10.0, f"ELO deficit {int(elo_diff)}", "elo")
         elif elo_diff <= -30:
-            risks.append(f"ELO slightly lower ({int(elo_diff)})")
+            _add_risk(7.0, f"ELO slightly lower ({int(elo_diff)})", "elo")
 
-    # Surface form
     if pick_surf is not None and opp_surf is not None:
         surf_diff = pick_surf - opp_surf
         surf_ctx = f" on {surf_label.lower()}" if surf_label and surf_label != "Unknown" else ""
         if surf_diff >= 0.15:
-            factors.append(f"much stronger{surf_ctx} ({pick_surf*100:.0f}% vs {opp_surf*100:.0f}%)")
-        elif surf_diff >= 0.06:
-            factors.append(f"better{surf_ctx} form ({pick_surf*100:.0f}% vs {opp_surf*100:.0f}%)")
-        elif surf_diff <= -0.06:
-            risks.append(f"opp better{surf_ctx} ({opp_surf*100:.0f}% vs {pick_surf*100:.0f}%)")
+            _add_factor(8.0 + (surf_diff * 5.0), f"much stronger{surf_ctx} ({pick_surf*100:.0f}% vs {opp_surf*100:.0f}%)", "surface")
+        elif surf_diff >= 0.08:
+            _add_factor(6.5 + (surf_diff * 4.0), f"better{surf_ctx} form ({pick_surf*100:.0f}% vs {opp_surf*100:.0f}%)", "surface")
+        elif surf_diff <= -0.08:
+            _add_risk(7.0 + (abs(surf_diff) * 4.0), f"opp better{surf_ctx} ({opp_surf*100:.0f}% vs {pick_surf*100:.0f}%)", "surface")
 
-    # Serve dominance
     if pick_svc is not None and opp_svc is not None:
         svc_diff = pick_svc - opp_svc
-        if svc_diff >= 0.03:
-            factors.append(f"stronger serve ({pick_svc*100:.1f}% vs {opp_svc*100:.1f}% pts won)")
-        elif svc_diff >= 0.01:
-            factors.append("serve edge")
-        elif svc_diff <= -0.03:
-            risks.append("opp has serve advantage")
+        if svc_diff >= 0.02:
+            _add_factor(5.5 + (svc_diff * 30.0), f"stronger serve ({pick_svc*100:.1f}% vs {opp_svc*100:.1f}% pts won)", "serve")
+        elif svc_diff <= -0.02:
+            _add_risk(5.5 + (abs(svc_diff) * 30.0), f"opp stronger on serve ({opp_svc*100:.1f}% vs {pick_svc*100:.1f}% pts won)", "serve")
 
-    # Return pressure
     if pick_ret is not None and opp_ret is not None:
         ret_diff = pick_ret - opp_ret
-        if ret_diff >= 0.03:
-            factors.append(f"return pressure ({pick_ret*100:.1f}% vs {opp_ret*100:.1f}% pts won)")
-        elif ret_diff >= 0.01:
-            factors.append("return edge")
-        elif ret_diff <= -0.03:
-            risks.append("opp returns better")
+        if ret_diff >= 0.02:
+            _add_factor(5.5 + (ret_diff * 30.0), f"return pressure ({pick_ret*100:.1f}% vs {opp_ret*100:.1f}% pts won)", "return")
+        elif ret_diff <= -0.02:
+            _add_risk(5.5 + (abs(ret_diff) * 30.0), f"opp returns better ({opp_ret*100:.1f}% vs {pick_ret*100:.1f}% pts won)", "return")
 
-    # Break point resilience
     if pick_bps is not None and opp_bps is not None:
         bps_diff = pick_bps - opp_bps
         if bps_diff >= 0.05:
-            factors.append(f"clutch on BP save ({pick_bps*100:.0f}% vs {opp_bps*100:.0f}%)")
+            _add_factor(5.0 + (bps_diff * 15.0), f"clutch on BP save ({pick_bps*100:.0f}% vs {opp_bps*100:.0f}%)", "bp_save")
         elif bps_diff <= -0.05:
-            risks.append(f"BP save gap ({pick_bps*100:.0f}% vs {opp_bps*100:.0f}%)")
+            _add_risk(5.0 + (abs(bps_diff) * 15.0), f"BP save gap ({pick_bps*100:.0f}% vs {opp_bps*100:.0f}%)", "bp_save")
 
-    # Break point conversion
     if pick_bpw is not None and opp_bpw is not None:
         bpw_diff = pick_bpw - opp_bpw
         if bpw_diff >= 0.05:
-            factors.append("better BP conversion")
+            _add_factor(4.8 + (bpw_diff * 12.0), f"better BP conversion ({pick_bpw*100:.0f}% vs {opp_bpw*100:.0f}%)", "bp_conv")
         elif bpw_diff <= -0.05:
-            risks.append("opp converts BPs better")
+            _add_risk(4.8 + (abs(bpw_diff) * 12.0), f"opp converts BPs better ({opp_bpw*100:.0f}% vs {pick_bpw*100:.0f}%)", "bp_conv")
 
-    # Recent form (last 20 matches)
-    if pick_wr20 is not None and opp_wr20 is not None:
+    if pick_wr20 is not None and opp_wr20 is not None and pick_mp is not None and opp_mp is not None and pick_mp >= 10 and opp_mp >= 10:
         form_diff = pick_wr20 - opp_wr20
         if form_diff >= 0.15:
-            factors.append(f"hot form L20 ({pick_wr20*100:.0f}% vs {opp_wr20*100:.0f}%)")
-        elif form_diff >= 0.07:
-            factors.append(f"better form L20 ({pick_wr20*100:.0f}% vs {opp_wr20*100:.0f}%)")
-        elif form_diff <= -0.07:
-            risks.append(f"form trails L20 ({pick_wr20*100:.0f}% vs {opp_wr20*100:.0f}%)")
+            _add_factor(7.0 + (form_diff * 8.0), f"hot form L20 ({pick_wr20*100:.0f}% vs {opp_wr20*100:.0f}%)", "form")
+        elif form_diff >= 0.09:
+            _add_factor(6.0 + (form_diff * 7.0), f"better form L20 ({pick_wr20*100:.0f}% vs {opp_wr20*100:.0f}%)", "form")
+        elif form_diff <= -0.09:
+            _add_risk(6.0 + (abs(form_diff) * 7.0), f"form trails L20 ({pick_wr20*100:.0f}% vs {opp_wr20*100:.0f}%)", "form")
 
-    # Rest & fatigue
     if d_rest_days is not None:
         rest = d_rest_days if pick_side == "p1" else -d_rest_days
         if rest >= 3:
-            factors.append(f"+{int(rest)}d extra rest")
-        elif rest >= 1:
-            factors.append("fresher (extra rest)")
+            _add_factor(5.0 + min(2.0, rest * 0.4), f"+{int(rest)}d extra rest", "rest")
+        elif rest >= 2:
+            _add_factor(4.5, "fresher (extra rest)", "rest")
         elif rest <= -3:
-            risks.append(f"short rest ({int(abs(rest))}d less)")
-        elif rest <= -1:
-            risks.append("less rest")
+            _add_risk(5.5 + min(2.0, abs(rest) * 0.4), f"short rest ({int(abs(rest))}d less)", "rest")
+        elif rest <= -2:
+            _add_risk(4.5, "less rest", "rest")
 
     if d_matches_10d is not None:
         load = d_matches_10d if pick_side == "p1" else -d_matches_10d
         if load <= -3:
-            factors.append("lighter recent schedule")
+            _add_factor(5.0 + min(1.5, abs(load) * 0.3), "lighter recent schedule", "load")
         elif load <= -2:
-            factors.append("lighter load (10d)")
+            _add_factor(4.0, "lighter load (10d)", "load")
         elif load >= 3:
-            risks.append("heavy recent schedule")
+            _add_risk(5.0 + min(1.5, abs(load) * 0.3), "heavy recent schedule", "load")
         elif load >= 2:
-            risks.append("heavier load (10d)")
+            _add_risk(4.0, "heavier load (10d)", "load")
 
-    # H2H with actual record
-    if h2h_total and h2h_total >= 2:
+    if h2h_total and h2h_total >= 4:
         pick_h2h_pct = pick_h2h_w / h2h_total if h2h_total > 0 else 0.5
         h2h_str = f"H2H {pick_h2h_w}-{opp_h2h_w}"
         if h2h_surface_total and h2h_surface_total >= 2 and surf_label and surf_label != "Unknown":
             h2h_str += f" ({pick_h2h_sw}-{opp_h2h_sw} {surf_label.lower()})"
         if pick_h2h_pct >= 0.7:
-            factors.append(f"{h2h_str} — dominant")
-        elif pick_h2h_pct >= 0.55:
-            factors.append(h2h_str)
+            _add_factor(4.5 + min(2.0, h2h_total * 0.2), f"{h2h_str} - dominant", "h2h")
         elif pick_h2h_pct <= 0.3:
-            risks.append(f"{h2h_str} — trails")
-        elif pick_h2h_pct <= 0.45:
-            risks.append(h2h_str)
+            _add_risk(4.5 + min(2.0, h2h_total * 0.2), f"{h2h_str} - trails", "h2h")
 
-    # Model agreement/disagreement (ELO vs XGB vs Market)
-    if individual_predictions:
-        pred_probs: dict[str, float] = {}
-        for ip in individual_predictions:
-            if not isinstance(ip, dict):
-                continue
-            name = str(ip.get("name") or "").lower()
-            p1p = ip.get("p1_prob") or ip.get("p1Prob")
-            if p1p is not None:
-                try:
-                    val = float(p1p)
-                    pick_val = val if pick_side == "p1" else (1.0 - val)
-                    pred_probs[name] = pick_val
-                except (TypeError, ValueError):
-                    pass
-        if len(pred_probs) >= 2:
-            vals = list(pred_probs.values())
-            spread = max(vals) - min(vals)
-            if spread <= 0.05:
-                factors.append("models agree")
-            elif spread >= 0.15:
-                high_m = max(pred_probs, key=pred_probs.get)  # type: ignore
-                low_m = min(pred_probs, key=pred_probs.get)  # type: ignore
-                risks.append(f"models split ({high_m} {pred_probs[high_m]*100:.0f}% vs {low_m} {pred_probs[low_m]*100:.0f}%)")
-
-    # Style matchup
     try:
         p1_sl = style_summary.get("p1", {}).get("label") if style_summary else None
         p2_sl = style_summary.get("p2", {}).get("label") if style_summary else None
         pick_style = p1_sl if pick_side == "p1" else p2_sl
         opp_style = p2_sl if pick_side == "p1" else p1_sl
         if pick_style and opp_style and pick_style != opp_style:
-            factors.append(f"{pick_style.replace('_', ' ')} vs {opp_style.replace('_', ' ')}")
+            _add_factor(2.8, f"{pick_style.replace('_', ' ')} vs {opp_style.replace('_', ' ')}", "style")
     except Exception:
         pass
 
-    # Sample size warning
     if pick_mp is not None and pick_mp < 10:
-        risks.append(f"small sample ({pick_mp} matches)")
+        _add_risk(8.0, f"small sample ({pick_mp} matches)", "sample")
     if elo_used_median:
-        risks.append("ELO is estimated (median fill)")
+        _add_risk(9.5, "ELO is estimated (median fill)", "elo_fill")
 
-    # --- 3. Assemble output ---
+    if edge_pp is not None:
+        if edge_pp >= 8.0:
+            _add_factor(13.0, f"market edge +{edge_pp:.1f}pp", "edge")
+        elif edge_pp >= 4.0:
+            _add_factor(11.0, f"market edge +{edge_pp:.1f}pp", "edge")
+        elif edge_pp >= 1.5:
+            _add_factor(8.0, f"market edge +{edge_pp:.1f}pp", "edge")
+        elif edge_pp <= -6.0:
+            _add_risk(11.0, f"negative edge {edge_pp:.1f}pp", "edge")
+        elif edge_pp <= -3.0:
+            _add_risk(8.5, f"negative edge {edge_pp:.1f}pp", "edge")
+
+    if pick_ace is not None and opp_ace is not None:
+        ace_diff = pick_ace - opp_ace
+        if ace_diff >= 0.8:
+            _add_factor(4.2, f"serve pop ({pick_ace:.1f} aces/match vs {opp_ace:.1f})", "aces")
+        elif ace_diff <= -0.8:
+            _add_risk(4.2, f"ace gap against pick ({pick_ace:.1f} vs {opp_ace:.1f})", "aces")
+
+    best_factor: dict[str, tuple[float, str, str]] = {}
+    for ent in factor_entries:
+        prev = best_factor.get(ent[2])
+        if prev is None or ent[0] > prev[0]:
+            best_factor[ent[2]] = ent
+
+    best_risk: dict[str, tuple[float, str, str]] = {}
+    for ent in risk_entries:
+        prev = best_risk.get(ent[2])
+        if prev is None or ent[0] > prev[0]:
+            best_risk[ent[2]] = ent
+
+    factors = [x[1] for x in sorted(best_factor.values(), key=lambda x: x[0], reverse=True)[:3]]
+    risks = [x[1] for x in sorted(best_risk.values(), key=lambda x: x[0], reverse=True)[:2]]
+
     parts = [sentence1]
     if factors:
         parts.append("Key factors: " + "; ".join(factors) + ".")
@@ -2363,6 +2400,128 @@ def _pick_summary(
         parts.append("Limited data for deeper analysis.")
 
     return " ".join(parts).strip() or None
+
+
+def _tweet_text(
+    pick_side: Optional[str],
+    p1_name: Optional[str],
+    p2_name: Optional[str],
+    p1_odds: Optional[int],
+    p2_odds: Optional[int],
+    p1_prob: Optional[float],
+    p2_prob: Optional[float],
+    p1_nv: Optional[float],
+    p2_nv: Optional[float],
+    pick_summary: Optional[str],
+) -> Optional[str]:
+    """Build a tweet-ready one-line prediction text (<= 280 chars)."""
+    if pick_side not in ("p1", "p2"):
+        return None
+
+    def _pick(v1, v2):
+        return (v1, v2) if pick_side == "p1" else (v2, v1)
+
+    pick_name, opp_name = _pick(p1_name, p2_name)
+    pick_odds, _opp_odds = _pick(p1_odds, p2_odds)
+    pick_prob, _opp_prob = _pick(p1_prob, p2_prob)
+    pick_nv, _opp_nv = _pick(p1_nv, p2_nv)
+
+    if not pick_name or not opp_name:
+        return None
+
+    def _clean(s: str) -> str:
+        s = s.replace("\n", " ").replace("\r", " ")
+        s = re.sub(r"\s+", " ", s).strip()
+        return s
+
+    edge_pp: Optional[float] = None
+    if pick_prob is not None and pick_nv is not None:
+        try:
+            edge_pp = (float(pick_prob) - float(pick_nv)) * 100.0
+        except Exception:
+            edge_pp = None
+
+    conviction = "moderate conviction"
+    if edge_pp is not None:
+        e = abs(edge_pp)
+        if e >= 8.0:
+            conviction = "high conviction"
+        elif e < 3.0:
+            conviction = "lean"
+    elif pick_prob is not None:
+        d = abs(float(pick_prob) - 0.5)
+        if d >= 0.13:
+            conviction = "high conviction"
+        elif d < 0.06:
+            conviction = "lean"
+
+    # If summary already has an explicit conviction phrase, honor it.
+    s_low = (pick_summary or "").lower()
+    if "high conviction" in s_low:
+        conviction = "high conviction"
+    elif "moderate conviction" in s_low:
+        conviction = "moderate conviction"
+    elif "lean" in s_low:
+        conviction = "lean"
+
+    factors: list[str] = []
+    if pick_summary:
+        fi = pick_summary.find("Key factors:")
+        ri = pick_summary.find("Risks:")
+        if fi >= 0:
+            end = ri if ri > fi else len(pick_summary)
+            raw = pick_summary[fi + len("Key factors:"):end].replace(".", " ").strip()
+            factors = [x.strip() for x in raw.split(";") if x.strip()][:2]
+
+    seg_pick = f"{_clean(str(pick_name))} over {_clean(str(opp_name))}"
+    if pick_odds is not None:
+        try:
+            seg_pick += f" ({int(pick_odds):+d})"
+        except Exception:
+            pass
+
+    seg_prob = None
+    if pick_prob is not None and pick_nv is not None:
+        seg_prob = f"Model {float(pick_prob)*100:.1f}% vs Mkt {float(pick_nv)*100:.1f}%"
+    elif pick_prob is not None:
+        seg_prob = f"Model {float(pick_prob)*100:.1f}%"
+
+    seg_edge = f"Edge {edge_pp:+.1f}pp" if edge_pp is not None else None
+    seg_conv = conviction
+    seg_why = f"Why: {'; '.join(factors)}" if factors else None
+
+    base_parts = [seg_pick]
+    if seg_prob:
+        base_parts.append(seg_prob)
+    if seg_edge:
+        base_parts.append(seg_edge)
+    base_parts.append(seg_conv)
+
+    tweet = " | ".join(base_parts)
+    if seg_why:
+        tweet = f"{tweet} | {seg_why}"
+
+    # Trim to 280 chars in deterministic stages.
+    if len(tweet) > 280 and seg_why:
+        tweet = " | ".join(base_parts)
+    if len(tweet) > 280:
+        compact = [seg_pick]
+        if seg_prob:
+            compact.append(seg_prob)
+        if seg_edge:
+            compact.append(seg_edge)
+        tweet = " | ".join(compact)
+    if len(tweet) > 280:
+        compact2 = [seg_pick]
+        if pick_prob is not None:
+            compact2.append(f"Model {float(pick_prob)*100:.1f}%")
+        if seg_edge:
+            compact2.append(seg_edge)
+        tweet = " | ".join(compact2)
+    tweet = _clean(tweet)
+    if len(tweet) > 280:
+        tweet = tweet[:277].rstrip() + "..."
+    return tweet or None
 
 
 def _style_debug(
@@ -3113,6 +3272,18 @@ async def _predictions_today_enhanced_impl(
             p2_matches_played=match_data.get("p2_matches_played"),
             elo_used_median=elo_used_median,
         )
+        tweet_text = _tweet_text(
+            pick_side=pick_side,
+            p1_name=r.get("p1_name"),
+            p2_name=r.get("p2_name"),
+            p1_odds=p1_mkt,
+            p2_odds=p2_mkt,
+            p1_prob=p1_blend if p1_blend is not None else p1_prob,
+            p2_prob=p2_blend if p2_blend is not None else p2_prob,
+            p1_nv=p1_nv,
+            p2_nv=p2_nv,
+            pick_summary=pick_summary,
+        )
 
         has_elo = (match_data.get("p1_elo") is not None and match_data.get("p2_elo") is not None)
         has_rolling = (p1_wr20 is not None and p2_wr20 is not None)
@@ -3279,6 +3450,7 @@ async def _predictions_today_enhanced_impl(
                 "style_debug": style_debug,
                 "pick_summary": pick_summary,
                 "model_pick_summary": pick_summary,
+                "tweet_text": tweet_text,
                 "model_pick_side": pick_side,
                 "value_bet_summary": value_bet_summary,
                 "value_bet_side": bet_side,

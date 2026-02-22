@@ -63,7 +63,8 @@ export const normalizeEnhancedPrediction = (raw: Record<string, unknown>): Enhan
             totalsSetsSim: totals,
             projectedProps,
             style_summary: (inputs.style_summary ?? inputs.styleSummary) as InputShape['style_summary'],
-            pick_summary: (inputs.pick_summary ?? inputs.pickSummary) as string | null | undefined
+            pick_summary: (inputs.pick_summary ?? inputs.pickSummary) as string | null | undefined,
+            tweet_text: (inputs.tweet_text ?? inputs.tweetText) as string | null | undefined
         }
     }
 }

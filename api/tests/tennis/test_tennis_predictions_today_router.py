@@ -18,8 +18,13 @@ def test_predictions_today_enhanced_success(monkeypatch):
             "as_of": "2026-01-12",
             "source": "tennis",
             "cached": False,
-            "count": 0,
-            "items": [],
+            "count": 1,
+            "items": [
+                {
+                    "match_id": "1",
+                    "inputs": {"tweet_text": "Player A over Player B (-120) | Model 66.0%"},
+                }
+            ],
         }
 
     monkeypatch.setattr(
@@ -31,6 +36,7 @@ def test_predictions_today_enhanced_success(monkeypatch):
     assert resp.status_code == 200
     data = resp.json()
     assert set(data.keys()) == {"as_of", "source", "cached", "count", "items"}
+    assert data["items"][0]["inputs"]["tweet_text"].startswith("Player A over Player B")
 
 
 def test_predictions_today_success(monkeypatch):

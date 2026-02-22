@@ -95,6 +95,7 @@ export interface EnhancedPredictionInputs {
         p2?: { name?: string; label?: string | null }
     }
     pick_summary?: string | null
+    tweet_text?: string | null
     [key: string]: unknown
 }
 

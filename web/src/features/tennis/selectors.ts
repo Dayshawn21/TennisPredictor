@@ -43,3 +43,6 @@ export const getStyleSummary = (record: EnhancedPrediction) =>
 
 export const getPickSummary = (record: EnhancedPrediction): string | undefined =>
     getField<string | undefined>(record.inputs, 'pick_summary', 'pick_summary')
+
+export const getTweetText = (record: EnhancedPrediction): string | undefined =>
+    getField<string | undefined>(record.inputs, 'tweet_text', 'tweet_text')

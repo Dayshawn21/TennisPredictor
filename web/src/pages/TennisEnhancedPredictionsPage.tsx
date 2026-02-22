@@ -1,6 +1,6 @@
 ﻿// FILE: web/src/pages/TennisEnhancedPredictionsPage.tsx
 import { CheckCircleOutlined, LineChartOutlined, ThunderboltOutlined } from '@ant-design/icons'
-import { Alert, Card, Descriptions, Divider, Spin, Switch, Table, Tag, Tooltip } from 'antd'
+import { Alert, Button, Card, Descriptions, Divider, Spin, Switch, Table, Tag, Tooltip, message } from 'antd'
 import React, { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { fetchEnhancedPredictions, fetchH2HByEvent } from '../features/tennis/api'
@@ -20,6 +20,7 @@ import {
     getPredictionMarketOdds as getMarketOdds,
     getPredictionModelWinProb as getModelWinProb,
     getPredictionName as getName,
+    getTweetText,
     getPredictionWinProb as getWinProb,
     getSofaEventId,
     getStyleSummary
@@ -189,6 +190,24 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
         navigate(`${ROUTES.TENNIS_PLAYER_COMPARE_ROUTE}?${q.toString()}`)
     }
 
+    const copyTweet = async (record: EnhancedPrediction) => {
+        const tweet = getTweetText(record)
+        if (!tweet) {
+            message.warning('No tweet text available for this match yet.')
+            return
+        }
+        if (!navigator?.clipboard?.writeText) {
+            message.error('Clipboard is not available in this browser.')
+            return
+        }
+        try {
+            await navigator.clipboard.writeText(tweet)
+            message.success('Tweet copied to clipboard.')
+        } catch {
+            message.error('Failed to copy tweet text.')
+        }
+    }
+
     const coverageTags = (record: EnhancedPrediction) => {
         const { hasElo, hasRolling, hasOdds, eloUsedMedian } = getCoverageFlags(record)
 
@@ -305,6 +324,51 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
             otherEdges,
             twoMan
         }
+    }, [filteredItems])
+
+
+    const edgePricePicks = useMemo(() => {
+        const items = filteredItems
+        const rows = items
+            .map((m) => {
+                const favored = getFavored(m)
+                const { edge, bookEdge, marketFavProb, bookFavProb } = getMarketEdge(m)
+                const marketFavAmerican = probToAmerican(marketFavProb)
+                const bookFavAmerican = probToAmerican(bookFavProb)
+                const bestPrice = bookFavAmerican ?? marketFavAmerican
+                const bestEdge = bookEdge ?? edge
+
+                if (favored.prob == null || bestEdge == null || bestPrice == null) return null
+
+                return {
+                    matchKey: String(g(m as any, 'matchKey', 'match_key') ?? ''),
+                    tour: g(m as any, 'tour', 'tour'),
+                    p1: getName(m, 'p1'),
+                    p2: getName(m, 'p2'),
+                    favoredName: favored.name,
+                    favoredSide: favored.side,
+                    marketFavAmerican,
+                    bookFavAmerican,
+                    bestPrice,
+                    edge,
+                    bookEdge,
+                    bestEdge,
+                    start: g(m as any, 'matchStartUtc', 'match_start_utc')
+                }
+            })
+            .filter(Boolean) as any[]
+
+        return rows
+            .filter((r) => {
+                const goodEdge = (r.bestEdge ?? -999) >= 0.03
+                const goodPrice = r.bestPrice >= -140 && r.bestPrice <= 140
+                return goodEdge && goodPrice
+            })
+            .sort((a, b) => {
+                if ((b.bestEdge ?? 0) !== (a.bestEdge ?? 0)) return (b.bestEdge ?? 0) - (a.bestEdge ?? 0)
+                return ts(a.start) - ts(b.start)
+            })
+            .slice(0, 12)
     }, [filteredItems])
 
     const parlayLadder = useMemo(() => {
@@ -587,21 +651,23 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
             key: 'summary',
             render: (_: any, record: EnhancedPrediction) => {
                 const summary = getPickSummary(record)
-                if (!summary) return <span className="text-gray-400">—</span>
+                const summaryText = summary ?? ''
+                const tweetText = getTweetText(record)
+                if (!summary && !tweetText) return <span className="text-gray-400">—</span>
 
                 // Parse structured sections: intro, Key factors, Risks
-                const factorsIdx = summary.indexOf('Key factors:')
-                const risksIdx = summary.indexOf('Risks:')
+                const factorsIdx = summaryText.indexOf('Key factors:')
+                const risksIdx = summaryText.indexOf('Risks:')
 
                 // Determine where intro ends
                 const sectionStart = Math.min(factorsIdx >= 0 ? factorsIdx : Infinity, risksIdx >= 0 ? risksIdx : Infinity)
-                const intro = sectionStart < Infinity ? summary.slice(0, sectionStart).trim() : summary.trim()
+                const intro = sectionStart < Infinity ? summaryText.slice(0, sectionStart).trim() : summaryText.trim()
 
                 // Extract Key factors section
                 let factors: string[] = []
                 if (factorsIdx >= 0) {
-                    const factorsEnd = risksIdx > factorsIdx ? risksIdx : summary.length
-                    const factorsRaw = summary
+                    const factorsEnd = risksIdx > factorsIdx ? risksIdx : summaryText.length
+                    const factorsRaw = summaryText
                         .slice(factorsIdx + 'Key factors:'.length, factorsEnd)
                         .replace(/\.$/, '')
                         .trim()
@@ -614,7 +680,7 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
                 // Extract Risks section
                 let risks: string[] = []
                 if (risksIdx >= 0) {
-                    const risksRaw = summary
+                    const risksRaw = summaryText
                         .slice(risksIdx + 'Risks:'.length)
                         .replace(/\.$/, '')
                         .trim()
@@ -624,12 +690,38 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
                         .filter(Boolean)
                 }
 
-                if (!factors.length && !risks.length) {
-                    return <div className="text-xs text-gray-500 leading-relaxed">{summary}</div>
+                if (!summary || (!factors.length && !risks.length)) {
+                    return (
+                        <div className="text-xs text-gray-500 leading-relaxed space-y-1">
+                            <div className="flex justify-end">
+                                <Button size="small" type="link" className="px-0" onClick={() => void copyTweet(record)}>
+                                    Copy Tweet
+                                </Button>
+                            </div>
+                            {tweetText ? (
+                                <div className="rounded border border-blue-100 bg-blue-50 p-2 text-[11px] text-blue-900">
+                                    <div className="mb-1 text-[10px] uppercase tracking-wide text-blue-500">Tweet Preview</div>
+                                    <div>{tweetText}</div>
+                                </div>
+                            ) : null}
+                            {summary ? <div>{summary}</div> : <div className="text-gray-400">Summary unavailable.</div>}
+                        </div>
+                    )
                 }
 
                 return (
                     <div className="text-xs leading-relaxed space-y-2">
+                        <div className="flex justify-end">
+                            <Button size="small" type="link" className="px-0" onClick={() => void copyTweet(record)}>
+                                Copy Tweet
+                            </Button>
+                        </div>
+                        {tweetText ? (
+                            <div className="rounded border border-blue-100 bg-blue-50 p-2 text-[11px] text-blue-900">
+                                <div className="mb-1 text-[10px] uppercase tracking-wide text-blue-500">Tweet Preview</div>
+                                <div>{tweetText}</div>
+                            </div>
+                        ) : null}
                         {intro && <div className="text-gray-600 font-medium">{intro}</div>}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                             <div>
@@ -640,7 +732,7 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
                                     <div className="flex flex-wrap gap-2">
                                         {factors.map((f, i) => (
                                             <span key={`f${i}`} className="inline-block bg-green-50 text-green-700 rounded px-2 py-0.5 text-[10px]">
-                                                <span className="mr-1">?</span>
+                                                <span className="mr-1 font-semibold">FACTOR:</span>
                                                 {f}
                                             </span>
                                         ))}
@@ -655,7 +747,7 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
                                     <div className="flex flex-wrap gap-2">
                                         {risks.map((r, i) => (
                                             <span key={`r${i}`} className="inline-block bg-red-50 text-red-600 rounded px-2 py-0.5 text-[10px]">
-                                                <span className="mr-1">?</span>
+                                                <span className="mr-1 font-semibold">RISK:</span>
                                                 {r}
                                             </span>
                                         ))}
@@ -1104,6 +1196,31 @@ const TennisEnhancedPredictionsPage: React.FC = () => {
                     </div>
                 </Card>
             )}
+
+
+            <Card className="mb-6" title={<span className="text-lg font-semibold">Good Edge + Good Price Picks</span>} bordered={false}>
+                <div className="text-xs text-gray-400 mb-2">Edge threshold +3.0pp and price between -140 and +140.</div>
+                {edgePricePicks.length === 0 ? (
+                    <div className="text-sm text-gray-500">No edge/price picks found.</div>
+                ) : (
+                    <div className="grid grid-cols-6 md:grid-cols-6 gap-4 items-center">
+                        {edgePricePicks.map((d) => (
+                            <Card key={d.matchKey} size="small">
+                                <div className="text-xs space-y-1">
+                                    <div className="text-gray-400">[{String(d.tour).toUpperCase()}]</div>
+                                    <div className="font-semibold">
+                                        {d.p1} vs {d.p2}
+                                    </div>
+                                    <div className="text-gray-500">{fmtCentralDateTime(d.start)}</div>
+                                    <div className="text-gray-500">Pick: {d.favoredName}</div>
+                                    <div className="text-gray-400">Price: {fmtOdds(d.bestPrice)}</div>
+                                    <div className="text-gray-400">Edge: {fmtPp(d.bestEdge)}</div>
+                                </div>
+                            </Card>
+                        ))}
+                    </div>
+                )}
+            </Card>
 
             <Card className="mb-6" title={<span className="text-lg font-semibold">Ladder Picks (Singles ML -180 to -140)</span>} bordered={false}>
                 <div className="text-xs text-gray-400 mb-2">Includes book or no-vig odds in range; allows small negative edge.</div>

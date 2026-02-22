@@ -294,7 +294,7 @@ def find_candidates(
     return [], None
 
 
-async def upsert_mapping(conn, player_id: int, tour: str, ta_id: int, dry_run: bool) -> None:
+async def upsert_mapping(conn, player_id: int, tour: str, ta_id: int, dry_run: bool) -> bool:
     src = source_for_tour(tour)
     ta_id_text = str(ta_id)  # source_player_id is TEXT
 
@@ -305,14 +305,14 @@ async def upsert_mapping(conn, player_id: int, tour: str, ta_id: int, dry_run: b
 
     if existing and existing[0] != player_id:
         print(
-            f"⚠️  SKIP: {src} ta_id={ta_id_text} already mapped to player_id={existing[0]} "
+            f"SKIP: {src} ta_id={ta_id_text} already mapped to player_id={existing[0]} "
             f"(wanted player_id={player_id})."
         )
-        return
+        return False
 
     if dry_run:
         print(f"DRY RUN: UPSERT tennis_player_sources (player_id={player_id}, source={src}, ta_id={ta_id_text})")
-        return
+        return True
 
     try:
         await conn.execute(
@@ -324,8 +324,9 @@ async def upsert_mapping(conn, player_id: int, tour: str, ta_id: int, dry_run: b
         owner = (await conn.execute(
             CHECK_SOURCE_PLAYER_SQL, {"source": src, "ta_id": ta_id_text}
         )).first()
-        print(f"❌ IntegrityError. Current owner of ({src}, {ta_id_text}) = {owner}")
+        print(f"ERROR IntegrityError. Current owner of ({src}, {ta_id_text}) = {owner}")
         raise
+    return True
 
 # ─── Connection-aware helpers (for use inside an existing transaction) ────────
 
@@ -401,6 +402,7 @@ async def run_fix(
         print(f"  fix_ta_elo: {len(needed)} players missing TA mapping in {start}..{end}")
 
     fixed = 0
+    skipped_conflict = 0
     not_found = 0
     ambiguous = 0
 
@@ -410,7 +412,7 @@ async def run_fix(
         if not cands:
             not_found += 1
             if not quiet:
-                print(f"  fix_ta_elo: ❌ NOT FOUND [{p.tour}] cid={p.player_id} '{p.name}'")
+                print(f"  fix_ta_elo: NOT FOUND [{p.tour}] cid={p.player_id} '{p.name}'")
             continue
 
         if (
@@ -421,16 +423,22 @@ async def run_fix(
             ambiguous += 1
 
         ta_id, ta_name, ta_elo = pick_best_candidate(cands)
-        await upsert_mapping(conn, p.player_id, p.tour, ta_id, dry_run)
-        fixed += 1
-        if not quiet:
+        wrote = await upsert_mapping(conn, p.player_id, p.tour, ta_id, dry_run)
+        if wrote:
+            fixed += 1
+        else:
+            skipped_conflict += 1
+        if not quiet and wrote:
             print(
-                f"  fix_ta_elo: ✅ [{p.tour}] cid={p.player_id} '{p.name}'"
+                f"  fix_ta_elo: OK [{p.tour}] cid={p.player_id} '{p.name}'"
                 f" -> TA {ta_id} '{ta_name}' (elo={ta_elo})"
             )
 
     if not quiet:
-        print(f"  fix_ta_elo: done — fixed={fixed} not_found={not_found} ambiguous={ambiguous}")
+        print(
+            f"  fix_ta_elo: done - fixed={fixed} skipped_conflict={skipped_conflict} "
+            f"not_found={not_found} ambiguous={ambiguous}"
+        )
     return fixed, not_found, ambiguous
 
 
