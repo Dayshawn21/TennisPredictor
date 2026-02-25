@@ -1285,6 +1285,7 @@ _PLAYER_STATS_ID: Optional[dict[tuple[str, str, str, int], dict[str, Any]]] = No
 _PLAYER_STATS_ID_AVG: Optional[dict[tuple[str, str, str], dict[str, Any]]] = None
 _PLAYER_STATS_AVG: Optional[dict[tuple[str, str, str], dict[str, Any]]] = None
 _PLAYER_STATS_PATH: Optional[Path] = None
+_PLAYER_STATS_MTIME_NS: Optional[int] = None
 _PLAYER_STATS_NAMES_TS: Optional[dict[tuple[str, str], set[str]]] = None
 _PLAYER_STATS_TOKEN_INDEX_TS: Optional[dict[tuple[str, str], dict[str, set[str]]]] = None
 
@@ -1574,15 +1575,8 @@ def _load_player_stats_if_needed() -> None:
     Note: these *are already percentages/rates*, so we do NOT divide by match count.
     """
     global _PLAYER_STATS, _PLAYER_STATS_AVG, _PLAYER_STATS_ID, _PLAYER_STATS_ID_AVG, _PLAYER_STATS_PATH
+    global _PLAYER_STATS_MTIME_NS
     global _PLAYER_STATS_NAMES_TS, _PLAYER_STATS_TOKEN_INDEX_TS
-    if _PLAYER_STATS is not None:
-        # If we previously loaded successfully, keep cache.
-        if _PLAYER_STATS_PATH is not None:
-            return
-        # If we cached an empty/missing state (e.g., file unavailable at startup),
-        # retry on subsequent calls so a later-mounted file is picked up.
-        if isinstance(_PLAYER_STATS, dict) and len(_PLAYER_STATS) > 0:
-            return
 
     path = _find_player_stats_path()
     if path is None:
@@ -1591,11 +1585,30 @@ def _load_player_stats_if_needed() -> None:
         _PLAYER_STATS_ID = {}
         _PLAYER_STATS_ID_AVG = {}
         _PLAYER_STATS_PATH = None
+        _PLAYER_STATS_MTIME_NS = None
         _PLAYER_STATS_NAMES_TS = {}
         _PLAYER_STATS_TOKEN_INDEX_TS = {}
         return
+
+    try:
+        mtime_ns = int(path.stat().st_mtime_ns)
+    except Exception:
+        mtime_ns = 0
+
+    # Keep cached copy if same file and unchanged.
+    if (
+        _PLAYER_STATS is not None
+        and _PLAYER_STATS_PATH is not None
+        and _PLAYER_STATS_PATH == path
+        and _PLAYER_STATS_MTIME_NS == mtime_ns
+        and isinstance(_PLAYER_STATS, dict)
+        and len(_PLAYER_STATS) > 0
+    ):
+        return
+
     _PLAYER_STATS_PATH = path
-    logger.info("player_surface_stats: loading from %s", path)
+    _PLAYER_STATS_MTIME_NS = mtime_ns
+    logger.info("player_surface_stats: loading from %s (mtime_ns=%s)", path, mtime_ns)
 
     idx_name: dict[tuple[str, str, str, str], dict[str, Any]] = {}
     idx_id: dict[tuple[str, str, str, int], dict[str, Any]] = {}

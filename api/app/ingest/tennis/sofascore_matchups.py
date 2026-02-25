@@ -709,7 +709,6 @@ def extract_match_row(day: dt.date, event: dict) -> Optional[dict]:
     score_raw = extract_score_raw(event)
 
     tour_label = detect_tour_label(event)
-
     if tour_label == "TEAM":
         # countries, not players
         p1_name = normalize_country(p1_name)
@@ -806,7 +805,11 @@ def get_tour_filter_set() -> Optional[Set[str]]:
     return set(parts) if parts else None
 
 
-def is_allowed_by_filter(event: dict, tour_filter: Optional[Set[str]], include_wta125: bool) -> bool:
+def is_allowed_by_filter(
+    event: dict,
+    tour_filter: Optional[Set[str]],
+    include_wta125: bool,
+) -> bool:
     if not tour_filter:
         return True
 

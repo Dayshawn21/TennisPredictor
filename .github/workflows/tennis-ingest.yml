@@ -210,7 +210,14 @@ jobs:
       - name: Export player surface stats CSV
         run: |
           START_DATE="$(TZ=America/Chicago date +%Y-01-01)"
-          WINDOW_NAME="$(TZ=America/Chicago date +%Y) ytd"
+          WINDOW_NAME="12 month"
+          if [ -f app/data/player_surface_profile_stats.csv ]; then
+            python -m scripts.import_player_surface_profile_csv \
+              --input app/data/player_surface_profile_stats.csv \
+              --window-name "${WINDOW_NAME}"
+          else
+            echo "No app/data/player_surface_profile_stats.csv found; skipping profile import."
+          fi
           python -m scripts.export_player_surface_stats_csv \
             --start-date "${START_DATE}" \
             --window-name "${WINDOW_NAME}" \
