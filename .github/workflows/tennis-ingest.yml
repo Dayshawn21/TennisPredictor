@@ -60,7 +60,7 @@ on:
         default: ""
 
 concurrency:
-  group: tennis-ingest
+  group: tennis-ingest-${{ github.event_name }}-${{ github.event.schedule || inputs.run_mode || 'all' }}
   cancel-in-progress: false
 
 jobs:
