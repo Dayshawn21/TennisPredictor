@@ -45,6 +45,8 @@ def build_keys(tokens: List[str]) -> List[str]:
       LOOSE (only auto-map if unique):
         - fi:<first_initial><last>  e.g. fi:cmcnally
         - ln:<last>                 e.g. ln:mcnally
+        - set:<sorted_tokens>       e.g. set:chunhintseng (order-insensitive)
+        - fm:<first><middle>        e.g. fm:danielmerida (for truncated surnames)
     """
     if not tokens:
         return []
@@ -74,6 +76,12 @@ def build_keys(tokens: List[str]) -> List[str]:
             keys.append(f"fi:{first_initial}{last}")
         if last:
             keys.append(f"ln:{last}")
+        # Order-insensitive fallback (safe only when unique).
+        if len(base) >= 2:
+            keys.append(f"set:{''.join(sorted(base))}")
+        # Helps map "Daniel Merida" -> "Daniel Merida Aguilar" style names.
+        if len(base) >= 3:
+            keys.append(f"fm:{base[0]}{base[1]}")
 
     # unique preserve order
     seen = set()
@@ -274,7 +282,7 @@ def find_candidates(
             cands = idx.get(k, [])
             if not cands:
                 continue
-            if k.startswith("fi:") or k.startswith("ln:"):
+            if k.startswith("fi:") or k.startswith("ln:") or k.startswith("set:") or k.startswith("fm:"):
                 if len(cands) == 1:
                     return cands, k
                 # too risky, keep searching

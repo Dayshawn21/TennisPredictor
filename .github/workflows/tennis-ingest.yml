@@ -11,8 +11,10 @@ on:
     - cron: "0 3 * * *"
     # Daily CSV refresh (UTC) shortly after stats backfill
     - cron: "20 3 * * *"
-    # Daily full ingest (UTC) -> 03:12 UTC = 9:12 PM US Central (CST)
-    - cron: "12 3 * * *"
+    # Daily full ingest target: 12:30 AM US Central year-round.
+    # We schedule both UTC candidates and gate by local time in the job.
+    - cron: "30 5 * * *"
+    - cron: "30 6 * * *"
   workflow_dispatch:
     inputs:
       run_mode:
@@ -103,7 +105,8 @@ jobs:
     if: >-
       (github.event_name == 'workflow_dispatch' &&
       (inputs.run_mode == 'all' || inputs.run_mode == 'full')) ||
-      (github.event_name == 'schedule' && github.event.schedule == '12 3 * * *')
+      (github.event_name == 'schedule' &&
+      (github.event.schedule == '30 5 * * *' || github.event.schedule == '30 6 * * *'))
     runs-on: ubuntu-latest
     timeout-minutes: 90
     defaults:
@@ -124,21 +127,44 @@ jobs:
       START_DATE: ${{ inputs.start_date || vars.START_DATE }}
       END_DATE: ${{ inputs.end_date || vars.END_DATE }}
     steps:
+      - name: Guard schedule to 12:30 AM US Central
+        id: local_time_guard
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run_full=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          LOCAL_HOUR="$(TZ=America/Chicago date +%H)"
+          LOCAL_MINUTE="$(TZ=America/Chicago date +%M)"
+          echo "Local America/Chicago time: $(TZ=America/Chicago date '+%Y-%m-%d %H:%M:%S %Z')"
+
+          if [ "$LOCAL_HOUR" = "00" ] && [ "$LOCAL_MINUTE" = "30" ]; then
+            echo "run_full=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not the 12:30 AM Central run window; skipping full ingest for this trigger."
+            echo "run_full=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout
+        if: steps.local_time_guard.outputs.run_full == 'true'
         uses: actions/checkout@v4
 
       - name: Setup Python
+        if: steps.local_time_guard.outputs.run_full == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
+        if: steps.local_time_guard.outputs.run_full == 'true'
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
       - name: Full sofascore ingest
+        if: steps.local_time_guard.outputs.run_full == 'true'
         run: |
           # Optional START_DATE/END_DATE can pin ingest window.
           python -m app.ingest.tennis.sofascore_matchups
